@@ -1,0 +1,4504 @@
+1.4893 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+30.7336 	WARNING 	User requested fullscreen with size [1366  768], but screen is actually [1920, 1080]. Using actual size
+31.6774 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000222D6A28130>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000222D8BF8610>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+31.6775 	EXP 	window1: mouseVisible = True
+31.6775 	EXP 	window1: mouseVisible = False
+31.6775 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+31.6775 	EXP 	window1: recordFrameIntervals = False
+31.8437 	EXP 	window1: recordFrameIntervals = True
+32.0271 	EXP 	Screen (0) actual frame rate measured at 60.03Hz
+32.0272 	EXP 	window1: recordFrameIntervals = False
+34.2930 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+34.3371 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+34.3377 	EXP 	Created Anecdotes = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Anecdotes', opacity=1.0, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+34.3550 	EXP 	Created Validation_button = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='Validation_button', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Valider', units='height', win=Window(...), wrapWidth=1)
+34.3552 	EXP 	window1: mouseVisible = True
+34.3592 	EXP 	Created feedbacktext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedbacktext', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+34.3597 	EXP 	Created feedback_fichier_train = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_fichier_train', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+34.3605 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+34.3663 	EXP 	Created waiting_screen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='waiting_screen', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+34.3671 	EXP 	Created blank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='blank', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+34.3858 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+34.3866 	EXP 	Created blank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='blank', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+34.3871 	EXP 	Created Anecdotes_reco = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Anecdotes_reco', opacity=1.0, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+34.3926 	EXP 	Created validation_reco = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='validation_reco', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Valider', units='height', win=Window(...), wrapWidth=1)
+34.3926 	EXP 	window1: mouseVisible = True
+34.3934 	EXP 	Created blank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='blank', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+34.3983 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+34.4104 	EXP 	tache_text: autoLog = True
+34.4104 	EXP 	reco_text: autoLog = True
+34.4104 	EXP 	textWelcome: autoDraw = True
+36.4103 	EXP 	textWelcome: autoDraw = False
+36.4103 	EXP 	Instructions: autoDraw = True
+61.1951 	EXP 	Imported Feuille de calcul sans titre.xlsx as conditions, 32 conditions, 3 params
+61.2032 	EXP 	Created sequence: random, trialTypes=32, nReps=1, seed=None
+61.2034 	EXP 	New trial (rep=0, index=0): {'anecdotes': 'La république dominicaine est le seul pays qui possède un drapeau contenant une bible ', 'fichier': 'NOMS', 'anecdotes_reco': 'La république dominicaine est le seul pays qui possède un drapeau contenant une bible '}
+61.2088 	DATA 	Keypress: space
+61.2441 	EXP 	textWelcome: autoDraw = False
+61.2441 	EXP 	Instructions: autoDraw = False
+61.2441 	EXP 	Anecdotes: height = 0.05
+61.2441 	EXP 	Anecdotes: height = 0.05
+61.2441 	EXP 	Anecdotes: height = 0.05
+61.2441 	EXP 	Anecdotes: text = 'La république dominicaine est le seul pays qui possède un drapeau contenant une bible '
+61.2441 	EXP 	Anecdotes: autoDraw = True
+61.2441 	EXP 	tache_text: autoDraw = True
+61.2441 	EXP 	Validation_button: autoDraw = True
+62.7105 	DATA 	Keypress: l
+62.8269 	DATA 	Keypress: a
+63.0103 	DATA 	Keypress: space
+63.1602 	DATA 	Keypress: r
+63.3938 	DATA 	Keypress: 2
+63.5271 	DATA 	Keypress: p
+63.7935 	DATA 	Keypress: u
+64.0438 	DATA 	Keypress: b
+64.1769 	DATA 	Keypress: l
+64.4269 	DATA 	Keypress: i
+64.5769 	DATA 	Keypress: q
+64.7437 	DATA 	Keypress: u
+64.8936 	DATA 	Keypress: e
+65.0769 	DATA 	Keypress: space
+65.1440 	DATA 	Keypress: d
+65.2769 	DATA 	Keypress: o
+65.5268 	DATA 	Keypress: m
+65.7436 	DATA 	Keypress: i
+65.9602 	DATA 	Keypress: n
+66.1771 	DATA 	Keypress: i
+66.3438 	DATA 	Keypress: c
+66.3954 	DATA 	Keypress: a
+66.5770 	DATA 	Keypress: i
+66.8104 	DATA 	Keypress: n
+66.9272 	DATA 	Keypress: e
+67.0603 	DATA 	Keypress: space
+67.3105 	DATA 	Keypress: capslock
+67.5605 	DATA 	Keypress: e
+67.7937 	DATA 	Keypress: s
+69.2288 	DATA 	Keypress: t
+69.3603 	DATA 	Keypress: space
+69.5104 	DATA 	Keypress: l
+69.6101 	DATA 	Keypress: e
+69.6934 	DATA 	Keypress: space
+69.8119 	DATA 	Keypress: s
+69.9936 	DATA 	Keypress: e
+70.0602 	DATA 	Keypress: u
+70.2602 	DATA 	Keypress: l
+70.4102 	DATA 	Keypress: space
+70.4938 	DATA 	Keypress: p
+70.6101 	DATA 	Keypress: a
+70.8101 	DATA 	Keypress: y
+70.9604 	DATA 	Keypress: s
+71.3768 	DATA 	Keypress: space
+71.5270 	DATA 	Keypress: q
+71.8271 	DATA 	Keypress: u
+72.1269 	DATA 	Keypress: i
+72.3102 	DATA 	Keypress: space
+72.4288 	DATA 	Keypress: p
+72.6434 	DATA 	Keypress: o
+72.7935 	DATA 	Keypress: s
+72.9434 	DATA 	Keypress: s
+73.4601 	DATA 	Keypress: 6
+73.5955 	DATA 	Keypress: d
+73.6768 	DATA 	Keypress: e
+73.7768 	DATA 	Keypress: space
+74.0123 	DATA 	Keypress: l
+74.2120 	DATA 	Keypress: backspace
+74.4436 	DATA 	Keypress: u
+74.6604 	DATA 	Keypress: n
+74.8438 	DATA 	Keypress: space
+74.9435 	DATA 	Keypress: d
+75.1110 	DATA 	Keypress: r
+75.1953 	DATA 	Keypress: a
+75.4103 	DATA 	Keypress: p
+75.5101 	DATA 	Keypress: e
+75.6122 	DATA 	Keypress: a
+75.7102 	DATA 	Keypress: u
+75.8935 	DATA 	Keypress: space
+75.9436 	DATA 	Keypress: c
+76.0435 	DATA 	Keypress: o
+76.2603 	DATA 	Keypress: t
+76.7101 	DATA 	Keypress: backspace
+76.9100 	DATA 	Keypress: n
+76.9767 	DATA 	Keypress: t
+77.0268 	DATA 	Keypress: e
+77.2600 	DATA 	Keypress: n
+77.3601 	DATA 	Keypress: a
+77.4934 	DATA 	Keypress: n
+77.6268 	DATA 	Keypress: t
+77.7436 	DATA 	Keypress: space
+77.9435 	DATA 	Keypress: u
+78.1435 	DATA 	Keypress: n
+78.2436 	DATA 	Keypress: e
+78.3268 	DATA 	Keypress: space
+78.4936 	DATA 	Keypress: b
+78.6118 	DATA 	Keypress: i
+78.8270 	DATA 	Keypress: b
+78.9769 	DATA 	Keypress: l
+79.0601 	DATA 	Keypress: e
+80.4436 	DATA 	Mouse: Left button down, pos=(1261,502)
+80.6269 	DATA 	Mouse:  Left button up, pos=(1261,502)
+80.9770 	DATA 	Mouse: Left button down, pos=(1266,498)
+81.0937 	DATA 	Mouse:  Left button up, pos=(1267,498)
+81.8117 	DATA 	Keypress: up
+82.1954 	DATA 	Keypress: down
+82.4101 	DATA 	Keypress: right
+82.5768 	DATA 	Keypress: up
+82.7935 	DATA 	Keypress: up
+83.2119 	DATA 	Keypress: down
+83.8121 	DATA 	Keypress: down
+84.1953 	DATA 	Keypress: up
+84.6769 	DATA 	Keypress: right
+84.8932 	DATA 	Keypress: right
+85.2455 	DATA 	Keypress: right
+85.4266 	DATA 	Keypress: left
+85.6768 	DATA 	Keypress: left
+86.6602 	DATA 	Keypress: backspace
+86.9601 	DATA 	Keypress: 7
+87.4432 	DATA 	Keypress: up
+87.5933 	DATA 	Keypress: right
+88.3099 	DATA 	Keypress: right
+88.5266 	DATA 	Keypress: right
+88.6600 	DATA 	Keypress: right
+89.2119 	DATA 	Keypress: backspace
+90.6098 	DATA 	Keypress: backspace
+90.7934 	DATA 	Keypress: backspace
+91.0433 	DATA 	Keypress: backspace
+91.5932 	DATA 	Keypress: a
+91.7600 	DATA 	Keypress: space
+91.8765 	DATA 	Keypress: r
+91.9599 	DATA 	Keypress: 2
+92.4933 	DATA 	Keypress: p
+92.8124 	DATA 	Keypress: u
+92.9766 	DATA 	Keypress: b
+93.0933 	DATA 	Keypress: l
+93.2931 	DATA 	Keypress: i
+93.3952 	DATA 	Keypress: q
+93.4933 	DATA 	Keypress: u
+93.6118 	DATA 	Keypress: e
+93.7099 	DATA 	Keypress: space
+93.8101 	DATA 	Keypress: d
+93.8765 	DATA 	Keypress: o
+94.0601 	DATA 	Keypress: m
+94.2601 	DATA 	Keypress: i
+94.4765 	DATA 	Keypress: n
+94.6765 	DATA 	Keypress: i
+94.8283 	DATA 	Keypress: c
+94.9267 	DATA 	Keypress: a
+95.0433 	DATA 	Keypress: i
+95.2433 	DATA 	Keypress: n
+95.3599 	DATA 	Keypress: e
+96.5100 	DATA 	Mouse: Left button down, pos=(978,113)
+96.5265 	EXP 	Anecdotes: autoDraw = False
+96.5265 	EXP 	tache_text: autoDraw = False
+96.5265 	EXP 	Validation_button: autoDraw = False
+96.5265 	EXP 	feedback_fichier_train: height = 0.05
+96.5265 	EXP 	feedback_fichier_train: height = 0.05
+96.5265 	EXP 	feedback_fichier_train: height = 0.05
+96.5265 	EXP 	feedback_fichier_train: text = 'NOMS'
+96.5265 	EXP 	feedbacktext: autoDraw = True
+96.5265 	EXP 	feedback_fichier_train: autoDraw = True
+96.5938 	DATA 	Mouse:  Left button up, pos=(978,113)
+100.5940 	DATA 	Keypress: space
+101.5265 	EXP 	feedbacktext: autoDraw = False
+101.5265 	EXP 	feedback_fichier_train: autoDraw = False
+101.5265 	EXP 	feedbacktext: autoDraw = False
+101.5265 	EXP 	feedback_fichier_train: autoDraw = False
+101.5265 	EXP 	text: autoDraw = True
+102.0101 	EXP 	New trial (rep=0, index=1): {'anecdotes': 'La navette Spatiale Columbia s’est désintégrée durant son entrée dans l’atmosphère au-dessus du Texas en février 2003 ', 'fichier': 'DONNEES', 'anecdotes_reco': 'La navette Spatiale Columbia s’est désintégrée durant son entrée dans l’atmosphère au-dessus du Texas en février 2003 '}
+102.0429 	EXP 	text: autoDraw = False
+102.0429 	EXP 	text: autoDraw = False
+102.0429 	EXP 	Anecdotes: height = 0.05
+102.0429 	EXP 	Anecdotes: height = 0.05
+102.0429 	EXP 	Anecdotes: height = 0.05
+102.0429 	EXP 	Anecdotes: text = 'La navette Spatiale Columbia s’est désintégrée durant son entrée dans l’atmosphère au-dessus du Texas en février 2003 '
+102.0429 	EXP 	Anecdotes: autoDraw = True
+102.0429 	EXP 	tache_text: autoDraw = True
+102.0429 	EXP 	Validation_button: autoDraw = True
+103.3934 	DATA 	Keypress: l
+103.4934 	DATA 	Keypress: capslock
+103.6431 	DATA 	Keypress: backspace
+103.8933 	DATA 	Keypress: l
+104.0264 	DATA 	Keypress: capslock
+104.1264 	DATA 	Keypress: a
+104.2598 	DATA 	Keypress: space
+104.4117 	DATA 	Keypress: n
+104.5098 	DATA 	Keypress: a
+104.7599 	DATA 	Keypress: v
+104.8601 	DATA 	Keypress: e
+105.0767 	DATA 	Keypress: t
+105.2431 	DATA 	Keypress: t
+105.2933 	DATA 	Keypress: e
+105.4451 	DATA 	Keypress: space
+105.5432 	DATA 	Keypress: s
+105.8598 	DATA 	Keypress: backspace
+105.8931 	DATA 	Keypress: capslock
+105.9765 	DATA 	Keypress: s
+106.0931 	DATA 	Keypress: capslock
+106.1598 	DATA 	Keypress: p
+106.2933 	DATA 	Keypress: a
+106.4597 	DATA 	Keypress: t
+106.5431 	DATA 	Keypress: i
+106.6432 	DATA 	Keypress: a
+106.7764 	DATA 	Keypress: l
+106.8453 	DATA 	Keypress: e
+106.9599 	DATA 	Keypress: space
+107.0433 	DATA 	Keypress: capslock
+107.1600 	DATA 	Keypress: c
+107.2598 	DATA 	Keypress: capslock
+107.3931 	DATA 	Keypress: o
+107.6098 	DATA 	Keypress: l
+107.8115 	DATA 	Keypress: u
+108.0432 	DATA 	Keypress: m
+108.1766 	DATA 	Keypress: n
+108.3599 	DATA 	Keypress: i
+108.4764 	DATA 	Keypress: a
+108.5930 	DATA 	Keypress: space
+108.7931 	DATA 	Keypress: s
+109.1930 	DATA 	Keypress: 4
+109.3767 	DATA 	Keypress: e
+109.5930 	DATA 	Keypress: s
+109.7931 	DATA 	Keypress: t
+109.9263 	DATA 	Keypress: space
+110.0118 	DATA 	Keypress: d
+110.1263 	DATA 	Keypress: 2
+110.2765 	DATA 	Keypress: s
+110.4119 	DATA 	Keypress: i
+110.5951 	DATA 	Keypress: n
+110.7097 	DATA 	Keypress: t
+110.8286 	DATA 	Keypress: 2
+110.9949 	DATA 	Keypress: g
+111.3098 	DATA 	Keypress: r
+111.4451 	DATA 	Keypress: 2
+111.5766 	DATA 	Keypress: e
+111.6932 	DATA 	Keypress: space
+111.7949 	DATA 	Keypress: d
+111.9265 	DATA 	Keypress: u
+112.0430 	DATA 	Keypress: r
+112.1597 	DATA 	Keypress: a
+112.2431 	DATA 	Keypress: n
+112.3597 	DATA 	Keypress: t
+112.5266 	DATA 	Keypress: space
+112.6432 	DATA 	Keypress: s
+112.7430 	DATA 	Keypress: o
+112.9096 	DATA 	Keypress: n
+113.0451 	DATA 	Keypress: space
+113.1599 	DATA 	Keypress: e
+113.2598 	DATA 	Keypress: n
+113.3763 	DATA 	Keypress: t
+113.5950 	DATA 	Keypress: r
+113.7264 	DATA 	Keypress: 2
+113.8597 	DATA 	Keypress: e
+113.9432 	DATA 	Keypress: space
+114.0598 	DATA 	Keypress: d
+114.1431 	DATA 	Keypress: a
+114.1765 	DATA 	Keypress: n
+114.3430 	DATA 	Keypress: s
+114.4596 	DATA 	Keypress: space
+114.6766 	DATA 	Keypress: l
+114.7598 	DATA 	Keypress: 4
+114.9932 	DATA 	Keypress: a
+115.2096 	DATA 	Keypress: t
+115.3432 	DATA 	Keypress: o
+116.3597 	DATA 	Keypress: backspace
+116.5431 	DATA 	Keypress: m
+116.7764 	DATA 	Keypress: o
+116.9099 	DATA 	Keypress: s
+117.0263 	DATA 	Keypress: p
+117.2284 	DATA 	Keypress: h
+117.4763 	DATA 	Keypress: 7
+117.6429 	DATA 	Keypress: r
+117.7098 	DATA 	Keypress: e
+117.8097 	DATA 	Keypress: space
+117.9433 	DATA 	Keypress: a
+118.0598 	DATA 	Keypress: u
+118.5763 	DATA 	Keypress: num_subtract
+118.7765 	DATA 	Keypress: d
+118.8097 	DATA 	Keypress: e
+119.0096 	DATA 	Keypress: s
+119.1932 	DATA 	Keypress: s
+119.2598 	DATA 	Keypress: u
+119.3762 	DATA 	Keypress: s
+119.4931 	DATA 	Keypress: space
+119.5931 	DATA 	Keypress: d
+119.7931 	DATA 	Keypress: u
+119.9097 	DATA 	Keypress: capslock
+119.9265 	DATA 	Keypress: space
+120.0597 	DATA 	Keypress: t
+120.1767 	DATA 	Keypress: capslock
+120.3431 	DATA 	Keypress: e
+120.5762 	DATA 	Keypress: x
+120.6930 	DATA 	Keypress: a
+120.8613 	DATA 	Keypress: s
+120.9930 	DATA 	Keypress: space
+121.1762 	DATA 	Keypress: e
+121.3596 	DATA 	Keypress: n
+121.5262 	DATA 	Keypress: space
+121.6430 	DATA 	Keypress: f
+121.7765 	DATA 	Keypress: 2
+121.9764 	DATA 	Keypress: v
+122.1096 	DATA 	Keypress: r
+122.2597 	DATA 	Keypress: i
+122.4096 	DATA 	Keypress: e
+122.5431 	DATA 	Keypress: r
+122.7262 	DATA 	Keypress: space
+123.5266 	DATA 	Keypress: num_2
+123.7262 	DATA 	Keypress: num_0
+123.8931 	DATA 	Keypress: num_0
+124.1429 	DATA 	Keypress: num_3
+125.6597 	DATA 	Mouse: Left button down, pos=(959,110)
+125.6760 	EXP 	Anecdotes: autoDraw = False
+125.6760 	EXP 	tache_text: autoDraw = False
+125.6760 	EXP 	Validation_button: autoDraw = False
+125.6760 	EXP 	feedback_fichier_train: height = 0.05
+125.6760 	EXP 	feedback_fichier_train: height = 0.05
+125.6760 	EXP 	feedback_fichier_train: height = 0.05
+125.6760 	EXP 	feedback_fichier_train: text = 'DONNEES'
+125.6760 	EXP 	feedbacktext: autoDraw = True
+125.6760 	EXP 	feedback_fichier_train: autoDraw = True
+125.7604 	DATA 	Mouse:  Left button up, pos=(959,110)
+129.0271 	DATA 	Keypress: space
+130.5437 	DATA 	Mouse: Left button down, pos=(1432,440)
+130.6439 	DATA 	Mouse:  Left button up, pos=(1432,440)
+130.6760 	EXP 	feedbacktext: autoDraw = False
+130.6760 	EXP 	feedback_fichier_train: autoDraw = False
+130.6760 	EXP 	feedbacktext: autoDraw = False
+130.6760 	EXP 	feedback_fichier_train: autoDraw = False
+130.6760 	EXP 	text: autoDraw = True
+131.1598 	EXP 	New trial (rep=0, index=2): {'anecdotes': 'Le Groenland est l’île la plus grande du monde par sa superficie  ', 'fichier': 'FAITS', 'anecdotes_reco': 'Le Groenland est l’île la plus grande du monde par sa superficie  '}
+131.1762 	EXP 	text: autoDraw = False
+131.1762 	EXP 	text: autoDraw = False
+131.1762 	EXP 	Anecdotes: height = 0.05
+131.1762 	EXP 	Anecdotes: height = 0.05
+131.1762 	EXP 	Anecdotes: height = 0.05
+131.1762 	EXP 	Anecdotes: text = 'Le Groenland est l’île la plus grande du monde par sa superficie  '
+131.1762 	EXP 	Anecdotes: autoDraw = True
+131.1762 	EXP 	tache_text: autoDraw = True
+131.1762 	EXP 	Validation_button: autoDraw = True
+131.7427 	DATA 	Keypress: capslock
+131.9595 	DATA 	Keypress: l
+132.0117 	DATA 	Keypress: capslock
+132.1095 	DATA 	Keypress: e
+132.2097 	DATA 	Keypress: space
+132.4096 	DATA 	Keypress: capslock
+132.5262 	DATA 	Keypress: g
+132.6596 	DATA 	Keypress: capslock
+132.8262 	DATA 	Keypress: r
+132.9928 	DATA 	Keypress: o
+133.0762 	DATA 	Keypress: e
+133.2429 	DATA 	Keypress: n
+133.4595 	DATA 	Keypress: l
+133.5595 	DATA 	Keypress: a
+133.6930 	DATA 	Keypress: n
+133.8450 	DATA 	Keypress: d
+134.0095 	DATA 	Keypress: space
+134.2428 	DATA 	Keypress: e
+134.4595 	DATA 	Keypress: s
+134.7594 	DATA 	Keypress: t
+134.9096 	DATA 	Keypress: space
+135.0593 	DATA 	Keypress: l
+135.1762 	DATA 	Keypress: 4
+135.3763 	DATA 	Keypress: i
+135.7094 	DATA 	Keypress: l
+135.7946 	DATA 	Keypress: e
+135.9095 	DATA 	Keypress: space
+136.1761 	DATA 	Keypress: l
+136.2760 	DATA 	Keypress: a
+136.3598 	DATA 	Keypress: space
+136.4261 	DATA 	Keypress: p
+136.6096 	DATA 	Keypress: l
+136.7762 	DATA 	Keypress: u
+136.8614 	DATA 	Keypress: s
+136.9260 	DATA 	Keypress: space
+137.1093 	DATA 	Keypress: g
+137.2930 	DATA 	Keypress: r
+137.3761 	DATA 	Keypress: a
+137.4595 	DATA 	Keypress: n
+137.5763 	DATA 	Keypress: d
+137.6430 	DATA 	Keypress: e
+138.0427 	DATA 	Keypress: space
+138.2093 	DATA 	Keypress: d
+138.2761 	DATA 	Keypress: u
+138.4430 	DATA 	Keypress: space
+138.6261 	DATA 	Keypress: m
+138.8261 	DATA 	Keypress: o
+138.9927 	DATA 	Keypress: n
+139.1094 	DATA 	Keypress: d
+139.1761 	DATA 	Keypress: e
+139.2763 	DATA 	Keypress: space
+139.4596 	DATA 	Keypress: p
+139.5263 	DATA 	Keypress: a
+139.7763 	DATA 	Keypress: r
+139.8761 	DATA 	Keypress: space
+139.9763 	DATA 	Keypress: s
+140.0595 	DATA 	Keypress: a
+140.1594 	DATA 	Keypress: space
+140.2618 	DATA 	Keypress: s
+140.4262 	DATA 	Keypress: u
+140.6278 	DATA 	Keypress: p
+140.6927 	DATA 	Keypress: e
+140.7595 	DATA 	Keypress: r
+140.9094 	DATA 	Keypress: f
+141.0094 	DATA 	Keypress: i
+141.1428 	DATA 	Keypress: c
+141.2427 	DATA 	Keypress: i
+141.3929 	DATA 	Keypress: e
+142.6122 	DATA 	Mouse: Left button down, pos=(946,118)
+142.6425 	EXP 	Anecdotes: autoDraw = False
+142.6425 	EXP 	tache_text: autoDraw = False
+142.6425 	EXP 	Validation_button: autoDraw = False
+142.6425 	EXP 	feedback_fichier_train: height = 0.05
+142.6425 	EXP 	feedback_fichier_train: height = 0.05
+142.6425 	EXP 	feedback_fichier_train: height = 0.05
+142.6425 	EXP 	feedback_fichier_train: text = 'FAITS'
+142.6425 	EXP 	feedbacktext: autoDraw = True
+142.6425 	EXP 	feedback_fichier_train: autoDraw = True
+142.7271 	DATA 	Mouse:  Left button up, pos=(946,124)
+144.5270 	DATA 	Mouse: Left button down, pos=(1033,330)
+144.6271 	DATA 	Mouse:  Left button up, pos=(1033,330)
+146.9935 	DATA 	Keypress: space
+147.6424 	EXP 	feedbacktext: autoDraw = False
+147.6424 	EXP 	feedback_fichier_train: autoDraw = False
+147.6424 	EXP 	feedbacktext: autoDraw = False
+147.6424 	EXP 	feedback_fichier_train: autoDraw = False
+147.6424 	EXP 	text: autoDraw = True
+148.1263 	EXP 	New trial (rep=0, index=3): {'anecdotes': 'Le cœur d’une crevette est dans sa tête  ', 'fichier': 'POINTS', 'anecdotes_reco': 'Le cœur d’une crevette est dans sa tête  '}
+148.1426 	EXP 	text: autoDraw = False
+148.1426 	EXP 	text: autoDraw = False
+148.1426 	EXP 	Anecdotes: height = 0.05
+148.1426 	EXP 	Anecdotes: height = 0.05
+148.1426 	EXP 	Anecdotes: height = 0.05
+148.1426 	EXP 	Anecdotes: text = 'Le cœur d’une crevette est dans sa tête  '
+148.1426 	EXP 	Anecdotes: autoDraw = True
+148.1426 	EXP 	tache_text: autoDraw = True
+148.1426 	EXP 	Validation_button: autoDraw = True
+148.9093 	DATA 	Keypress: capslock
+149.2595 	DATA 	Keypress: l
+149.3094 	DATA 	Keypress: capslock
+149.4428 	DATA 	Keypress: e
+149.5426 	DATA 	Keypress: space
+149.6595 	DATA 	Keypress: c
+149.7759 	DATA 	Keypress: o
+149.8762 	DATA 	Keypress: e
+150.0262 	DATA 	Keypress: u
+150.1592 	DATA 	Keypress: r
+150.2593 	DATA 	Keypress: space
+150.4762 	DATA 	Keypress: d
+150.6094 	DATA 	Keypress: 4
+150.7094 	DATA 	Keypress: u
+150.9096 	DATA 	Keypress: n
+150.9760 	DATA 	Keypress: e
+151.0760 	DATA 	Keypress: space
+151.1760 	DATA 	Keypress: c
+151.3592 	DATA 	Keypress: r
+151.4592 	DATA 	Keypress: e
+151.6093 	DATA 	Keypress: v
+151.6761 	DATA 	Keypress: e
+151.8277 	DATA 	Keypress: t
+151.9926 	DATA 	Keypress: t
+152.0427 	DATA 	Keypress: e
+152.1427 	DATA 	Keypress: space
+152.2262 	DATA 	Keypress: e
+152.4928 	DATA 	Keypress: s
+152.7258 	DATA 	Keypress: t
+152.9596 	DATA 	Keypress: space
+153.2594 	DATA 	Keypress: d
+153.3595 	DATA 	Keypress: a
+153.4594 	DATA 	Keypress: n
+153.5759 	DATA 	Keypress: s
+153.6595 	DATA 	Keypress: space
+153.7595 	DATA 	Keypress: s
+153.8092 	DATA 	Keypress: a
+153.8925 	DATA 	Keypress: space
+154.0128 	DATA 	Keypress: t
+154.0926 	DATA 	Keypress: e
+154.2113 	DATA 	Keypress: t
+154.2926 	DATA 	Keypress: e
+155.8095 	DATA 	Mouse: Left button down, pos=(961,118)
+155.8258 	EXP 	Anecdotes: autoDraw = False
+155.8258 	EXP 	tache_text: autoDraw = False
+155.8258 	EXP 	Validation_button: autoDraw = False
+155.8258 	EXP 	feedback_fichier_train: height = 0.05
+155.8258 	EXP 	feedback_fichier_train: height = 0.05
+155.8258 	EXP 	feedback_fichier_train: height = 0.05
+155.8258 	EXP 	feedback_fichier_train: text = 'POINTS'
+155.8258 	EXP 	feedbacktext: autoDraw = True
+155.8258 	EXP 	feedback_fichier_train: autoDraw = True
+155.9103 	DATA 	Mouse:  Left button up, pos=(961,118)
+158.6435 	DATA 	Mouse: Left button down, pos=(1097,341)
+158.7602 	DATA 	Mouse:  Left button up, pos=(1097,341)
+160.8257 	EXP 	feedbacktext: autoDraw = False
+160.8257 	EXP 	feedback_fichier_train: autoDraw = False
+160.8257 	EXP 	feedbacktext: autoDraw = False
+160.8257 	EXP 	feedback_fichier_train: autoDraw = False
+160.8257 	EXP 	text: autoDraw = True
+161.3095 	EXP 	New trial (rep=0, index=4): {'anecdotes': 'Tout comme l’empreinte digitale, le cœur est propre à chaque individu et on peut l’identifier grâce à sa signature cardiaque ', 'fichier': 'NOMS', 'anecdotes_reco': 'Tout comme l’empreinte digitale, le cœur est propre à chaque individu et on peut l’identifier grâce à sa signature cardiaque '}
+161.3258 	EXP 	text: autoDraw = False
+161.3258 	EXP 	text: autoDraw = False
+161.3258 	EXP 	Anecdotes: height = 0.05
+161.3258 	EXP 	Anecdotes: height = 0.05
+161.3258 	EXP 	Anecdotes: height = 0.05
+161.3258 	EXP 	Anecdotes: text = 'Tout comme l’empreinte digitale, le cœur est propre à chaque individu et on peut l’identifier grâce à sa signature cardiaque '
+161.3258 	EXP 	Anecdotes: autoDraw = True
+161.3258 	EXP 	tache_text: autoDraw = True
+161.3258 	EXP 	Validation_button: autoDraw = True
+161.8759 	DATA 	Keypress: capslock
+162.0446 	DATA 	Keypress: t
+162.1425 	DATA 	Keypress: capslock
+162.2428 	DATA 	Keypress: o
+162.4262 	DATA 	Keypress: u
+162.5095 	DATA 	Keypress: t
+162.5947 	DATA 	Keypress: space
+162.7092 	DATA 	Keypress: c
+162.8093 	DATA 	Keypress: o
+163.0093 	DATA 	Keypress: m
+163.1425 	DATA 	Keypress: m
+163.2424 	DATA 	Keypress: e
+163.2924 	DATA 	Keypress: space
+163.4427 	DATA 	Keypress: l
+163.5425 	DATA 	Keypress: 4
+163.7760 	DATA 	Keypress: e
+164.0091 	DATA 	Keypress: m
+164.1758 	DATA 	Keypress: p
+164.2757 	DATA 	Keypress: r
+164.3924 	DATA 	Keypress: e
+164.5094 	DATA 	Keypress: i
+164.7091 	DATA 	Keypress: n
+164.7590 	DATA 	Keypress: t
+164.8093 	DATA 	Keypress: e
+164.9425 	DATA 	Keypress: space
+165.0427 	DATA 	Keypress: d
+165.1760 	DATA 	Keypress: i
+165.2759 	DATA 	Keypress: g
+165.3927 	DATA 	Keypress: i
+165.5594 	DATA 	Keypress: t
+165.6591 	DATA 	Keypress: a
+165.7758 	DATA 	Keypress: l
+165.8610 	DATA 	Keypress: e
+166.0925 	DATA 	Keypress: comma
+166.2924 	DATA 	Keypress: space
+166.4094 	DATA 	Keypress: l
+166.4592 	DATA 	Keypress: e
+166.5759 	DATA 	Keypress: space
+166.6758 	DATA 	Keypress: c
+166.7924 	DATA 	Keypress: o
+167.0925 	DATA 	Keypress: e
+167.2092 	DATA 	Keypress: u
+167.2925 	DATA 	Keypress: r
+167.3759 	DATA 	Keypress: space
+167.4759 	DATA 	Keypress: e
+167.6591 	DATA 	Keypress: s
+167.8611 	DATA 	Keypress: t
+168.0090 	DATA 	Keypress: space
+168.1090 	DATA 	Keypress: p
+168.2280 	DATA 	Keypress: r
+168.3426 	DATA 	Keypress: o
+168.5426 	DATA 	Keypress: p
+168.6590 	DATA 	Keypress: r
+168.7423 	DATA 	Keypress: e
+168.8591 	DATA 	Keypress: space
+168.9758 	DATA 	Keypress: a
+169.0780 	DATA 	Keypress: space
+169.1761 	DATA 	Keypress: c
+169.2924 	DATA 	Keypress: h
+169.3591 	DATA 	Keypress: a
+169.4924 	DATA 	Keypress: q
+169.6095 	DATA 	Keypress: u
+169.7093 	DATA 	Keypress: e
+169.8093 	DATA 	Keypress: space
+169.8757 	DATA 	Keypress: i
+170.0425 	DATA 	Keypress: n
+170.1094 	DATA 	Keypress: d
+170.2590 	DATA 	Keypress: i
+170.3424 	DATA 	Keypress: v
+170.4447 	DATA 	Keypress: i
+170.5593 	DATA 	Keypress: d
+170.6924 	DATA 	Keypress: u
+170.9758 	DATA 	Keypress: space
+171.1428 	DATA 	Keypress: e
+171.2923 	DATA 	Keypress: t
+171.3427 	DATA 	Keypress: space
+171.4925 	DATA 	Keypress: o
+171.6608 	DATA 	Keypress: n
+171.8089 	DATA 	Keypress: space
+171.8759 	DATA 	Keypress: p
+171.9759 	DATA 	Keypress: e
+172.0924 	DATA 	Keypress: u
+172.2090 	DATA 	Keypress: space
+172.5256 	DATA 	Keypress: backspace
+172.6092 	DATA 	Keypress: t
+172.6758 	DATA 	Keypress: space
+172.9259 	DATA 	Keypress: l
+173.2260 	DATA 	Keypress: 4
+173.3590 	DATA 	Keypress: i
+173.4611 	DATA 	Keypress: d
+173.5592 	DATA 	Keypress: e
+173.6423 	DATA 	Keypress: n
+173.7427 	DATA 	Keypress: t
+173.8593 	DATA 	Keypress: i
+173.9758 	DATA 	Keypress: f
+174.0927 	DATA 	Keypress: i
+174.1925 	DATA 	Keypress: e
+174.2592 	DATA 	Keypress: r
+174.3591 	DATA 	Keypress: space
+174.5590 	DATA 	Keypress: g
+174.7590 	DATA 	Keypress: r
+174.8424 	DATA 	Keypress: a
+175.0090 	DATA 	Keypress: c
+175.0591 	DATA 	Keypress: e
+175.2278 	DATA 	Keypress: space
+175.3923 	DATA 	Keypress: 0
+175.5423 	DATA 	Keypress: space
+175.7092 	DATA 	Keypress: s
+175.8260 	DATA 	Keypress: a
+175.8757 	DATA 	Keypress: space
+176.0089 	DATA 	Keypress: s
+176.1427 	DATA 	Keypress: i
+176.2610 	DATA 	Keypress: g
+176.3926 	DATA 	Keypress: n
+176.4591 	DATA 	Keypress: a
+176.5759 	DATA 	Keypress: t
+176.6924 	DATA 	Keypress: u
+176.7756 	DATA 	Keypress: r
+176.8258 	DATA 	Keypress: e
+176.9592 	DATA 	Keypress: space
+177.1091 	DATA 	Keypress: c
+177.2259 	DATA 	Keypress: a
+177.3757 	DATA 	Keypress: r
+177.5590 	DATA 	Keypress: d
+177.6258 	DATA 	Keypress: i
+177.7256 	DATA 	Keypress: a
+177.8756 	DATA 	Keypress: q
+177.9424 	DATA 	Keypress: u
+178.0756 	DATA 	Keypress: e
+180.7925 	DATA 	Mouse: Left button down, pos=(970,115)
+180.8087 	EXP 	Anecdotes: autoDraw = False
+180.8087 	EXP 	tache_text: autoDraw = False
+180.8087 	EXP 	Validation_button: autoDraw = False
+180.8087 	EXP 	feedback_fichier_train: height = 0.05
+180.8087 	EXP 	feedback_fichier_train: height = 0.05
+180.8087 	EXP 	feedback_fichier_train: height = 0.05
+180.8087 	EXP 	feedback_fichier_train: text = 'NOMS'
+180.8087 	EXP 	feedbacktext: autoDraw = True
+180.8087 	EXP 	feedback_fichier_train: autoDraw = True
+180.9598 	DATA 	Mouse:  Left button up, pos=(970,115)
+185.5598 	DATA 	Keypress: space
+185.8086 	EXP 	feedbacktext: autoDraw = False
+185.8086 	EXP 	feedback_fichier_train: autoDraw = False
+185.8086 	EXP 	feedbacktext: autoDraw = False
+185.8086 	EXP 	feedback_fichier_train: autoDraw = False
+185.8086 	EXP 	text: autoDraw = True
+186.2926 	EXP 	New trial (rep=0, index=5): {'anecdotes': 'Une personne brule plus de calories quand il dort que lorsqu’il regarde la télé  ', 'fichier': 'ITEMS', 'anecdotes_reco': 'Une personne brule plus de calories quand il dort que lorsqu’il regarde la télé  '}
+186.3087 	EXP 	text: autoDraw = False
+186.3087 	EXP 	text: autoDraw = False
+186.3087 	EXP 	Anecdotes: height = 0.05
+186.3087 	EXP 	Anecdotes: height = 0.05
+186.3087 	EXP 	Anecdotes: height = 0.05
+186.3087 	EXP 	Anecdotes: text = 'Une personne brule plus de calories quand il dort que lorsqu’il regarde la télé  '
+186.3087 	EXP 	Anecdotes: autoDraw = True
+186.3087 	EXP 	tache_text: autoDraw = True
+186.3087 	EXP 	Validation_button: autoDraw = True
+186.8924 	DATA 	Keypress: capslock
+187.0591 	DATA 	Keypress: u
+187.2448 	DATA 	Keypress: capslock
+187.3590 	DATA 	Keypress: n
+187.5090 	DATA 	Keypress: e
+187.6258 	DATA 	Keypress: space
+187.7254 	DATA 	Keypress: p
+187.7757 	DATA 	Keypress: e
+187.8590 	DATA 	Keypress: r
+188.0276 	DATA 	Keypress: s
+188.0925 	DATA 	Keypress: o
+188.2923 	DATA 	Keypress: n
+188.4088 	DATA 	Keypress: n
+188.4922 	DATA 	Keypress: e
+188.6275 	DATA 	Keypress: space
+188.9755 	DATA 	Keypress: b
+189.1090 	DATA 	Keypress: r
+189.2446 	DATA 	Keypress: u
+189.4423 	DATA 	Keypress: l
+189.5089 	DATA 	Keypress: e
+189.5946 	DATA 	Keypress: space
+189.6923 	DATA 	Keypress: d
+189.7589 	DATA 	Keypress: a
+189.9589 	DATA 	Keypress: backspace
+190.1255 	DATA 	Keypress: backspace
+190.3755 	DATA 	Keypress: p
+190.5755 	DATA 	Keypress: l
+190.7755 	DATA 	Keypress: u
+190.8757 	DATA 	Keypress: s
+191.0255 	DATA 	Keypress: space
+191.0445 	DATA 	Keypress: d
+191.1423 	DATA 	Keypress: e
+191.5924 	DATA 	Keypress: space
+191.7254 	DATA 	Keypress: c
+191.7921 	DATA 	Keypress: a
+191.8921 	DATA 	Keypress: l
+192.0618 	DATA 	Keypress: o
+192.1088 	DATA 	Keypress: r
+192.2755 	DATA 	Keypress: i
+192.3591 	DATA 	Keypress: e
+192.5588 	DATA 	Keypress: s
+192.6423 	DATA 	Keypress: space
+192.9922 	DATA 	Keypress: q
+193.0924 	DATA 	Keypress: u
+193.2276 	DATA 	Keypress: a
+193.3090 	DATA 	Keypress: n
+193.4087 	DATA 	Keypress: d
+193.4755 	DATA 	Keypress: space
+193.5757 	DATA 	Keypress: i
+193.7254 	DATA 	Keypress: l
+193.8588 	DATA 	Keypress: space
+193.9422 	DATA 	Keypress: d
+194.0421 	DATA 	Keypress: o
+194.1755 	DATA 	Keypress: r
+194.3757 	DATA 	Keypress: t
+194.5421 	DATA 	Keypress: space
+194.6920 	DATA 	Keypress: q
+194.8254 	DATA 	Keypress: u
+194.9421 	DATA 	Keypress: e
+194.9921 	DATA 	Keypress: space
+195.1089 	DATA 	Keypress: l
+195.2756 	DATA 	Keypress: o
+195.3587 	DATA 	Keypress: r
+195.5754 	DATA 	Keypress: s
+195.9922 	DATA 	Keypress: q
+196.2755 	DATA 	Keypress: 4
+196.4089 	DATA 	Keypress: u
+196.5756 	DATA 	Keypress: i
+196.7589 	DATA 	Keypress: l
+196.8921 	DATA 	Keypress: space
+196.9254 	DATA 	Keypress: r
+196.9921 	DATA 	Keypress: e
+197.1254 	DATA 	Keypress: g
+197.2090 	DATA 	Keypress: a
+197.3421 	DATA 	Keypress: r
+197.5420 	DATA 	Keypress: d
+197.5919 	DATA 	Keypress: e
+197.6608 	DATA 	Keypress: space
+197.7754 	DATA 	Keypress: l
+197.8425 	DATA 	Keypress: a
+197.9423 	DATA 	Keypress: space
+198.0454 	DATA 	Keypress: t
+198.1589 	DATA 	Keypress: 2
+198.3089 	DATA 	Keypress: l
+198.3587 	DATA 	Keypress: 2
+199.8259 	DATA 	Mouse: Left button down, pos=(955,107)
+199.8418 	EXP 	Anecdotes: autoDraw = False
+199.8418 	EXP 	tache_text: autoDraw = False
+199.8418 	EXP 	Validation_button: autoDraw = False
+199.8418 	EXP 	feedback_fichier_train: height = 0.05
+199.8418 	EXP 	feedback_fichier_train: height = 0.05
+199.8418 	EXP 	feedback_fichier_train: height = 0.05
+199.8418 	EXP 	feedback_fichier_train: text = 'ITEMS'
+199.8418 	EXP 	feedbacktext: autoDraw = True
+199.8418 	EXP 	feedback_fichier_train: autoDraw = True
+199.9434 	DATA 	Mouse:  Left button up, pos=(955,107)
+202.4097 	DATA 	Mouse: Left button down, pos=(632,544)
+202.5431 	DATA 	Mouse:  Left button up, pos=(607,544)
+204.8096 	DATA 	Keypress: space
+204.8420 	EXP 	feedbacktext: autoDraw = False
+204.8420 	EXP 	feedback_fichier_train: autoDraw = False
+204.8420 	EXP 	feedbacktext: autoDraw = False
+204.8420 	EXP 	feedback_fichier_train: autoDraw = False
+204.8420 	EXP 	text: autoDraw = True
+205.3258 	EXP 	New trial (rep=0, index=6): {'anecdotes': 'Les élastiques sont plus longs quand ils sont très froids/réfrigérés ', 'fichier': 'INFOS', 'anecdotes_reco': 'Les élastiques sont plus longs quand ils sont très froids/réfrigérés '}
+205.3418 	EXP 	text: autoDraw = False
+205.3418 	EXP 	text: autoDraw = False
+205.3418 	EXP 	Anecdotes: height = 0.05
+205.3418 	EXP 	Anecdotes: height = 0.05
+205.3418 	EXP 	Anecdotes: height = 0.05
+205.3418 	EXP 	Anecdotes: text = 'Les élastiques sont plus longs quand ils sont très froids/réfrigérés '
+205.3418 	EXP 	Anecdotes: autoDraw = True
+205.3418 	EXP 	tache_text: autoDraw = True
+205.3418 	EXP 	Validation_button: autoDraw = True
+206.0112 	DATA 	Keypress: capslock
+206.1421 	DATA 	Keypress: l
+206.2087 	DATA 	Keypress: capslock
+206.2754 	DATA 	Keypress: e
+206.4753 	DATA 	Keypress: s
+206.5422 	DATA 	Keypress: space
+206.6754 	DATA 	Keypress: 2
+206.7256 	DATA 	Keypress: l
+207.0921 	DATA 	Keypress: a
+207.2424 	DATA 	Keypress: s
+207.4755 	DATA 	Keypress: t
+207.5920 	DATA 	Keypress: i
+207.7089 	DATA 	Keypress: q
+207.8086 	DATA 	Keypress: u
+207.9419 	DATA 	Keypress: e
+208.1422 	DATA 	Keypress: s
+208.2443 	DATA 	Keypress: space
+208.3588 	DATA 	Keypress: s
+208.4277 	DATA 	Keypress: o
+208.6253 	DATA 	Keypress: n
+208.6921 	DATA 	Keypress: t
+208.8256 	DATA 	Keypress: space
+208.9255 	DATA 	Keypress: p
+209.1753 	DATA 	Keypress: l
+209.3423 	DATA 	Keypress: u
+209.4276 	DATA 	Keypress: s
+209.4776 	DATA 	Keypress: space
+209.6086 	DATA 	Keypress: l
+209.7919 	DATA 	Keypress: o
+209.9586 	DATA 	Keypress: n
+210.0442 	DATA 	Keypress: g
+210.2587 	DATA 	Keypress: s
+210.3920 	DATA 	Keypress: space
+210.4754 	DATA 	Keypress: q
+210.6252 	DATA 	Keypress: u
+210.8605 	DATA 	Keypress: a
+210.9420 	DATA 	Keypress: n
+211.0419 	DATA 	Keypress: d
+211.2587 	DATA 	Keypress: s
+211.7253 	DATA 	Keypress: backspace
+211.8271 	DATA 	Keypress: space
+211.9420 	DATA 	Keypress: i
+212.1254 	DATA 	Keypress: l
+212.2919 	DATA 	Keypress: s
+212.6086 	DATA 	Keypress: space
+212.7921 	DATA 	Keypress: s
+212.8754 	DATA 	Keypress: o
+213.0274 	DATA 	Keypress: n
+213.1088 	DATA 	Keypress: t
+213.2086 	DATA 	Keypress: space
+213.2920 	DATA 	Keypress: t
+213.4753 	DATA 	Keypress: r
+213.5587 	DATA 	Keypress: 7
+213.7252 	DATA 	Keypress: s
+213.8419 	DATA 	Keypress: space
+213.9918 	DATA 	Keypress: f
+214.1752 	DATA 	Keypress: r
+214.2755 	DATA 	Keypress: o
+214.4087 	DATA 	Keypress: i
+214.4610 	DATA 	Keypress: d
+214.6588 	DATA 	Keypress: s
+214.8419 	DATA 	Keypress: capslock
+215.2087 	DATA 	Keypress: colon
+215.2753 	DATA 	Keypress: capslock
+215.4586 	DATA 	Keypress: t
+215.5253 	DATA 	Keypress: r
+215.5587 	DATA 	Keypress: 2
+215.8604 	DATA 	Keypress: backspace
+216.0275 	DATA 	Keypress: backspace
+216.1586 	DATA 	Keypress: backspace
+216.2085 	DATA 	Keypress: r
+216.2773 	DATA 	Keypress: 2
+216.5084 	DATA 	Keypress: g
+217.0755 	DATA 	Keypress: backspace
+217.1587 	DATA 	Keypress: f
+217.3753 	DATA 	Keypress: r
+217.4756 	DATA 	Keypress: i
+217.6921 	DATA 	Keypress: g
+217.9753 	DATA 	Keypress: 2
+218.0445 	DATA 	Keypress: t
+218.0918 	DATA 	Keypress: r
+218.1919 	DATA 	Keypress: 2
+218.4253 	DATA 	Keypress: backspace
+218.6089 	DATA 	Keypress: backspace
+218.7253 	DATA 	Keypress: backspace
+218.8108 	DATA 	Keypress: r
+218.8753 	DATA 	Keypress: 2
+219.0254 	DATA 	Keypress: s
+221.4585 	DATA 	Mouse: Left button down, pos=(977,102)
+221.4751 	EXP 	Anecdotes: autoDraw = False
+221.4751 	EXP 	tache_text: autoDraw = False
+221.4751 	EXP 	Validation_button: autoDraw = False
+221.4751 	EXP 	feedback_fichier_train: height = 0.05
+221.4751 	EXP 	feedback_fichier_train: height = 0.05
+221.4751 	EXP 	feedback_fichier_train: height = 0.05
+221.4751 	EXP 	feedback_fichier_train: text = 'INFOS'
+221.4751 	EXP 	feedbacktext: autoDraw = True
+221.4751 	EXP 	feedback_fichier_train: autoDraw = True
+221.6426 	DATA 	Mouse:  Left button up, pos=(977,102)
+223.9760 	DATA 	Keypress: space
+226.4749 	EXP 	feedbacktext: autoDraw = False
+226.4749 	EXP 	feedback_fichier_train: autoDraw = False
+226.4749 	EXP 	feedbacktext: autoDraw = False
+226.4749 	EXP 	feedback_fichier_train: autoDraw = False
+226.4749 	EXP 	text: autoDraw = True
+226.9592 	EXP 	New trial (rep=0, index=7): {'anecdotes': 'La raie manta peut atteindre 9 mètres de long pour environ 2 tonnes ', 'fichier': 'INFOS', 'anecdotes_reco': 'La raie manta peut atteindre 9 mètres de long pour environ 2 tonnes '}
+226.9751 	EXP 	text: autoDraw = False
+226.9751 	EXP 	text: autoDraw = False
+226.9751 	EXP 	Anecdotes: height = 0.05
+226.9751 	EXP 	Anecdotes: height = 0.05
+226.9751 	EXP 	Anecdotes: height = 0.05
+226.9751 	EXP 	Anecdotes: text = 'La raie manta peut atteindre 9 mètres de long pour environ 2 tonnes '
+226.9751 	EXP 	Anecdotes: autoDraw = True
+226.9751 	EXP 	tache_text: autoDraw = True
+226.9751 	EXP 	Validation_button: autoDraw = True
+227.8250 	DATA 	Keypress: capslock
+228.1419 	DATA 	Keypress: l
+228.2585 	DATA 	Keypress: capslock
+228.3750 	DATA 	Keypress: a
+228.5249 	DATA 	Keypress: space
+228.6273 	DATA 	Keypress: r
+228.7251 	DATA 	Keypress: a
+228.8416 	DATA 	Keypress: i
+228.9418 	DATA 	Keypress: e
+229.0754 	DATA 	Keypress: space
+229.3920 	DATA 	Keypress: capslock
+229.5250 	DATA 	Keypress: m
+229.6251 	DATA 	Keypress: capslock
+229.6274 	DATA 	Keypress: a
+229.9251 	DATA 	Keypress: backspace
+230.0086 	DATA 	Keypress: capslock
+230.0920 	DATA 	Keypress: backspace
+230.2783 	DATA 	Keypress: m
+230.4251 	DATA 	Keypress: a
+230.5419 	DATA 	Keypress: n
+230.6251 	DATA 	Keypress: t
+230.8252 	DATA 	Keypress: backspace
+230.8417 	DATA 	Keypress: capslock
+230.9753 	DATA 	Keypress: backspace
+231.0918 	DATA 	Keypress: backspace
+231.2418 	DATA 	Keypress: backspace
+231.4251 	DATA 	Keypress: m
+231.5418 	DATA 	Keypress: a
+231.6587 	DATA 	Keypress: n
+231.7083 	DATA 	Keypress: t
+231.7917 	DATA 	Keypress: a
+231.9251 	DATA 	Keypress: space
+232.1250 	DATA 	Keypress: p
+232.2253 	DATA 	Keypress: e
+232.3583 	DATA 	Keypress: u
+232.4419 	DATA 	Keypress: t
+232.5260 	DATA 	Keypress: space
+232.6088 	DATA 	Keypress: a
+232.7587 	DATA 	Keypress: t
+232.8935 	DATA 	Keypress: t
+232.9583 	DATA 	Keypress: e
+233.0438 	DATA 	Keypress: i
+233.2251 	DATA 	Keypress: n
+233.2917 	DATA 	Keypress: d
+233.4753 	DATA 	Keypress: r
+233.5251 	DATA 	Keypress: e
+233.6250 	DATA 	Keypress: space
+234.0750 	DATA 	Keypress: num_9
+234.3750 	DATA 	Keypress: space
+234.5919 	DATA 	Keypress: m
+234.6583 	DATA 	Keypress: e
+234.7751 	DATA 	Keypress: t
+234.9417 	DATA 	Keypress: r
+235.0254 	DATA 	Keypress: e
+235.2084 	DATA 	Keypress: s
+235.3084 	DATA 	Keypress: space
+235.4250 	DATA 	Keypress: d
+235.4917 	DATA 	Keypress: e
+235.5750 	DATA 	Keypress: space
+235.6772 	DATA 	Keypress: l
+235.8585 	DATA 	Keypress: o
+236.0275 	DATA 	Keypress: n
+236.0922 	DATA 	Keypress: g
+236.1916 	DATA 	Keypress: space
+236.2584 	DATA 	Keypress: p
+236.4437 	DATA 	Keypress: o
+236.6084 	DATA 	Keypress: u
+236.6755 	DATA 	Keypress: r
+236.7916 	DATA 	Keypress: space
+236.9417 	DATA 	Keypress: e
+237.0583 	DATA 	Keypress: n
+237.1419 	DATA 	Keypress: v
+237.2917 	DATA 	Keypress: u
+237.3083 	DATA 	Keypress: i
+237.7584 	DATA 	Keypress: backspace
+237.9252 	DATA 	Keypress: backspace
+238.0083 	DATA 	Keypress: i
+238.2086 	DATA 	Keypress: r
+238.3417 	DATA 	Keypress: o
+238.5418 	DATA 	Keypress: n
+238.6917 	DATA 	Keypress: space
+239.2750 	DATA 	Keypress: num_2
+239.4751 	DATA 	Keypress: space
+239.5751 	DATA 	Keypress: t
+239.6437 	DATA 	Keypress: o
+239.8603 	DATA 	Keypress: n
+239.9750 	DATA 	Keypress: n
+240.0416 	DATA 	Keypress: e
+240.2250 	DATA 	Keypress: s
+241.2252 	DATA 	Mouse: Left button down, pos=(905,125)
+241.3083 	DATA 	Mouse:  Left button up, pos=(905,125)
+241.8751 	DATA 	Mouse: Left button down, pos=(919,102)
+241.9749 	DATA 	Mouse:  Left button up, pos=(919,102)
+242.3083 	DATA 	Mouse: Left button down, pos=(940,112)
+242.3247 	EXP 	Anecdotes: autoDraw = False
+242.3247 	EXP 	tache_text: autoDraw = False
+242.3247 	EXP 	Validation_button: autoDraw = False
+242.3247 	EXP 	feedback_fichier_train: text = 'INFOS'
+242.3247 	EXP 	feedbacktext: autoDraw = True
+242.3247 	EXP 	feedback_fichier_train: autoDraw = True
+242.3761 	DATA 	Mouse:  Left button up, pos=(940,112)
+245.5595 	DATA 	Mouse: Left button down, pos=(1106,297)
+245.6761 	DATA 	Mouse:  Left button up, pos=(1106,297)
+247.3246 	EXP 	feedbacktext: autoDraw = False
+247.3246 	EXP 	feedback_fichier_train: autoDraw = False
+247.3246 	EXP 	feedbacktext: autoDraw = False
+247.3246 	EXP 	feedback_fichier_train: autoDraw = False
+247.3246 	EXP 	text: autoDraw = True
+247.8089 	EXP 	New trial (rep=0, index=8): {'anecdotes': 'La plus longue composition classique prendrait 639 ans à être interprétée  ', 'fichier': 'POINTS', 'anecdotes_reco': 'La plus longue composition classique prendrait 639 ans à être interprétée  '}
+247.8247 	EXP 	text: autoDraw = False
+247.8247 	EXP 	text: autoDraw = False
+247.8247 	EXP 	Anecdotes: height = 0.05
+247.8247 	EXP 	Anecdotes: height = 0.05
+247.8247 	EXP 	Anecdotes: height = 0.05
+247.8247 	EXP 	Anecdotes: text = 'La plus longue composition classique prendrait 639 ans à être interprétée  '
+247.8247 	EXP 	Anecdotes: autoDraw = True
+247.8247 	EXP 	tache_text: autoDraw = True
+247.8247 	EXP 	Validation_button: autoDraw = True
+248.4941 	DATA 	Keypress: capslock
+248.7416 	DATA 	Keypress: l
+248.8749 	DATA 	Keypress: capslock
+248.9583 	DATA 	Keypress: a
+249.0417 	DATA 	Keypress: space
+249.1252 	DATA 	Keypress: p
+249.2917 	DATA 	Keypress: l
+249.4602 	DATA 	Keypress: u
+249.5416 	DATA 	Keypress: s
+249.5916 	DATA 	Keypress: space
+249.7084 	DATA 	Keypress: l
+249.8916 	DATA 	Keypress: o
+250.0436 	DATA 	Keypress: n
+250.1417 	DATA 	Keypress: g
+250.2583 	DATA 	Keypress: u
+250.3581 	DATA 	Keypress: e
+250.4582 	DATA 	Keypress: space
+250.5584 	DATA 	Keypress: c
+250.6082 	DATA 	Keypress: o
+250.8083 	DATA 	Keypress: m
+251.0083 	DATA 	Keypress: p
+251.1918 	DATA 	Keypress: o
+251.2920 	DATA 	Keypress: s
+251.5247 	DATA 	Keypress: o
+252.0085 	DATA 	Keypress: backspace
+252.1751 	DATA 	Keypress: i
+252.3250 	DATA 	Keypress: t
+252.4417 	DATA 	Keypress: i
+252.6084 	DATA 	Keypress: o
+252.7916 	DATA 	Keypress: n
+252.9082 	DATA 	Keypress: space
+252.9916 	DATA 	Keypress: c
+253.1085 	DATA 	Keypress: l
+253.2252 	DATA 	Keypress: a
+253.3106 	DATA 	Keypress: s
+253.4582 	DATA 	Keypress: s
+253.5748 	DATA 	Keypress: i
+253.6915 	DATA 	Keypress: q
+253.7918 	DATA 	Keypress: u
+253.8934 	DATA 	Keypress: e
+253.9582 	DATA 	Keypress: space
+254.0749 	DATA 	Keypress: p
+254.1750 	DATA 	Keypress: r
+254.2772 	DATA 	Keypress: e
+254.3584 	DATA 	Keypress: n
+254.4440 	DATA 	Keypress: d
+254.5919 	DATA 	Keypress: r
+254.6582 	DATA 	Keypress: a
+254.7248 	DATA 	Keypress: i
+254.8748 	DATA 	Keypress: space
+255.1247 	DATA 	Keypress: backspace
+255.2248 	DATA 	Keypress: t
+255.3415 	DATA 	Keypress: space
+255.9082 	DATA 	Keypress: num_6
+256.3581 	DATA 	Keypress: num_3
+256.5749 	DATA 	Keypress: num_9
+256.9414 	DATA 	Keypress: space
+257.0917 	DATA 	Keypress: a
+257.2084 	DATA 	Keypress: n
+257.3086 	DATA 	Keypress: s
+257.4249 	DATA 	Keypress: space
+257.5417 	DATA 	Keypress: a
+257.6748 	DATA 	Keypress: space
+257.7914 	DATA 	Keypress: e
+257.9083 	DATA 	Keypress: t
+258.0750 	DATA 	Keypress: r
+258.1247 	DATA 	Keypress: e
+258.2437 	DATA 	Keypress: space
+258.3914 	DATA 	Keypress: i
+258.5583 	DATA 	Keypress: n
+258.6438 	DATA 	Keypress: t
+258.7249 	DATA 	Keypress: e
+258.8437 	DATA 	Keypress: r
+258.9415 	DATA 	Keypress: p
+259.0417 	DATA 	Keypress: r
+259.0914 	DATA 	Keypress: e
+259.2914 	DATA 	Keypress: t
+259.3583 	DATA 	Keypress: e
+259.5414 	DATA 	Keypress: s
+260.2080 	DATA 	Keypress: backspace
+260.3916 	DATA 	Keypress: backspace
+260.5914 	DATA 	Keypress: 2
+260.6915 	DATA 	Keypress: e
+262.7749 	DATA 	Mouse: Left button down, pos=(995,101)
+263.0253 	DATA 	Mouse:  Left button up, pos=(995,101)
+263.4581 	DATA 	Mouse: Left button down, pos=(967,121)
+263.5747 	DATA 	Mouse:  Left button up, pos=(967,121)
+263.9413 	DATA 	Mouse: Left button down, pos=(949,137)
+264.0414 	DATA 	Mouse:  Left button up, pos=(949,137)
+264.4777 	DATA 	Mouse: Left button down, pos=(945,85)
+264.6084 	DATA 	Mouse:  Left button up, pos=(941,87)
+264.7580 	DATA 	Mouse: Left button down, pos=(938,102)
+264.7746 	EXP 	Anecdotes: autoDraw = False
+264.7746 	EXP 	tache_text: autoDraw = False
+264.7746 	EXP 	Validation_button: autoDraw = False
+264.7746 	EXP 	feedback_fichier_train: height = 0.05
+264.7746 	EXP 	feedback_fichier_train: height = 0.05
+264.7746 	EXP 	feedback_fichier_train: height = 0.05
+264.7746 	EXP 	feedback_fichier_train: text = 'POINTS'
+264.7746 	EXP 	feedbacktext: autoDraw = True
+264.7746 	EXP 	feedback_fichier_train: autoDraw = True
+264.8259 	DATA 	Mouse:  Left button up, pos=(938,102)
+266.2592 	DATA 	Mouse: Left button down, pos=(1118,395)
+266.3757 	DATA 	Mouse:  Left button up, pos=(1118,395)
+269.7747 	EXP 	feedbacktext: autoDraw = False
+269.7747 	EXP 	feedback_fichier_train: autoDraw = False
+269.7747 	EXP 	feedbacktext: autoDraw = False
+269.7747 	EXP 	feedback_fichier_train: autoDraw = False
+269.7747 	EXP 	text: autoDraw = True
+270.2587 	EXP 	New trial (rep=0, index=9): {'anecdotes': 'Une vache produit environ 200 000 bouteilles de lait dans sa vie  ', 'fichier': 'FAITS', 'anecdotes_reco': 'Une vache produit environ 200 000 bouteilles de lait dans sa vie  '}
+270.2746 	EXP 	text: autoDraw = False
+270.2746 	EXP 	text: autoDraw = False
+270.2746 	EXP 	Anecdotes: height = 0.05
+270.2746 	EXP 	Anecdotes: height = 0.05
+270.2746 	EXP 	Anecdotes: height = 0.05
+270.2746 	EXP 	Anecdotes: text = 'Une vache produit environ 200 000 bouteilles de lait dans sa vie  '
+270.2746 	EXP 	Anecdotes: autoDraw = True
+270.2746 	EXP 	tache_text: autoDraw = True
+270.2746 	EXP 	Validation_button: autoDraw = True
+270.9081 	DATA 	Keypress: capslock
+271.0769 	DATA 	Keypress: u
+271.1581 	DATA 	Keypress: capslock
+271.3250 	DATA 	Keypress: n
+271.4079 	DATA 	Keypress: e
+271.5247 	DATA 	Keypress: space
+271.6437 	DATA 	Keypress: v
+271.7582 	DATA 	Keypress: a
+271.9248 	DATA 	Keypress: c
+272.0604 	DATA 	Keypress: h
+272.1414 	DATA 	Keypress: e
+272.2272 	DATA 	Keypress: space
+272.3414 	DATA 	Keypress: p
+272.4435 	DATA 	Keypress: r
+272.5579 	DATA 	Keypress: o
+272.6579 	DATA 	Keypress: d
+272.9414 	DATA 	Keypress: i
+273.3748 	DATA 	Keypress: backspace
+273.5579 	DATA 	Keypress: u
+273.7415 	DATA 	Keypress: i
+273.8247 	DATA 	Keypress: t
+273.8769 	DATA 	Keypress: space
+274.0246 	DATA 	Keypress: e
+274.0746 	DATA 	Keypress: n
+274.2269 	DATA 	Keypress: v
+274.3415 	DATA 	Keypress: i
+274.4605 	DATA 	Keypress: r
+274.5580 	DATA 	Keypress: o
+274.7579 	DATA 	Keypress: n
+274.8435 	DATA 	Keypress: space
+275.2602 	DATA 	Keypress: num_2
+275.4603 	DATA 	Keypress: num_0
+275.6080 	DATA 	Keypress: num_0
+275.7579 	DATA 	Keypress: space
+275.8599 	DATA 	Keypress: num_0
+276.0081 	DATA 	Keypress: num_0
+276.1248 	DATA 	Keypress: num_0
+276.2912 	DATA 	Keypress: space
+276.8581 	DATA 	Keypress: b
+276.9912 	DATA 	Keypress: o
+277.1413 	DATA 	Keypress: u
+277.2246 	DATA 	Keypress: t
+277.2914 	DATA 	Keypress: e
+277.3416 	DATA 	Keypress: i
+277.5245 	DATA 	Keypress: l
+277.6580 	DATA 	Keypress: l
+277.7081 	DATA 	Keypress: e
+277.8746 	DATA 	Keypress: s
+277.9248 	DATA 	Keypress: space
+278.0249 	DATA 	Keypress: d
+278.0771 	DATA 	Keypress: e
+278.1580 	DATA 	Keypress: space
+278.2269 	DATA 	Keypress: space
+278.2413 	DATA 	Keypress: l
+278.2913 	DATA 	Keypress: a
+278.4603 	DATA 	Keypress: i
+278.5580 	DATA 	Keypress: t
+278.6248 	DATA 	Keypress: space
+278.8079 	DATA 	Keypress: d
+278.8914 	DATA 	Keypress: a
+278.9581 	DATA 	Keypress: n
+279.0603 	DATA 	Keypress: s
+279.1413 	DATA 	Keypress: space
+279.2081 	DATA 	Keypress: s
+279.2767 	DATA 	Keypress: a
+279.3579 	DATA 	Keypress: space
+279.4747 	DATA 	Keypress: v
+279.5580 	DATA 	Keypress: i
+279.6582 	DATA 	Keypress: e
+280.9420 	DATA 	Mouse: Left button down, pos=(922,115)
+281.0246 	DATA 	Mouse:  Left button up, pos=(922,115)
+282.1746 	DATA 	Mouse: Left button down, pos=(920,114)
+282.2912 	DATA 	Mouse:  Left button up, pos=(920,114)
+283.0939 	DATA 	Mouse: Left button down, pos=(924,111)
+283.2078 	DATA 	Mouse:  Left button up, pos=(924,111)
+283.9914 	DATA 	Mouse: Left button down, pos=(924,111)
+284.1078 	DATA 	Mouse:  Left button up, pos=(924,111)
+284.3080 	DATA 	Keypress: space
+284.7583 	DATA 	Mouse: Left button down, pos=(938,116)
+284.7743 	EXP 	Anecdotes: autoDraw = False
+284.7743 	EXP 	tache_text: autoDraw = False
+284.7743 	EXP 	Validation_button: autoDraw = False
+284.7743 	EXP 	feedback_fichier_train: height = 0.05
+284.7743 	EXP 	feedback_fichier_train: height = 0.05
+284.7743 	EXP 	feedback_fichier_train: height = 0.05
+284.7743 	EXP 	feedback_fichier_train: text = 'FAITS'
+284.7743 	EXP 	feedbacktext: autoDraw = True
+284.7743 	EXP 	feedback_fichier_train: autoDraw = True
+284.8754 	DATA 	Mouse:  Left button up, pos=(939,116)
+289.4423 	DATA 	Keypress: space
+289.7741 	EXP 	feedbacktext: autoDraw = False
+289.7741 	EXP 	feedback_fichier_train: autoDraw = False
+289.7741 	EXP 	feedbacktext: autoDraw = False
+289.7741 	EXP 	feedback_fichier_train: autoDraw = False
+289.7741 	EXP 	text: autoDraw = True
+290.2583 	EXP 	New trial (rep=0, index=10): {'anecdotes': 'Le tsunami dévastateur en Asie s’est produit en décembre 2004 ', 'fichier': 'FAITS', 'anecdotes_reco': 'Le tsunami dévastateur en Asie s’est produit en décembre 2004 '}
+290.2745 	EXP 	text: autoDraw = False
+290.2745 	EXP 	text: autoDraw = False
+290.2745 	EXP 	Anecdotes: height = 0.05
+290.2745 	EXP 	Anecdotes: height = 0.05
+290.2745 	EXP 	Anecdotes: height = 0.05
+290.2745 	EXP 	Anecdotes: text = 'Le tsunami dévastateur en Asie s’est produit en décembre 2004 '
+290.2745 	EXP 	Anecdotes: autoDraw = True
+290.2745 	EXP 	tache_text: autoDraw = True
+290.2745 	EXP 	Validation_button: autoDraw = True
+290.9579 	DATA 	Keypress: capslock
+291.4245 	DATA 	Keypress: l
+291.4912 	DATA 	Keypress: capslock
+291.6414 	DATA 	Keypress: e
+291.7244 	DATA 	Keypress: space
+291.8599 	DATA 	Keypress: s
+292.0578 	DATA 	Keypress: t
+292.3579 	DATA 	Keypress: backspace
+292.5080 	DATA 	Keypress: backspace
+292.5747 	DATA 	Keypress: t
+292.7910 	DATA 	Keypress: s
+292.8911 	DATA 	Keypress: u
+293.1076 	DATA 	Keypress: n
+293.2934 	DATA 	Keypress: a
+293.4576 	DATA 	Keypress: m
+293.6578 	DATA 	Keypress: i
+293.7743 	DATA 	Keypress: space
+293.8744 	DATA 	Keypress: d
+293.9746 	DATA 	Keypress: 2
+294.1411 	DATA 	Keypress: b
+294.1415 	DATA 	Keypress: v
+294.2245 	DATA 	Keypress: a
+294.5578 	DATA 	Keypress: backspace
+294.7243 	DATA 	Keypress: backspace
+294.9579 	DATA 	Keypress: backspace
+295.0601 	DATA 	Keypress: v
+295.2247 	DATA 	Keypress: a
+295.3912 	DATA 	Keypress: s
+295.6244 	DATA 	Keypress: t
+295.7244 	DATA 	Keypress: a
+295.8578 	DATA 	Keypress: t
+296.0599 	DATA 	Keypress: e
+296.1743 	DATA 	Keypress: u
+296.2578 	DATA 	Keypress: r
+296.3410 	DATA 	Keypress: space
+296.4413 	DATA 	Keypress: e
+296.5413 	DATA 	Keypress: n
+296.6577 	DATA 	Keypress: capslock
+296.6764 	DATA 	Keypress: space
+296.8244 	DATA 	Keypress: a
+296.8746 	DATA 	Keypress: capslock
+297.1244 	DATA 	Keypress: s
+297.3410 	DATA 	Keypress: i
+297.4271 	DATA 	Keypress: e
+297.5243 	DATA 	Keypress: space
+297.6598 	DATA 	Keypress: s
+297.8599 	DATA 	Keypress: 4
+298.0245 	DATA 	Keypress: e
+298.2079 	DATA 	Keypress: s
+298.4577 	DATA 	Keypress: t
+298.5743 	DATA 	Keypress: space
+298.6575 	DATA 	Keypress: p
+298.7577 	DATA 	Keypress: r
+298.8600 	DATA 	Keypress: o
+298.9580 	DATA 	Keypress: d
+299.0765 	DATA 	Keypress: u
+299.2243 	DATA 	Keypress: i
+299.3104 	DATA 	Keypress: t
+299.4411 	DATA 	Keypress: space
+299.5909 	DATA 	Keypress: e
+299.6743 	DATA 	Keypress: n
+299.8245 	DATA 	Keypress: space
+299.8597 	DATA 	Keypress: d
+299.9578 	DATA 	Keypress: 2
+300.1743 	DATA 	Keypress: c
+300.2743 	DATA 	Keypress: e
+300.3744 	DATA 	Keypress: m
+300.4745 	DATA 	Keypress: b
+300.6762 	DATA 	Keypress: r
+300.7745 	DATA 	Keypress: e
+300.8412 	DATA 	Keypress: space
+301.1245 	DATA 	Keypress: num_1
+301.7242 	DATA 	Keypress: backspace
+302.3242 	DATA 	Keypress: num_2
+302.5411 	DATA 	Keypress: num_0
+302.7242 	DATA 	Keypress: num_0
+302.9245 	DATA 	Keypress: num_4
+304.5577 	DATA 	Mouse: Left button down, pos=(957,111)
+304.5742 	EXP 	Anecdotes: autoDraw = False
+304.5742 	EXP 	tache_text: autoDraw = False
+304.5742 	EXP 	Validation_button: autoDraw = False
+304.5742 	EXP 	feedback_fichier_train: text = 'FAITS'
+304.5742 	EXP 	feedbacktext: autoDraw = True
+304.5742 	EXP 	feedback_fichier_train: autoDraw = True
+304.6921 	DATA 	Mouse:  Left button up, pos=(957,111)
+307.0588 	DATA 	Mouse: Left button down, pos=(1016,290)
+307.1090 	DATA 	Mouse:  Left button up, pos=(1016,290)
+308.5753 	DATA 	Keypress: space
+309.5741 	EXP 	feedbacktext: autoDraw = False
+309.5741 	EXP 	feedback_fichier_train: autoDraw = False
+309.5741 	EXP 	feedbacktext: autoDraw = False
+309.5741 	EXP 	feedback_fichier_train: autoDraw = False
+309.5741 	EXP 	text: autoDraw = True
+310.0580 	EXP 	New trial (rep=0, index=11): {'anecdotes': 'L’Europe est le seul continent sans désert ', 'fichier': 'DONNEES', 'anecdotes_reco': 'L’Europe est le seul continent sans désert '}
+310.0740 	EXP 	text: autoDraw = False
+310.0740 	EXP 	text: autoDraw = False
+310.0740 	EXP 	Anecdotes: height = 0.05
+310.0740 	EXP 	Anecdotes: height = 0.05
+310.0740 	EXP 	Anecdotes: height = 0.05
+310.0740 	EXP 	Anecdotes: text = 'L’Europe est le seul continent sans désert '
+310.0740 	EXP 	Anecdotes: autoDraw = True
+310.0740 	EXP 	tache_text: autoDraw = True
+310.0740 	EXP 	Validation_button: autoDraw = True
+310.6079 	DATA 	Keypress: capslock
+310.7742 	DATA 	Keypress: l
+310.8575 	DATA 	Keypress: capslock
+311.0409 	DATA 	Keypress: 4
+311.2409 	DATA 	Keypress: e
+311.7076 	DATA 	Keypress: capslock
+311.7242 	DATA 	Keypress: backspace
+311.9245 	DATA 	Keypress: e
+312.0911 	DATA 	Keypress: capslock
+312.3074 	DATA 	Keypress: u
+312.4243 	DATA 	Keypress: r
+312.5909 	DATA 	Keypress: o
+312.8075 	DATA 	Keypress: p
+312.8743 	DATA 	Keypress: e
+312.9743 	DATA 	Keypress: space
+313.0600 	DATA 	Keypress: e
+313.2577 	DATA 	Keypress: s
+313.4576 	DATA 	Keypress: t
+313.5075 	DATA 	Keypress: space
+313.6431 	DATA 	Keypress: l
+313.7410 	DATA 	Keypress: e
+313.8577 	DATA 	Keypress: space
+313.9409 	DATA 	Keypress: s
+314.1409 	DATA 	Keypress: e
+314.2577 	DATA 	Keypress: u
+314.4743 	DATA 	Keypress: l
+314.5908 	DATA 	Keypress: space
+314.6576 	DATA 	Keypress: c
+314.7574 	DATA 	Keypress: o
+314.9576 	DATA 	Keypress: n
+315.3408 	DATA 	Keypress: i
+315.5911 	DATA 	Keypress: t
+315.6743 	DATA 	Keypress: e
+315.7741 	DATA 	Keypress: n
+315.9242 	DATA 	Keypress: t
+316.2408 	DATA 	Keypress: space
+316.4907 	DATA 	Keypress: backspace
+316.8742 	DATA 	Keypress: space
+317.0075 	DATA 	Keypress: backspace
+317.1911 	DATA 	Keypress: backspace
+317.3575 	DATA 	Keypress: backspace
+317.6743 	DATA 	Keypress: backspace
+318.6575 	DATA 	Keypress: backspace
+318.8408 	DATA 	Keypress: backspace
+319.0075 	DATA 	Keypress: t
+319.3742 	DATA 	Keypress: i
+319.7075 	DATA 	Keypress: n
+319.8074 	DATA 	Keypress: e
+319.9075 	DATA 	Keypress: n
+320.0241 	DATA 	Keypress: t
+320.0908 	DATA 	Keypress: space
+320.2077 	DATA 	Keypress: s
+320.3075 	DATA 	Keypress: a
+320.3908 	DATA 	Keypress: n
+320.5078 	DATA 	Keypress: d
+320.7908 	DATA 	Keypress: backspace
+320.9097 	DATA 	Keypress: s
+320.9740 	DATA 	Keypress: space
+321.0909 	DATA 	Keypress: d
+321.2077 	DATA 	Keypress: 2
+321.3911 	DATA 	Keypress: s
+321.5743 	DATA 	Keypress: e
+321.6598 	DATA 	Keypress: r
+321.8409 	DATA 	Keypress: t
+322.9908 	DATA 	Mouse: Left button down, pos=(967,118)
+323.0072 	EXP 	Anecdotes: autoDraw = False
+323.0072 	EXP 	tache_text: autoDraw = False
+323.0072 	EXP 	Validation_button: autoDraw = False
+323.0072 	EXP 	feedback_fichier_train: height = 0.05
+323.0072 	EXP 	feedback_fichier_train: height = 0.05
+323.0072 	EXP 	feedback_fichier_train: height = 0.05
+323.0072 	EXP 	feedback_fichier_train: text = 'DONNEES'
+323.0072 	EXP 	feedbacktext: autoDraw = True
+323.0072 	EXP 	feedback_fichier_train: autoDraw = True
+323.1087 	DATA 	Mouse:  Left button up, pos=(967,118)
+324.4587 	DATA 	Mouse: Left button down, pos=(1199,415)
+324.5420 	DATA 	Mouse:  Left button up, pos=(1196,435)
+327.4254 	DATA 	Keypress: space
+328.0071 	EXP 	feedbacktext: autoDraw = False
+328.0071 	EXP 	feedback_fichier_train: autoDraw = False
+328.0071 	EXP 	feedbacktext: autoDraw = False
+328.0071 	EXP 	feedback_fichier_train: autoDraw = False
+328.0071 	EXP 	text: autoDraw = True
+328.4914 	EXP 	New trial (rep=0, index=12): {'anecdotes': 'Les ongles incarnés sont héréditaires ', 'fichier': 'DONNEES', 'anecdotes_reco': 'Les ongles incarnés sont héréditaires '}
+328.5072 	EXP 	text: autoDraw = False
+328.5072 	EXP 	text: autoDraw = False
+328.5072 	EXP 	Anecdotes: height = 0.05
+328.5072 	EXP 	Anecdotes: height = 0.05
+328.5072 	EXP 	Anecdotes: height = 0.05
+328.5072 	EXP 	Anecdotes: text = 'Les ongles incarnés sont héréditaires '
+328.5072 	EXP 	Anecdotes: autoDraw = True
+328.5072 	EXP 	tache_text: autoDraw = True
+328.5072 	EXP 	Validation_button: autoDraw = True
+328.9409 	DATA 	Keypress: capslock
+329.1240 	DATA 	Keypress: l
+329.1907 	DATA 	Keypress: capslock
+329.2742 	DATA 	Keypress: e
+329.4242 	DATA 	Keypress: s
+329.5095 	DATA 	Keypress: space
+329.5906 	DATA 	Keypress: o
+329.7576 	DATA 	Keypress: n
+329.9075 	DATA 	Keypress: g
+329.9573 	DATA 	Keypress: g
+330.2074 	DATA 	Keypress: l
+330.4741 	DATA 	Keypress: backspace
+330.6243 	DATA 	Keypress: backspace
+331.0074 	DATA 	Keypress: l
+331.0765 	DATA 	Keypress: e
+331.2406 	DATA 	Keypress: s
+331.3241 	DATA 	Keypress: space
+331.4072 	DATA 	Keypress: i
+331.5742 	DATA 	Keypress: n
+331.6240 	DATA 	Keypress: c
+331.7074 	DATA 	Keypress: a
+331.9093 	DATA 	Keypress: r
+332.1072 	DATA 	Keypress: n
+332.2595 	DATA 	Keypress: 2
+332.4072 	DATA 	Keypress: s
+332.5406 	DATA 	Keypress: space
+332.8906 	DATA 	Keypress: s
+332.9909 	DATA 	Keypress: o
+333.1906 	DATA 	Keypress: n
+333.2432 	DATA 	Keypress: t
+333.3741 	DATA 	Keypress: space
+333.5906 	DATA 	Keypress: h
+333.6909 	DATA 	Keypress: 2
+333.7910 	DATA 	Keypress: r
+333.8763 	DATA 	Keypress: 2
+334.0405 	DATA 	Keypress: d
+334.1407 	DATA 	Keypress: i
+334.3099 	DATA 	Keypress: t
+334.4241 	DATA 	Keypress: a
+334.5240 	DATA 	Keypress: i
+334.5908 	DATA 	Keypress: r
+334.6429 	DATA 	Keypress: e
+334.8075 	DATA 	Keypress: s
+336.1074 	DATA 	Mouse: Left button down, pos=(976,115)
+336.1240 	EXP 	Anecdotes: autoDraw = False
+336.1240 	EXP 	tache_text: autoDraw = False
+336.1240 	EXP 	Validation_button: autoDraw = False
+336.1240 	EXP 	feedback_fichier_train: text = 'DONNEES'
+336.1240 	EXP 	feedbacktext: autoDraw = True
+336.1240 	EXP 	feedback_fichier_train: autoDraw = True
+336.2249 	DATA 	Mouse:  Left button up, pos=(976,115)
+338.1084 	DATA 	Mouse: Left button down, pos=(1427,260)
+338.2083 	DATA 	Mouse:  Left button up, pos=(1427,265)
+340.2417 	DATA 	Keypress: space
+341.1238 	EXP 	feedbacktext: autoDraw = False
+341.1238 	EXP 	feedback_fichier_train: autoDraw = False
+341.1238 	EXP 	feedbacktext: autoDraw = False
+341.1238 	EXP 	feedback_fichier_train: autoDraw = False
+341.1238 	EXP 	text: autoDraw = True
+341.6080 	EXP 	New trial (rep=0, index=13): {'anecdotes': 'La pyramide de Gizé est la seule des 7 merveilles de l’ancien monde qui existe toujours ', 'fichier': 'ITEMS', 'anecdotes_reco': 'La pyramide de Gizé est la seule des 7 merveilles de l’ancien monde qui existe toujours '}
+341.6237 	EXP 	text: autoDraw = False
+341.6237 	EXP 	text: autoDraw = False
+341.6237 	EXP 	Anecdotes: height = 0.05
+341.6237 	EXP 	Anecdotes: height = 0.05
+341.6237 	EXP 	Anecdotes: height = 0.05
+341.6237 	EXP 	Anecdotes: text = 'La pyramide de Gizé est la seule des 7 merveilles de l’ancien monde qui existe toujours '
+341.6237 	EXP 	Anecdotes: autoDraw = True
+341.6237 	EXP 	tache_text: autoDraw = True
+341.6237 	EXP 	Validation_button: autoDraw = True
+342.5406 	DATA 	Keypress: capslock
+342.6740 	DATA 	Keypress: l
+342.7406 	DATA 	Keypress: capslock
+342.7905 	DATA 	Keypress: a
+342.8761 	DATA 	Keypress: space
+343.0406 	DATA 	Keypress: p
+343.3741 	DATA 	Keypress: u
+343.3905 	DATA 	Keypress: y
+343.7905 	DATA 	Keypress: backspace
+343.9573 	DATA 	Keypress: backspace
+344.2572 	DATA 	Keypress: y
+344.3572 	DATA 	Keypress: r
+344.4596 	DATA 	Keypress: a
+344.7404 	DATA 	Keypress: m
+344.9584 	DATA 	Keypress: i
+345.1242 	DATA 	Keypress: d
+345.2407 	DATA 	Keypress: e
+345.3408 	DATA 	Keypress: space
+345.4599 	DATA 	Keypress: d
+345.5407 	DATA 	Keypress: e
+345.6571 	DATA 	Keypress: space
+345.7740 	DATA 	Keypress: capslock
+345.8758 	DATA 	Keypress: g
+345.9739 	DATA 	Keypress: capslock
+346.0738 	DATA 	Keypress: i
+346.2071 	DATA 	Keypress: 2
+346.5572 	DATA 	Keypress: backspace
+346.6738 	DATA 	Keypress: s
+346.7571 	DATA 	Keypress: 2
+347.0072 	DATA 	Keypress: backspace
+347.1738 	DATA 	Keypress: backspace
+347.2573 	DATA 	Keypress: z
+347.3406 	DATA 	Keypress: 2
+347.5574 	DATA 	Keypress: space
+347.9405 	DATA 	Keypress: e
+348.1261 	DATA 	Keypress: s
+348.3404 	DATA 	Keypress: t
+348.4239 	DATA 	Keypress: space
+348.5406 	DATA 	Keypress: l
+348.6072 	DATA 	Keypress: a
+348.7572 	DATA 	Keypress: space
+348.8405 	DATA 	Keypress: s
+349.0241 	DATA 	Keypress: e
+349.0904 	DATA 	Keypress: u
+349.3240 	DATA 	Keypress: l
+349.4073 	DATA 	Keypress: e
+349.5072 	DATA 	Keypress: space
+349.6073 	DATA 	Keypress: d
+349.6906 	DATA 	Keypress: e
+349.8405 	DATA 	Keypress: s
+349.8930 	DATA 	Keypress: space
+350.0072 	DATA 	Keypress: capslock
+350.3574 	DATA 	Keypress: capslock
+350.5738 	DATA 	Keypress: num_7
+351.0740 	DATA 	Keypress: space
+351.2762 	DATA 	Keypress: m
+351.3573 	DATA 	Keypress: e
+351.4570 	DATA 	Keypress: r
+351.6737 	DATA 	Keypress: v
+351.7406 	DATA 	Keypress: e
+351.8239 	DATA 	Keypress: i
+351.9904 	DATA 	Keypress: l
+352.1237 	DATA 	Keypress: l
+352.2071 	DATA 	Keypress: e
+352.3908 	DATA 	Keypress: s
+352.4739 	DATA 	Keypress: space
+352.5739 	DATA 	Keypress: d
+352.6570 	DATA 	Keypress: e
+352.7404 	DATA 	Keypress: space
+352.8740 	DATA 	Keypress: l
+352.9906 	DATA 	Keypress: 4
+353.1404 	DATA 	Keypress: a
+353.2404 	DATA 	Keypress: n
+353.3404 	DATA 	Keypress: c
+353.4570 	DATA 	Keypress: i
+353.5571 	DATA 	Keypress: e
+353.6573 	DATA 	Keypress: n
+353.7906 	DATA 	Keypress: space
+354.4739 	DATA 	Keypress: o
+354.7738 	DATA 	Keypress: backspace
+354.9572 	DATA 	Keypress: m
+355.1572 	DATA 	Keypress: o
+355.3571 	DATA 	Keypress: n
+355.4572 	DATA 	Keypress: d
+355.5237 	DATA 	Keypress: e
+355.6241 	DATA 	Keypress: space
+355.8070 	DATA 	Keypress: q
+355.8906 	DATA 	Keypress: u
+356.0429 	DATA 	Keypress: i
+356.1737 	DATA 	Keypress: space
+356.2404 	DATA 	Keypress: e
+356.5404 	DATA 	Keypress: x
+356.6593 	DATA 	Keypress: i
+356.7738 	DATA 	Keypress: s
+357.0073 	DATA 	Keypress: t
+357.1238 	DATA 	Keypress: e
+357.2070 	DATA 	Keypress: space
+357.4069 	DATA 	Keypress: t
+357.6573 	DATA 	Keypress: o
+357.9093 	DATA 	Keypress: u
+358.1073 	DATA 	Keypress: j
+358.3237 	DATA 	Keypress: o
+358.4596 	DATA 	Keypress: u
+358.5093 	DATA 	Keypress: r
+358.6926 	DATA 	Keypress: s
+360.7404 	DATA 	Mouse: Left button down, pos=(948,104)
+360.7570 	EXP 	Anecdotes: autoDraw = False
+360.7570 	EXP 	tache_text: autoDraw = False
+360.7570 	EXP 	Validation_button: autoDraw = False
+360.7570 	EXP 	feedback_fichier_train: height = 0.05
+360.7570 	EXP 	feedback_fichier_train: height = 0.05
+360.7570 	EXP 	feedback_fichier_train: height = 0.05
+360.7570 	EXP 	feedback_fichier_train: text = 'ITEMS'
+360.7570 	EXP 	feedbacktext: autoDraw = True
+360.7570 	EXP 	feedback_fichier_train: autoDraw = True
+360.8754 	DATA 	Mouse:  Left button up, pos=(948,104)
+362.6082 	DATA 	Mouse: Left button down, pos=(946,309)
+362.7253 	DATA 	Mouse:  Left button up, pos=(944,308)
+363.1253 	DATA 	Keypress: space
+365.7568 	EXP 	feedbacktext: autoDraw = False
+365.7568 	EXP 	feedback_fichier_train: autoDraw = False
+365.7568 	EXP 	feedbacktext: autoDraw = False
+365.7568 	EXP 	feedback_fichier_train: autoDraw = False
+365.7568 	EXP 	text: autoDraw = True
+366.2409 	EXP 	New trial (rep=0, index=14): {'anecdotes': 'Un attentat terroriste a eu lieu dans les métros Londonien en juillet 2005 ', 'fichier': 'DONNEES', 'anecdotes_reco': 'Un attentat terroriste a eu lieu dans les métros Londonien en juillet 2005 '}
+366.2570 	EXP 	text: autoDraw = False
+366.2570 	EXP 	text: autoDraw = False
+366.2570 	EXP 	Anecdotes: height = 0.05
+366.2570 	EXP 	Anecdotes: height = 0.05
+366.2570 	EXP 	Anecdotes: height = 0.05
+366.2570 	EXP 	Anecdotes: text = 'Un attentat terroriste a eu lieu dans les métros Londonien en juillet 2005 '
+366.2570 	EXP 	Anecdotes: autoDraw = True
+366.2570 	EXP 	tache_text: autoDraw = True
+366.2570 	EXP 	Validation_button: autoDraw = True
+366.9070 	DATA 	Keypress: capslock
+367.0736 	DATA 	Keypress: u
+367.1907 	DATA 	Keypress: capslock
+367.2926 	DATA 	Keypress: n
+367.4571 	DATA 	Keypress: space
+367.5070 	DATA 	Keypress: a
+367.6402 	DATA 	Keypress: t
+367.8071 	DATA 	Keypress: t
+367.8407 	DATA 	Keypress: e
+367.9236 	DATA 	Keypress: n
+368.0071 	DATA 	Keypress: t
+368.4759 	DATA 	Keypress: a
+368.6736 	DATA 	Keypress: t
+368.8069 	DATA 	Keypress: space
+369.1092 	DATA 	Keypress: t
+369.3076 	DATA 	Keypress: e
+369.4738 	DATA 	Keypress: r
+369.6404 	DATA 	Keypress: r
+369.9402 	DATA 	Keypress: o
+370.1737 	DATA 	Keypress: r
+370.3573 	DATA 	Keypress: i
+370.4571 	DATA 	Keypress: s
+370.7089 	DATA 	Keypress: t
+370.8236 	DATA 	Keypress: e
+370.9736 	DATA 	Keypress: space
+371.1571 	DATA 	Keypress: a
+371.2405 	DATA 	Keypress: space
+371.3901 	DATA 	Keypress: e
+371.4901 	DATA 	Keypress: u
+371.6236 	DATA 	Keypress: space
+371.8071 	DATA 	Keypress: l
+371.9902 	DATA 	Keypress: i
+372.1095 	DATA 	Keypress: e
+372.2405 	DATA 	Keypress: u
+372.3902 	DATA 	Keypress: space
+372.4571 	DATA 	Keypress: d
+372.5238 	DATA 	Keypress: a
+372.6237 	DATA 	Keypress: n
+372.7236 	DATA 	Keypress: s
+372.8236 	DATA 	Keypress: space
+372.9738 	DATA 	Keypress: e
+373.2904 	DATA 	Keypress: s
+373.4405 	DATA 	Keypress: space
+373.5735 	DATA 	Keypress: backspace
+373.7571 	DATA 	Keypress: backspace
+373.8758 	DATA 	Keypress: backspace
+374.0595 	DATA 	Keypress: l
+374.1570 	DATA 	Keypress: e
+374.3571 	DATA 	Keypress: s
+374.3904 	DATA 	Keypress: space
+374.5736 	DATA 	Keypress: m
+374.6567 	DATA 	Keypress: 2
+374.8402 	DATA 	Keypress: t
+374.9090 	DATA 	Keypress: r
+375.3904 	DATA 	Keypress: o
+375.5074 	DATA 	Keypress: s
+375.5900 	DATA 	Keypress: space
+375.7236 	DATA 	Keypress: capslock
+375.8402 	DATA 	Keypress: l
+375.9103 	DATA 	Keypress: capslock
+376.0401 	DATA 	Keypress: o
+376.2235 	DATA 	Keypress: n
+376.3568 	DATA 	Keypress: d
+376.6401 	DATA 	Keypress: o
+376.8425 	DATA 	Keypress: n
+377.0237 	DATA 	Keypress: i
+377.2925 	DATA 	Keypress: e
+377.3903 	DATA 	Keypress: n
+377.6736 	DATA 	Keypress: space
+377.8571 	DATA 	Keypress: e
+377.9404 	DATA 	Keypress: n
+378.0926 	DATA 	Keypress: space
+378.2403 	DATA 	Keypress: j
+378.4235 	DATA 	Keypress: u
+378.5901 	DATA 	Keypress: i
+378.8069 	DATA 	Keypress: l
+378.9401 	DATA 	Keypress: l
+379.0068 	DATA 	Keypress: e
+379.1236 	DATA 	Keypress: t
+379.2068 	DATA 	Keypress: space
+379.8404 	DATA 	Keypress: num_2
+380.0401 	DATA 	Keypress: num_0
+380.2070 	DATA 	Keypress: num_0
+380.4236 	DATA 	Keypress: num_5
+381.9735 	DATA 	Mouse: Left button down, pos=(947,108)
+381.9901 	EXP 	Anecdotes: autoDraw = False
+381.9901 	EXP 	tache_text: autoDraw = False
+381.9901 	EXP 	Validation_button: autoDraw = False
+381.9901 	EXP 	feedback_fichier_train: height = 0.05
+381.9901 	EXP 	feedback_fichier_train: height = 0.05
+381.9901 	EXP 	feedback_fichier_train: height = 0.05
+381.9901 	EXP 	feedback_fichier_train: text = 'DONNEES'
+381.9901 	EXP 	feedbacktext: autoDraw = True
+381.9901 	EXP 	feedback_fichier_train: autoDraw = True
+382.0751 	DATA 	Mouse:  Left button up, pos=(947,109)
+385.7747 	DATA 	Keypress: space
+386.4414 	DATA 	Mouse: Left button down, pos=(1382,447)
+386.5580 	DATA 	Mouse:  Left button up, pos=(1382,447)
+386.9898 	EXP 	feedbacktext: autoDraw = False
+386.9898 	EXP 	feedback_fichier_train: autoDraw = False
+386.9898 	EXP 	feedbacktext: autoDraw = False
+386.9898 	EXP 	feedback_fichier_train: autoDraw = False
+386.9898 	EXP 	text: autoDraw = True
+387.4741 	EXP 	New trial (rep=0, index=15): {'anecdotes': 'Les oiseaux bleus ne peuvent pas voir la couleur bleue  ', 'fichier': 'FAITS', 'anecdotes_reco': 'Les oiseaux bleus ne peuvent pas voir la couleur bleue  '}
+387.4898 	EXP 	text: autoDraw = False
+387.4898 	EXP 	text: autoDraw = False
+387.4898 	EXP 	Anecdotes: height = 0.05
+387.4898 	EXP 	Anecdotes: height = 0.05
+387.4898 	EXP 	Anecdotes: height = 0.05
+387.4898 	EXP 	Anecdotes: text = 'Les oiseaux bleus ne peuvent pas voir la couleur bleue  '
+387.4898 	EXP 	Anecdotes: autoDraw = True
+387.4898 	EXP 	tache_text: autoDraw = True
+387.4898 	EXP 	Validation_button: autoDraw = True
+388.2401 	DATA 	Keypress: capslock
+388.4403 	DATA 	Keypress: l
+388.4757 	DATA 	Keypress: capslock
+388.5735 	DATA 	Keypress: e
+388.7568 	DATA 	Keypress: s
+388.8234 	DATA 	Keypress: space
+388.8901 	DATA 	Keypress: o
+389.0569 	DATA 	Keypress: i
+389.1737 	DATA 	Keypress: s
+389.5234 	DATA 	Keypress: e
+389.6734 	DATA 	Keypress: a
+389.8399 	DATA 	Keypress: u
+389.9403 	DATA 	Keypress: x
+390.2234 	DATA 	Keypress: space
+390.4067 	DATA 	Keypress: b
+390.6734 	DATA 	Keypress: l
+390.8234 	DATA 	Keypress: e
+390.9733 	DATA 	Keypress: u
+391.1233 	DATA 	Keypress: s
+391.2401 	DATA 	Keypress: space
+391.5734 	DATA 	Keypress: n
+391.6900 	DATA 	Keypress: e
+391.7734 	DATA 	Keypress: space
+391.8567 	DATA 	Keypress: p
+391.9568 	DATA 	Keypress: e
+392.0907 	DATA 	Keypress: u
+392.1901 	DATA 	Keypress: v
+392.2569 	DATA 	Keypress: e
+392.3571 	DATA 	Keypress: n
+392.4567 	DATA 	Keypress: t
+392.5402 	DATA 	Keypress: space
+392.6068 	DATA 	Keypress: p
+392.6736 	DATA 	Keypress: a
+392.7400 	DATA 	Keypress: s
+392.8235 	DATA 	Keypress: space
+392.9566 	DATA 	Keypress: v
+393.0565 	DATA 	Keypress: o
+393.1902 	DATA 	Keypress: i
+393.2402 	DATA 	Keypress: r
+393.3402 	DATA 	Keypress: space
+393.4236 	DATA 	Keypress: l
+393.4757 	DATA 	Keypress: a
+393.5737 	DATA 	Keypress: space
+393.6737 	DATA 	Keypress: c
+393.7567 	DATA 	Keypress: o
+393.9733 	DATA 	Keypress: u
+394.1735 	DATA 	Keypress: l
+394.2566 	DATA 	Keypress: e
+394.4067 	DATA 	Keypress: u
+394.4760 	DATA 	Keypress: r
+394.6069 	DATA 	Keypress: space
+394.7566 	DATA 	Keypress: b
+394.9734 	DATA 	Keypress: l
+395.4902 	DATA 	Keypress: e
+396.0067 	DATA 	Keypress: u
+396.2733 	DATA 	Keypress: e
+398.4735 	DATA 	Mouse: Left button down, pos=(978,111)
+398.4899 	EXP 	Anecdotes: autoDraw = False
+398.4899 	EXP 	tache_text: autoDraw = False
+398.4899 	EXP 	Validation_button: autoDraw = False
+398.4899 	EXP 	feedback_fichier_train: height = 0.05
+398.4899 	EXP 	feedback_fichier_train: height = 0.05
+398.4899 	EXP 	feedback_fichier_train: height = 0.05
+398.4899 	EXP 	feedback_fichier_train: text = 'FAITS'
+398.4899 	EXP 	feedbacktext: autoDraw = True
+398.4899 	EXP 	feedback_fichier_train: autoDraw = True
+398.5912 	DATA 	Mouse:  Left button up, pos=(978,111)
+401.2249 	DATA 	Mouse: Left button down, pos=(1423,600)
+401.3580 	DATA 	Mouse:  Left button up, pos=(1423,600)
+403.4897 	EXP 	feedbacktext: autoDraw = False
+403.4897 	EXP 	feedback_fichier_train: autoDraw = False
+403.4897 	EXP 	feedbacktext: autoDraw = False
+403.4897 	EXP 	feedback_fichier_train: autoDraw = False
+403.4897 	EXP 	text: autoDraw = True
+403.9738 	EXP 	New trial (rep=0, index=16): {'anecdotes': 'On peut reproduire une clé grâce au son qu’elle émet lorsqu’on l’insère dans une serrure ', 'fichier': 'POINTS', 'anecdotes_reco': 'On peut reproduire une clé grâce au son qu’elle émet lorsqu’on l’insère dans une serrure '}
+403.9898 	EXP 	text: autoDraw = False
+403.9898 	EXP 	text: autoDraw = False
+403.9898 	EXP 	Anecdotes: height = 0.05
+403.9898 	EXP 	Anecdotes: height = 0.05
+403.9898 	EXP 	Anecdotes: height = 0.05
+403.9898 	EXP 	Anecdotes: text = 'On peut reproduire une clé grâce au son qu’elle émet lorsqu’on l’insère dans une serrure '
+403.9898 	EXP 	Anecdotes: autoDraw = True
+403.9898 	EXP 	tache_text: autoDraw = True
+403.9898 	EXP 	Validation_button: autoDraw = True
+404.7234 	DATA 	Keypress: capslock
+404.9900 	DATA 	Keypress: o
+405.1066 	DATA 	Keypress: capslock
+405.2231 	DATA 	Keypress: n
+405.3566 	DATA 	Keypress: space
+405.4428 	DATA 	Keypress: p
+405.6066 	DATA 	Keypress: e
+405.7068 	DATA 	Keypress: u
+405.8068 	DATA 	Keypress: t
+405.8921 	DATA 	Keypress: space
+406.0067 	DATA 	Keypress: r
+406.0568 	DATA 	Keypress: e
+406.1401 	DATA 	Keypress: p
+406.2399 	DATA 	Keypress: r
+406.3565 	DATA 	Keypress: o
+406.4568 	DATA 	Keypress: d
+406.6066 	DATA 	Keypress: u
+406.7898 	DATA 	Keypress: i
+406.8232 	DATA 	Keypress: r
+406.8901 	DATA 	Keypress: e
+406.9565 	DATA 	Keypress: space
+407.1733 	DATA 	Keypress: u
+407.3567 	DATA 	Keypress: n
+407.4233 	DATA 	Keypress: e
+407.5568 	DATA 	Keypress: space
+407.6732 	DATA 	Keypress: c
+407.7899 	DATA 	Keypress: l
+407.8899 	DATA 	Keypress: 2
+408.0232 	DATA 	Keypress: space
+408.5065 	DATA 	Keypress: g
+408.6918 	DATA 	Keypress: r
+408.7899 	DATA 	Keypress: a
+408.9399 	DATA 	Keypress: c
+408.9899 	DATA 	Keypress: e
+409.1068 	DATA 	Keypress: space
+409.2233 	DATA 	Keypress: a
+409.3091 	DATA 	Keypress: space
+409.6568 	DATA 	Keypress: backspace
+409.8233 	DATA 	Keypress: u
+409.9732 	DATA 	Keypress: space
+410.0923 	DATA 	Keypress: s
+410.1734 	DATA 	Keypress: o
+410.3565 	DATA 	Keypress: n
+410.4757 	DATA 	Keypress: space
+410.5732 	DATA 	Keypress: q
+410.6899 	DATA 	Keypress: u
+410.7899 	DATA 	Keypress: 4
+410.9734 	DATA 	Keypress: e
+411.0564 	DATA 	Keypress: l
+411.2232 	DATA 	Keypress: l
+411.2897 	DATA 	Keypress: e
+411.3732 	DATA 	Keypress: space
+411.5089 	DATA 	Keypress: 2
+411.6732 	DATA 	Keypress: m
+412.2064 	DATA 	Keypress: e
+412.4398 	DATA 	Keypress: t
+412.5565 	DATA 	Keypress: space
+412.9087 	DATA 	Keypress: l
+413.0731 	DATA 	Keypress: o
+413.1233 	DATA 	Keypress: r
+413.3398 	DATA 	Keypress: s
+413.5234 	DATA 	Keypress: q
+413.6564 	DATA 	Keypress: u
+413.7899 	DATA 	Keypress: 4
+413.8732 	DATA 	Keypress: o
+414.0734 	DATA 	Keypress: n
+414.2067 	DATA 	Keypress: space
+414.5266 	DATA 	Keypress: i
+414.7231 	DATA 	Keypress: backspace
+414.9066 	DATA 	Keypress: l
+414.9733 	DATA 	Keypress: 4
+415.1231 	DATA 	Keypress: i
+415.2921 	DATA 	Keypress: n
+415.4231 	DATA 	Keypress: s
+415.6401 	DATA 	Keypress: e
+415.7733 	DATA 	Keypress: r
+415.8732 	DATA 	Keypress: e
+415.9899 	DATA 	Keypress: space
+416.0925 	DATA 	Keypress: d
+416.1899 	DATA 	Keypress: a
+416.2399 	DATA 	Keypress: n
+416.3421 	DATA 	Keypress: s
+416.4565 	DATA 	Keypress: space
+416.4899 	DATA 	Keypress: u
+416.6897 	DATA 	Keypress: n
+416.7398 	DATA 	Keypress: e
+416.8731 	DATA 	Keypress: space
+416.9567 	DATA 	Keypress: s
+417.1254 	DATA 	Keypress: e
+417.2398 	DATA 	Keypress: r
+417.3897 	DATA 	Keypress: r
+417.9400 	DATA 	Keypress: u
+418.0231 	DATA 	Keypress: r
+418.0901 	DATA 	Keypress: e
+419.8568 	DATA 	Mouse: Left button down, pos=(957,105)
+419.8729 	EXP 	Anecdotes: autoDraw = False
+419.8729 	EXP 	tache_text: autoDraw = False
+419.8729 	EXP 	Validation_button: autoDraw = False
+419.8729 	EXP 	feedback_fichier_train: height = 0.05
+419.8729 	EXP 	feedback_fichier_train: height = 0.05
+419.8729 	EXP 	feedback_fichier_train: height = 0.05
+419.8729 	EXP 	feedback_fichier_train: text = 'POINTS'
+419.8729 	EXP 	feedbacktext: autoDraw = True
+419.8729 	EXP 	feedback_fichier_train: autoDraw = True
+419.9578 	DATA 	Mouse:  Left button up, pos=(957,105)
+422.4745 	DATA 	Mouse: Left button down, pos=(1312,415)
+422.5744 	DATA 	Mouse:  Left button up, pos=(1312,415)
+424.8728 	EXP 	feedbacktext: autoDraw = False
+424.8728 	EXP 	feedback_fichier_train: autoDraw = False
+424.8728 	EXP 	feedbacktext: autoDraw = False
+424.8728 	EXP 	feedback_fichier_train: autoDraw = False
+424.8728 	EXP 	text: autoDraw = True
+425.3569 	EXP 	New trial (rep=0, index=17): {'anecdotes': 'L’océan Atlantique est plus salé que l’océan Pacifique', 'fichier': 'NOMS', 'anecdotes_reco': 'L’océan Atlantique est plus salé que l’océan Pacifique'}
+425.3731 	EXP 	text: autoDraw = False
+425.3731 	EXP 	text: autoDraw = False
+425.3731 	EXP 	Anecdotes: height = 0.05
+425.3731 	EXP 	Anecdotes: height = 0.05
+425.3731 	EXP 	Anecdotes: height = 0.05
+425.3731 	EXP 	Anecdotes: text = 'L’océan Atlantique est plus salé que l’océan Pacifique'
+425.3731 	EXP 	Anecdotes: autoDraw = True
+425.3731 	EXP 	tache_text: autoDraw = True
+425.3731 	EXP 	Validation_button: autoDraw = True
+425.9064 	DATA 	Keypress: capslock
+426.1564 	DATA 	Keypress: l
+426.2397 	DATA 	Keypress: capslock
+426.4397 	DATA 	Keypress: 4
+426.5897 	DATA 	Keypress: o
+426.7732 	DATA 	Keypress: c
+426.9086 	DATA 	Keypress: 2
+427.2753 	DATA 	Keypress: a
+427.4232 	DATA 	Keypress: n
+427.5896 	DATA 	Keypress: space
+427.8398 	DATA 	Keypress: a
+428.0232 	DATA 	Keypress: t
+428.2733 	DATA 	Keypress: backspace
+428.4563 	DATA 	Keypress: backspace
+428.5064 	DATA 	Keypress: capslock
+428.6230 	DATA 	Keypress: a
+428.7563 	DATA 	Keypress: capslock
+428.9255 	DATA 	Keypress: t
+429.1253 	DATA 	Keypress: l
+429.2398 	DATA 	Keypress: a
+429.3569 	DATA 	Keypress: n
+429.4729 	DATA 	Keypress: t
+429.5729 	DATA 	Keypress: i
+429.6919 	DATA 	Keypress: q
+429.8064 	DATA 	Keypress: u
+429.9232 	DATA 	Keypress: e
+430.0232 	DATA 	Keypress: space
+430.0921 	DATA 	Keypress: e
+430.2896 	DATA 	Keypress: s
+430.4897 	DATA 	Keypress: t
+430.5398 	DATA 	Keypress: space
+430.6564 	DATA 	Keypress: p
+430.8563 	DATA 	Keypress: l
+431.0064 	DATA 	Keypress: u
+431.0898 	DATA 	Keypress: s
+431.1896 	DATA 	Keypress: space
+431.3092 	DATA 	Keypress: s
+431.4229 	DATA 	Keypress: a
+431.6063 	DATA 	Keypress: l
+431.7897 	DATA 	Keypress: 2
+431.9251 	DATA 	Keypress: space
+432.1728 	DATA 	Keypress: q
+432.2729 	DATA 	Keypress: u
+432.4062 	DATA 	Keypress: e
+432.4565 	DATA 	Keypress: space
+432.5897 	DATA 	Keypress: l
+432.7086 	DATA 	Keypress: 4
+432.8230 	DATA 	Keypress: o
+433.2563 	DATA 	Keypress: c
+433.4228 	DATA 	Keypress: 2
+433.6233 	DATA 	Keypress: a
+433.7228 	DATA 	Keypress: n
+433.8898 	DATA 	Keypress: space
+433.9896 	DATA 	Keypress: p
+434.2062 	DATA 	Keypress: a
+434.3563 	DATA 	Keypress: c
+434.4730 	DATA 	Keypress: i
+434.6063 	DATA 	Keypress: f
+434.6894 	DATA 	Keypress: i
+434.7897 	DATA 	Keypress: q
+434.8917 	DATA 	Keypress: u
+435.0399 	DATA 	Keypress: e
+436.2403 	DATA 	Mouse: Left button down, pos=(940,112)
+436.2561 	EXP 	Anecdotes: autoDraw = False
+436.2561 	EXP 	tache_text: autoDraw = False
+436.2561 	EXP 	Validation_button: autoDraw = False
+436.2561 	EXP 	feedback_fichier_train: height = 0.05
+436.2561 	EXP 	feedback_fichier_train: height = 0.05
+436.2561 	EXP 	feedback_fichier_train: height = 0.05
+436.2561 	EXP 	feedback_fichier_train: text = 'NOMS'
+436.2561 	EXP 	feedbacktext: autoDraw = True
+436.2561 	EXP 	feedback_fichier_train: autoDraw = True
+436.3241 	DATA 	Mouse:  Left button up, pos=(940,112)
+437.1581 	DATA 	Mouse: Left button down, pos=(1554,322)
+437.2909 	DATA 	Mouse:  Left button up, pos=(1556,325)
+441.1740 	DATA 	Keypress: space
+441.2562 	EXP 	feedbacktext: autoDraw = False
+441.2562 	EXP 	feedback_fichier_train: autoDraw = False
+441.2562 	EXP 	feedbacktext: autoDraw = False
+441.2562 	EXP 	feedback_fichier_train: autoDraw = False
+441.2562 	EXP 	text: autoDraw = True
+441.7402 	EXP 	New trial (rep=0, index=18): {'anecdotes': 'L’écriture chinoise comprend plus de 40 000 caractères  ', 'fichier': 'NOMS', 'anecdotes_reco': 'L’écriture chinoise comprend plus de 40 000 caractères  '}
+441.7560 	EXP 	text: autoDraw = False
+441.7560 	EXP 	text: autoDraw = False
+441.7560 	EXP 	Anecdotes: height = 0.05
+441.7560 	EXP 	Anecdotes: height = 0.05
+441.7560 	EXP 	Anecdotes: height = 0.05
+441.7560 	EXP 	Anecdotes: text = 'L’écriture chinoise comprend plus de 40 000 caractères  '
+441.7560 	EXP 	Anecdotes: autoDraw = True
+441.7560 	EXP 	tache_text: autoDraw = True
+441.7560 	EXP 	Validation_button: autoDraw = True
+442.4729 	DATA 	Keypress: capslock
+442.6228 	DATA 	Keypress: l
+442.6728 	DATA 	Keypress: capslock
+442.8750 	DATA 	Keypress: 4
+443.0895 	DATA 	Keypress: 2
+443.3085 	DATA 	Keypress: c
+443.5084 	DATA 	Keypress: r
+443.6228 	DATA 	Keypress: i
+443.7227 	DATA 	Keypress: t
+443.8563 	DATA 	Keypress: u
+444.0895 	DATA 	Keypress: r
+444.1731 	DATA 	Keypress: e
+444.2919 	DATA 	Keypress: space
+444.4896 	DATA 	Keypress: c
+444.5728 	DATA 	Keypress: h
+444.7561 	DATA 	Keypress: i
+444.9727 	DATA 	Keypress: n
+445.1896 	DATA 	Keypress: o
+445.3728 	DATA 	Keypress: i
+445.4730 	DATA 	Keypress: s
+445.6918 	DATA 	Keypress: e
+445.7728 	DATA 	Keypress: space
+445.9062 	DATA 	Keypress: c
+445.9730 	DATA 	Keypress: o
+446.1418 	DATA 	Keypress: m
+446.3231 	DATA 	Keypress: p
+446.3895 	DATA 	Keypress: r
+446.4753 	DATA 	Keypress: e
+446.5562 	DATA 	Keypress: n
+446.6727 	DATA 	Keypress: d
+446.7561 	DATA 	Keypress: space
+446.8729 	DATA 	Keypress: p
+447.0561 	DATA 	Keypress: l
+447.2063 	DATA 	Keypress: u
+447.3086 	DATA 	Keypress: s
+447.4061 	DATA 	Keypress: space
+447.5228 	DATA 	Keypress: d
+447.6061 	DATA 	Keypress: e
+447.6895 	DATA 	Keypress: space
+448.2563 	DATA 	Keypress: num_4
+448.4730 	DATA 	Keypress: num_0
+448.7060 	DATA 	Keypress: space
+448.7727 	DATA 	Keypress: num_0
+448.9565 	DATA 	Keypress: num_0
+449.0896 	DATA 	Keypress: num_0
+449.7560 	DATA 	Keypress: space
+450.0563 	DATA 	Keypress: c
+450.1084 	DATA 	Keypress: a
+450.2897 	DATA 	Keypress: r
+450.3730 	DATA 	Keypress: a
+450.5061 	DATA 	Keypress: c
+450.7227 	DATA 	Keypress: t
+450.8396 	DATA 	Keypress: 2
+451.1227 	DATA 	Keypress: backspace
+451.4894 	DATA 	Keypress: 7
+451.5727 	DATA 	Keypress: r
+451.7729 	DATA 	Keypress: e
+451.9895 	DATA 	Keypress: s
+453.4895 	DATA 	Mouse: Left button down, pos=(948,113)
+453.5060 	EXP 	Anecdotes: autoDraw = False
+453.5060 	EXP 	tache_text: autoDraw = False
+453.5060 	EXP 	Validation_button: autoDraw = False
+453.5060 	EXP 	feedback_fichier_train: text = 'NOMS'
+453.5060 	EXP 	feedbacktext: autoDraw = True
+453.5060 	EXP 	feedback_fichier_train: autoDraw = True
+453.5740 	DATA 	Mouse:  Left button up, pos=(948,113)
+455.2239 	DATA 	Mouse: Left button down, pos=(963,263)
+455.3407 	DATA 	Mouse:  Left button up, pos=(963,263)
+456.5907 	DATA 	Keypress: space
+458.5059 	EXP 	feedbacktext: autoDraw = False
+458.5059 	EXP 	feedback_fichier_train: autoDraw = False
+458.5059 	EXP 	feedbacktext: autoDraw = False
+458.5059 	EXP 	feedback_fichier_train: autoDraw = False
+458.5059 	EXP 	text: autoDraw = True
+458.9900 	EXP 	New trial (rep=0, index=19): {'anecdotes': 'L’Himalaya continue de grandir en raison des collisions des plaques tectoniques ', 'fichier': 'ITEMS', 'anecdotes_reco': 'L’Himalaya continue de grandir en raison des collisions des plaques tectoniques '}
+459.0058 	EXP 	text: autoDraw = False
+459.0058 	EXP 	text: autoDraw = False
+459.0058 	EXP 	Anecdotes: height = 0.05
+459.0058 	EXP 	Anecdotes: height = 0.05
+459.0058 	EXP 	Anecdotes: height = 0.05
+459.0058 	EXP 	Anecdotes: text = 'L’Himalaya continue de grandir en raison des collisions des plaques tectoniques '
+459.0058 	EXP 	Anecdotes: autoDraw = True
+459.0058 	EXP 	tache_text: autoDraw = True
+459.0058 	EXP 	Validation_button: autoDraw = True
+459.5255 	DATA 	Keypress: capslock
+459.7562 	DATA 	Keypress: l
+459.8563 	DATA 	Keypress: capslock
+460.0726 	DATA 	Keypress: 4
+460.2059 	DATA 	Keypress: h
+460.4396 	DATA 	Keypress: u
+460.4727 	DATA 	Keypress: i
+460.6893 	DATA 	Keypress: backspace
+460.8397 	DATA 	Keypress: backspace
+460.9561 	DATA 	Keypress: backspace
+460.9726 	DATA 	Keypress: capslock
+461.1894 	DATA 	Keypress: h
+461.3270 	DATA 	Keypress: capslock
+461.4559 	DATA 	Keypress: i
+461.7728 	DATA 	Keypress: m
+461.8726 	DATA 	Keypress: a
+462.0561 	DATA 	Keypress: l
+462.2226 	DATA 	Keypress: a
+462.5558 	DATA 	Keypress: y
+463.1393 	DATA 	Keypress: a
+463.2560 	DATA 	Keypress: space
+463.3895 	DATA 	Keypress: c
+463.4726 	DATA 	Keypress: o
+463.6560 	DATA 	Keypress: n
+463.7229 	DATA 	Keypress: t
+463.8726 	DATA 	Keypress: i
+464.0919 	DATA 	Keypress: n
+464.6559 	DATA 	Keypress: n
+465.0225 	DATA 	Keypress: backspace
+465.1893 	DATA 	Keypress: u
+465.2918 	DATA 	Keypress: e
+465.3893 	DATA 	Keypress: space
+465.5058 	DATA 	Keypress: d
+465.5395 	DATA 	Keypress: e
+465.6227 	DATA 	Keypress: space
+465.7581 	DATA 	Keypress: g
+465.9394 	DATA 	Keypress: r
+466.0059 	DATA 	Keypress: a
+466.0893 	DATA 	Keypress: n
+466.1894 	DATA 	Keypress: d
+466.3085 	DATA 	Keypress: i
+466.4392 	DATA 	Keypress: r
+466.5395 	DATA 	Keypress: space
+466.6565 	DATA 	Keypress: e
+466.7559 	DATA 	Keypress: n
+466.9061 	DATA 	Keypress: space
+466.9561 	DATA 	Keypress: r
+467.0559 	DATA 	Keypress: a
+467.1227 	DATA 	Keypress: i
+467.2561 	DATA 	Keypress: s
+467.3892 	DATA 	Keypress: o
+467.6060 	DATA 	Keypress: n
+467.7392 	DATA 	Keypress: space
+467.8226 	DATA 	Keypress: d
+467.9084 	DATA 	Keypress: e
+468.0727 	DATA 	Keypress: s
+468.1395 	DATA 	Keypress: space
+468.2227 	DATA 	Keypress: c
+468.2892 	DATA 	Keypress: o
+468.4726 	DATA 	Keypress: l
+468.6226 	DATA 	Keypress: l
+468.8392 	DATA 	Keypress: i
+469.0225 	DATA 	Keypress: s
+469.1093 	DATA 	Keypress: i
+469.3058 	DATA 	Keypress: o
+469.4558 	DATA 	Keypress: n
+469.5250 	DATA 	Keypress: s
+469.6391 	DATA 	Keypress: space
+469.7226 	DATA 	Keypress: d
+469.7559 	DATA 	Keypress: e
+469.9392 	DATA 	Keypress: s
+469.9895 	DATA 	Keypress: space
+470.0559 	DATA 	Keypress: p
+470.2225 	DATA 	Keypress: l
+470.3058 	DATA 	Keypress: a
+470.4558 	DATA 	Keypress: q
+470.5726 	DATA 	Keypress: u
+470.6893 	DATA 	Keypress: e
+470.8562 	DATA 	Keypress: s
+470.9586 	DATA 	Keypress: space
+471.1059 	DATA 	Keypress: t
+471.4559 	DATA 	Keypress: e
+471.6559 	DATA 	Keypress: c
+471.8594 	DATA 	Keypress: t
+472.1727 	DATA 	Keypress: o
+472.3558 	DATA 	Keypress: n
+472.5391 	DATA 	Keypress: i
+472.6725 	DATA 	Keypress: q
+472.7727 	DATA 	Keypress: u
+472.8891 	DATA 	Keypress: e
+473.0561 	DATA 	Keypress: s
+476.1272 	DATA 	Mouse: Left button down, pos=(969,115)
+476.1558 	EXP 	Anecdotes: autoDraw = False
+476.1558 	EXP 	tache_text: autoDraw = False
+476.1558 	EXP 	Validation_button: autoDraw = False
+476.1558 	EXP 	feedback_fichier_train: height = 0.05
+476.1558 	EXP 	feedback_fichier_train: height = 0.05
+476.1558 	EXP 	feedback_fichier_train: height = 0.05
+476.1558 	EXP 	feedback_fichier_train: text = 'ITEMS'
+476.1558 	EXP 	feedbacktext: autoDraw = True
+476.1558 	EXP 	feedback_fichier_train: autoDraw = True
+476.2403 	DATA 	Mouse:  Left button up, pos=(969,115)
+478.8572 	DATA 	Mouse: Left button down, pos=(1039,299)
+478.9739 	DATA 	Mouse:  Left button up, pos=(1039,299)
+481.1558 	EXP 	feedbacktext: autoDraw = False
+481.1558 	EXP 	feedback_fichier_train: autoDraw = False
+481.1558 	EXP 	feedbacktext: autoDraw = False
+481.1558 	EXP 	feedback_fichier_train: autoDraw = False
+481.1558 	EXP 	text: autoDraw = True
+481.6401 	EXP 	New trial (rep=0, index=20): {'anecdotes': 'L’œil d’une autruche est plus gros que son cerveau  ', 'fichier': 'ITEMS', 'anecdotes_reco': 'L’œil d’une autruche est plus gros que son cerveau  '}
+481.6556 	EXP 	text: autoDraw = False
+481.6556 	EXP 	text: autoDraw = False
+481.6556 	EXP 	Anecdotes: height = 0.05
+481.6556 	EXP 	Anecdotes: height = 0.05
+481.6556 	EXP 	Anecdotes: height = 0.05
+481.6556 	EXP 	Anecdotes: text = 'L’œil d’une autruche est plus gros que son cerveau  '
+481.6556 	EXP 	Anecdotes: autoDraw = True
+481.6556 	EXP 	tache_text: autoDraw = True
+481.6556 	EXP 	Validation_button: autoDraw = True
+482.3390 	DATA 	Keypress: capslock
+482.6059 	DATA 	Keypress: l
+482.6557 	DATA 	Keypress: capslock
+482.8224 	DATA 	Keypress: 4
+482.9417 	DATA 	Keypress: o
+483.0393 	DATA 	Keypress: e
+483.1560 	DATA 	Keypress: i
+483.3559 	DATA 	Keypress: l
+483.4890 	DATA 	Keypress: space
+483.6057 	DATA 	Keypress: d
+483.7249 	DATA 	Keypress: 4
+483.8061 	DATA 	Keypress: u
+483.9890 	DATA 	Keypress: n
+484.0559 	DATA 	Keypress: e
+484.1890 	DATA 	Keypress: space
+484.3416 	DATA 	Keypress: a
+484.4557 	DATA 	Keypress: u
+484.5724 	DATA 	Keypress: t
+484.7393 	DATA 	Keypress: r
+484.8557 	DATA 	Keypress: u
+484.9582 	DATA 	Keypress: c
+485.0724 	DATA 	Keypress: h
+485.1725 	DATA 	Keypress: e
+485.3557 	DATA 	Keypress: space
+485.4893 	DATA 	Keypress: e
+485.6725 	DATA 	Keypress: s
+485.8556 	DATA 	Keypress: t
+485.9223 	DATA 	Keypress: space
+486.0057 	DATA 	Keypress: p
+486.1724 	DATA 	Keypress: l
+486.3558 	DATA 	Keypress: u
+486.4558 	DATA 	Keypress: s
+486.5248 	DATA 	Keypress: space
+486.6557 	DATA 	Keypress: g
+486.7411 	DATA 	Keypress: r
+487.0892 	DATA 	Keypress: backspace
+487.3891 	DATA 	Keypress: r
+487.5057 	DATA 	Keypress: o
+487.6226 	DATA 	Keypress: s
+487.7414 	DATA 	Keypress: space
+487.8389 	DATA 	Keypress: q
+487.9223 	DATA 	Keypress: u
+488.0391 	DATA 	Keypress: e
+488.1056 	DATA 	Keypress: space
+488.2225 	DATA 	Keypress: s
+488.2558 	DATA 	Keypress: o
+488.4226 	DATA 	Keypress: n
+488.5390 	DATA 	Keypress: space
+488.6059 	DATA 	Keypress: c
+488.6893 	DATA 	Keypress: e
+488.8225 	DATA 	Keypress: r
+489.0224 	DATA 	Keypress: v
+489.0915 	DATA 	Keypress: e
+489.1558 	DATA 	Keypress: a
+489.2892 	DATA 	Keypress: u
+491.6890 	DATA 	Mouse: Left button down, pos=(960,103)
+491.7054 	EXP 	Anecdotes: autoDraw = False
+491.7054 	EXP 	tache_text: autoDraw = False
+491.7054 	EXP 	Validation_button: autoDraw = False
+491.7054 	EXP 	feedback_fichier_train: text = 'ITEMS'
+491.7054 	EXP 	feedbacktext: autoDraw = True
+491.7054 	EXP 	feedback_fichier_train: autoDraw = True
+491.7903 	DATA 	Mouse:  Left button up, pos=(960,103)
+493.5078 	DATA 	Mouse: Left button down, pos=(979,228)
+493.6071 	DATA 	Mouse:  Left button up, pos=(979,228)
+496.7054 	EXP 	feedbacktext: autoDraw = False
+496.7054 	EXP 	feedback_fichier_train: autoDraw = False
+496.7054 	EXP 	feedbacktext: autoDraw = False
+496.7054 	EXP 	feedback_fichier_train: autoDraw = False
+496.7054 	EXP 	text: autoDraw = True
+497.1898 	EXP 	New trial (rep=0, index=21): {'anecdotes': 'Les concerts Live 8 ont pris place dans les pays du G8 et en Afrique du Sud en juillet 2005 ', 'fichier': 'NOMS', 'anecdotes_reco': 'Les concerts Live 8 ont pris place dans les pays du G8 et en Afrique du Sud en juillet 2005 '}
+497.2053 	EXP 	text: autoDraw = False
+497.2053 	EXP 	text: autoDraw = False
+497.2053 	EXP 	Anecdotes: height = 0.05
+497.2053 	EXP 	Anecdotes: height = 0.05
+497.2053 	EXP 	Anecdotes: height = 0.05
+497.2053 	EXP 	Anecdotes: text = 'Les concerts Live 8 ont pris place dans les pays du G8 et en Afrique du Sud en juillet 2005 '
+497.2053 	EXP 	Anecdotes: autoDraw = True
+497.2053 	EXP 	tache_text: autoDraw = True
+497.2053 	EXP 	Validation_button: autoDraw = True
+497.9891 	DATA 	Keypress: capslock
+498.1556 	DATA 	Keypress: l
+498.2555 	DATA 	Keypress: capslock
+498.3555 	DATA 	Keypress: e
+498.5222 	DATA 	Keypress: s
+498.6224 	DATA 	Keypress: space
+498.7391 	DATA 	Keypress: c
+498.8557 	DATA 	Keypress: o
+499.0223 	DATA 	Keypress: n
+499.0721 	DATA 	Keypress: c
+499.1413 	DATA 	Keypress: e
+499.3079 	DATA 	Keypress: r
+499.7056 	DATA 	Keypress: t
+499.9248 	DATA 	Keypress: s
+500.0391 	DATA 	Keypress: space
+500.2557 	DATA 	Keypress: capslock
+500.3556 	DATA 	Keypress: l
+500.4389 	DATA 	Keypress: capslock
+500.5417 	DATA 	Keypress: i
+500.6392 	DATA 	Keypress: v
+500.7078 	DATA 	Keypress: e
+500.8555 	DATA 	Keypress: space
+501.4389 	DATA 	Keypress: num_8
+501.7392 	DATA 	Keypress: space
+501.9723 	DATA 	Keypress: p
+502.2889 	DATA 	Keypress: n
+502.4891 	DATA 	Keypress: backspace
+502.6555 	DATA 	Keypress: backspace
+502.7723 	DATA 	Keypress: o
+502.9557 	DATA 	Keypress: n
+503.0723 	DATA 	Keypress: t
+503.1555 	DATA 	Keypress: space
+503.2723 	DATA 	Keypress: p
+503.3891 	DATA 	Keypress: t
+503.8056 	DATA 	Keypress: backspace
+503.9055 	DATA 	Keypress: r
+503.9722 	DATA 	Keypress: i
+504.1056 	DATA 	Keypress: s
+504.1889 	DATA 	Keypress: space
+504.5058 	DATA 	Keypress: p
+504.6722 	DATA 	Keypress: l
+504.7222 	DATA 	Keypress: a
+504.8557 	DATA 	Keypress: c
+504.9222 	DATA 	Keypress: e
+505.0388 	DATA 	Keypress: space
+505.1079 	DATA 	Keypress: d
+505.2223 	DATA 	Keypress: a
+505.2890 	DATA 	Keypress: n
+505.3583 	DATA 	Keypress: s
+505.4721 	DATA 	Keypress: space
+505.5582 	DATA 	Keypress: l
+505.6224 	DATA 	Keypress: e
+505.7557 	DATA 	Keypress: s
+505.9724 	DATA 	Keypress: space
+506.1057 	DATA 	Keypress: p
+506.2392 	DATA 	Keypress: a
+506.5222 	DATA 	Keypress: y
+506.6888 	DATA 	Keypress: s
+506.8223 	DATA 	Keypress: space
+507.1890 	DATA 	Keypress: d
+507.2889 	DATA 	Keypress: u
+507.4555 	DATA 	Keypress: space
+507.5558 	DATA 	Keypress: capslock
+507.8054 	DATA 	Keypress: g
+508.1557 	DATA 	Keypress: num_8
+508.2914 	DATA 	Keypress: capslock
+508.4887 	DATA 	Keypress: space
+508.7891 	DATA 	Keypress: e
+508.9242 	DATA 	Keypress: n
+509.1554 	DATA 	Keypress: backspace
+509.3223 	DATA 	Keypress: backspace
+509.4887 	DATA 	Keypress: e
+509.7221 	DATA 	Keypress: t
+509.8056 	DATA 	Keypress: space
+509.9412 	DATA 	Keypress: e
+510.0391 	DATA 	Keypress: n
+510.1890 	DATA 	Keypress: space
+510.2557 	DATA 	Keypress: capslock
+510.4055 	DATA 	Keypress: a
+510.5087 	DATA 	Keypress: capslock
+511.0221 	DATA 	Keypress: g
+511.1221 	DATA 	Keypress: r
+511.3724 	DATA 	Keypress: backspace
+511.5222 	DATA 	Keypress: backspace
+511.6221 	DATA 	Keypress: f
+511.7554 	DATA 	Keypress: r
+511.9244 	DATA 	Keypress: i
+512.0721 	DATA 	Keypress: q
+512.1887 	DATA 	Keypress: u
+512.3057 	DATA 	Keypress: e
+512.3889 	DATA 	Keypress: space
+512.6388 	DATA 	Keypress: d
+512.7413 	DATA 	Keypress: u
+512.8910 	DATA 	Keypress: space
+512.9720 	DATA 	Keypress: s
+513.0555 	DATA 	Keypress: u
+513.3245 	DATA 	Keypress: backspace
+513.4055 	DATA 	Keypress: capslock
+513.5054 	DATA 	Keypress: backspace
+513.6554 	DATA 	Keypress: s
+513.7721 	DATA 	Keypress: capslock
+513.8721 	DATA 	Keypress: u
+514.0055 	DATA 	Keypress: d
+514.1415 	DATA 	Keypress: space
+514.6221 	DATA 	Keypress: e
+514.6916 	DATA 	Keypress: n
+514.8723 	DATA 	Keypress: space
+515.0221 	DATA 	Keypress: j
+515.2554 	DATA 	Keypress: u
+515.6389 	DATA 	Keypress: i
+515.8223 	DATA 	Keypress: l
+515.9887 	DATA 	Keypress: l
+516.0555 	DATA 	Keypress: e
+516.1387 	DATA 	Keypress: t
+516.1889 	DATA 	Keypress: space
+516.6223 	DATA 	Keypress: num_2
+516.8224 	DATA 	Keypress: num_0
+516.9720 	DATA 	Keypress: num_0
+517.2554 	DATA 	Keypress: num_5
+519.7390 	DATA 	Mouse: Left button down, pos=(953,111)
+519.7552 	EXP 	Anecdotes: autoDraw = False
+519.7552 	EXP 	tache_text: autoDraw = False
+519.7552 	EXP 	Validation_button: autoDraw = False
+519.7552 	EXP 	feedback_fichier_train: height = 0.05
+519.7552 	EXP 	feedback_fichier_train: height = 0.05
+519.7552 	EXP 	feedback_fichier_train: height = 0.05
+519.7552 	EXP 	feedback_fichier_train: text = 'NOMS'
+519.7552 	EXP 	feedbacktext: autoDraw = True
+519.7552 	EXP 	feedback_fichier_train: autoDraw = True
+519.8233 	DATA 	Mouse:  Left button up, pos=(953,111)
+520.6238 	DATA 	Mouse: Left button down, pos=(1163,300)
+520.7066 	DATA 	Mouse:  Left button up, pos=(1163,300)
+524.7551 	EXP 	feedbacktext: autoDraw = False
+524.7551 	EXP 	feedback_fichier_train: autoDraw = False
+524.7551 	EXP 	feedbacktext: autoDraw = False
+524.7551 	EXP 	feedback_fichier_train: autoDraw = False
+524.7551 	EXP 	text: autoDraw = True
+525.2394 	EXP 	New trial (rep=0, index=22): {'anecdotes': 'Les frites sont originaires de France et non de Belgique', 'fichier': 'INFOS', 'anecdotes_reco': 'Les frites sont originaires de France et non de Belgique'}
+525.2552 	EXP 	text: autoDraw = False
+525.2552 	EXP 	text: autoDraw = False
+525.2552 	EXP 	Anecdotes: height = 0.05
+525.2552 	EXP 	Anecdotes: height = 0.05
+525.2552 	EXP 	Anecdotes: height = 0.05
+525.2552 	EXP 	Anecdotes: text = 'Les frites sont originaires de France et non de Belgique'
+525.2552 	EXP 	Anecdotes: autoDraw = True
+525.2552 	EXP 	tache_text: autoDraw = True
+525.2552 	EXP 	Validation_button: autoDraw = True
+525.8053 	DATA 	Keypress: capslock
+525.9387 	DATA 	Keypress: l
+526.0052 	DATA 	Keypress: capslock
+526.0888 	DATA 	Keypress: e
+526.2720 	DATA 	Keypress: s
+526.3579 	DATA 	Keypress: space
+526.4887 	DATA 	Keypress: f
+526.5720 	DATA 	Keypress: r
+526.6888 	DATA 	Keypress: i
+526.9057 	DATA 	Keypress: t
+527.0886 	DATA 	Keypress: e
+527.3055 	DATA 	Keypress: s
+527.4053 	DATA 	Keypress: space
+527.5055 	DATA 	Keypress: s
+527.5888 	DATA 	Keypress: o
+527.7581 	DATA 	Keypress: n
+527.9055 	DATA 	Keypress: r
+528.0720 	DATA 	Keypress: space
+528.3554 	DATA 	Keypress: o
+528.4911 	DATA 	Keypress: r
+528.6722 	DATA 	Keypress: i
+528.7552 	DATA 	Keypress: g
+528.8886 	DATA 	Keypress: i
+529.0721 	DATA 	Keypress: n
+529.1410 	DATA 	Keypress: a
+529.2910 	DATA 	Keypress: i
+529.3744 	DATA 	Keypress: r
+529.4554 	DATA 	Keypress: e
+529.6221 	DATA 	Keypress: s
+529.6885 	DATA 	Keypress: space
+529.7886 	DATA 	Keypress: d
+529.8555 	DATA 	Keypress: e
+529.9386 	DATA 	Keypress: space
+530.0386 	DATA 	Keypress: f
+530.2055 	DATA 	Keypress: r
+530.3052 	DATA 	Keypress: a
+530.4055 	DATA 	Keypress: n
+530.4886 	DATA 	Keypress: c
+530.5719 	DATA 	Keypress: e
+530.8888 	DATA 	Keypress: backspace
+531.0554 	DATA 	Keypress: backspace
+531.2051 	DATA 	Keypress: backspace
+531.3719 	DATA 	Keypress: backspace
+531.5386 	DATA 	Keypress: backspace
+531.6885 	DATA 	Keypress: backspace
+531.8553 	DATA 	Keypress: capslock
+532.0052 	DATA 	Keypress: f
+532.0885 	DATA 	Keypress: capslock
+532.2720 	DATA 	Keypress: r
+532.4222 	DATA 	Keypress: a
+532.5411 	DATA 	Keypress: n
+532.6218 	DATA 	Keypress: c
+532.6909 	DATA 	Keypress: e
+532.7884 	DATA 	Keypress: space
+532.8885 	DATA 	Keypress: e
+532.9885 	DATA 	Keypress: t
+533.0885 	DATA 	Keypress: space
+533.2385 	DATA 	Keypress: n
+533.4220 	DATA 	Keypress: o
+533.5885 	DATA 	Keypress: n
+533.7218 	DATA 	Keypress: space
+533.8219 	DATA 	Keypress: d
+533.9412 	DATA 	Keypress: space
+534.2552 	DATA 	Keypress: backspace
+534.3218 	DATA 	Keypress: e
+534.4220 	DATA 	Keypress: space
+534.5052 	DATA 	Keypress: capslock
+534.7219 	DATA 	Keypress: b
+534.8053 	DATA 	Keypress: capslock
+534.9053 	DATA 	Keypress: e
+535.0053 	DATA 	Keypress: l
+535.1410 	DATA 	Keypress: g
+535.2719 	DATA 	Keypress: i
+535.4390 	DATA 	Keypress: q
+535.5079 	DATA 	Keypress: u
+535.6386 	DATA 	Keypress: e
+535.9718 	DATA 	Keypress: return
+537.1726 	DATA 	Mouse: Left button down, pos=(981,118)
+537.1883 	EXP 	Anecdotes: autoDraw = False
+537.1883 	EXP 	tache_text: autoDraw = False
+537.1883 	EXP 	Validation_button: autoDraw = False
+537.1883 	EXP 	feedback_fichier_train: height = 0.05
+537.1883 	EXP 	feedback_fichier_train: height = 0.05
+537.1883 	EXP 	feedback_fichier_train: height = 0.05
+537.1883 	EXP 	feedback_fichier_train: text = 'INFOS'
+537.1883 	EXP 	feedbacktext: autoDraw = True
+537.1883 	EXP 	feedback_fichier_train: autoDraw = True
+537.2733 	DATA 	Mouse:  Left button up, pos=(981,118)
+542.1882 	EXP 	feedbacktext: autoDraw = False
+542.1882 	EXP 	feedback_fichier_train: autoDraw = False
+542.1882 	EXP 	feedbacktext: autoDraw = False
+542.1882 	EXP 	feedback_fichier_train: autoDraw = False
+542.1882 	EXP 	text: autoDraw = True
+542.6728 	EXP 	New trial (rep=0, index=23): {'anecdotes': 'La cacahuète est l’un des ingrédients de la dynamite  ', 'fichier': 'POINTS', 'anecdotes_reco': 'La cacahuète est l’un des ingrédients de la dynamite  '}
+542.6882 	EXP 	text: autoDraw = False
+542.6882 	EXP 	text: autoDraw = False
+542.6882 	EXP 	Anecdotes: height = 0.05
+542.6882 	EXP 	Anecdotes: height = 0.05
+542.6882 	EXP 	Anecdotes: height = 0.05
+542.6882 	EXP 	Anecdotes: text = 'La cacahuète est l’un des ingrédients de la dynamite  '
+542.6882 	EXP 	Anecdotes: autoDraw = True
+542.6882 	EXP 	tache_text: autoDraw = True
+542.6882 	EXP 	Validation_button: autoDraw = True
+543.4887 	DATA 	Keypress: capslock
+543.6051 	DATA 	Keypress: l
+543.6884 	DATA 	Keypress: capslock
+543.7242 	DATA 	Keypress: a
+543.8219 	DATA 	Keypress: space
+543.9385 	DATA 	Keypress: c
+544.0884 	DATA 	Keypress: a
+544.2385 	DATA 	Keypress: c
+544.3550 	DATA 	Keypress: a
+545.0218 	DATA 	Keypress: h
+545.4720 	DATA 	Keypress: u
+546.0717 	DATA 	Keypress: 7
+546.2386 	DATA 	Keypress: e
+546.3551 	DATA 	Keypress: t
+546.4717 	DATA 	Keypress: e
+546.6720 	DATA 	Keypress: backspace
+546.8551 	DATA 	Keypress: backspace
+546.9885 	DATA 	Keypress: backspace
+547.0720 	DATA 	Keypress: t
+547.1219 	DATA 	Keypress: e
+547.2050 	DATA 	Keypress: space
+547.6219 	DATA 	Keypress: e
+547.8384 	DATA 	Keypress: s
+548.0384 	DATA 	Keypress: t
+548.1720 	DATA 	Keypress: space
+548.4717 	DATA 	Keypress: l
+548.6219 	DATA 	Keypress: 4
+548.7741 	DATA 	Keypress: u
+548.9884 	DATA 	Keypress: n
+549.1719 	DATA 	Keypress: space
+549.2718 	DATA 	Keypress: d
+549.3412 	DATA 	Keypress: e
+549.4883 	DATA 	Keypress: s
+549.5913 	DATA 	Keypress: space
+550.0383 	DATA 	Keypress: i
+550.2218 	DATA 	Keypress: n
+550.3717 	DATA 	Keypress: g
+550.6050 	DATA 	Keypress: r
+550.6717 	DATA 	Keypress: 2
+550.8718 	DATA 	Keypress: d
+550.9550 	DATA 	Keypress: i
+551.1052 	DATA 	Keypress: e
+551.2216 	DATA 	Keypress: n
+551.3076 	DATA 	Keypress: t
+551.5250 	DATA 	Keypress: s
+551.5883 	DATA 	Keypress: space
+551.7053 	DATA 	Keypress: d
+551.7552 	DATA 	Keypress: e
+551.8550 	DATA 	Keypress: space
+551.9408 	DATA 	Keypress: l
+552.0551 	DATA 	Keypress: a
+552.1413 	DATA 	Keypress: space
+552.3718 	DATA 	Keypress: d
+552.5216 	DATA 	Keypress: y
+552.7552 	DATA 	Keypress: n
+552.8383 	DATA 	Keypress: a
+552.9717 	DATA 	Keypress: m
+553.2051 	DATA 	Keypress: o
+553.2383 	DATA 	Keypress: i
+553.3552 	DATA 	Keypress: t
+553.4717 	DATA 	Keypress: backspace
+553.6383 	DATA 	Keypress: backspace
+553.9049 	DATA 	Keypress: backspace
+553.9882 	DATA 	Keypress: i
+554.0884 	DATA 	Keypress: t
+554.1216 	DATA 	Keypress: e
+555.3053 	DATA 	Mouse: Left button down, pos=(930,126)
+555.3884 	DATA 	Mouse:  Left button up, pos=(930,126)
+555.6220 	DATA 	Mouse: Left button down, pos=(945,107)
+555.6383 	EXP 	Anecdotes: autoDraw = False
+555.6383 	EXP 	tache_text: autoDraw = False
+555.6383 	EXP 	Validation_button: autoDraw = False
+555.6383 	EXP 	feedback_fichier_train: height = 0.05
+555.6383 	EXP 	feedback_fichier_train: height = 0.05
+555.6383 	EXP 	feedback_fichier_train: height = 0.05
+555.6383 	EXP 	feedback_fichier_train: text = 'POINTS'
+555.6383 	EXP 	feedbacktext: autoDraw = True
+555.6383 	EXP 	feedback_fichier_train: autoDraw = True
+555.7063 	DATA 	Mouse:  Left button up, pos=(945,107)
+560.6381 	EXP 	feedbacktext: autoDraw = False
+560.6381 	EXP 	feedback_fichier_train: autoDraw = False
+560.6381 	EXP 	feedbacktext: autoDraw = False
+560.6381 	EXP 	feedback_fichier_train: autoDraw = False
+560.6381 	EXP 	text: autoDraw = True
+561.1224 	EXP 	New trial (rep=0, index=24): {'anecdotes': 'La carte de visite d’Al Capone indiquait qu’il était vendeur de meuble d’occasion ', 'fichier': 'INFOS', 'anecdotes_reco': 'La carte de visite d’Al Capone indiquait qu’il était vendeur de meuble d’occasion '}
+561.1381 	EXP 	text: autoDraw = False
+561.1381 	EXP 	text: autoDraw = False
+561.1381 	EXP 	Anecdotes: height = 0.05
+561.1381 	EXP 	Anecdotes: height = 0.05
+561.1381 	EXP 	Anecdotes: height = 0.05
+561.1381 	EXP 	Anecdotes: text = 'La carte de visite d’Al Capone indiquait qu’il était vendeur de meuble d’occasion '
+561.1381 	EXP 	Anecdotes: autoDraw = True
+561.1381 	EXP 	tache_text: autoDraw = True
+561.1381 	EXP 	Validation_button: autoDraw = True
+561.7742 	DATA 	Keypress: capslock
+561.9219 	DATA 	Keypress: l
+562.0051 	DATA 	Keypress: capslock
+562.0882 	DATA 	Keypress: a
+562.1588 	DATA 	Keypress: space
+562.2386 	DATA 	Keypress: c
+562.3242 	DATA 	Keypress: a
+562.5217 	DATA 	Keypress: r
+562.7384 	DATA 	Keypress: t
+562.8051 	DATA 	Keypress: e
+562.9883 	DATA 	Keypress: d
+563.0550 	DATA 	Keypress: e
+563.1549 	DATA 	Keypress: space
+563.6884 	DATA 	Keypress: backspace
+563.8719 	DATA 	Keypress: backspace
+564.0215 	DATA 	Keypress: backspace
+564.1383 	DATA 	Keypress: space
+564.2051 	DATA 	Keypress: d
+564.2715 	DATA 	Keypress: e
+564.3885 	DATA 	Keypress: space
+564.9215 	DATA 	Keypress: v
+565.0049 	DATA 	Keypress: i
+565.1549 	DATA 	Keypress: s
+565.2550 	DATA 	Keypress: i
+565.4216 	DATA 	Keypress: t
+565.5216 	DATA 	Keypress: e
+565.6218 	DATA 	Keypress: space
+565.9048 	DATA 	Keypress: d
+566.4048 	DATA 	Keypress: 4
+566.7882 	DATA 	Keypress: capslock
+567.1716 	DATA 	Keypress: a
+567.9049 	DATA 	Keypress: capslock
+568.0383 	DATA 	Keypress: l
+568.2717 	DATA 	Keypress: space
+568.6049 	DATA 	Keypress: c
+568.7215 	DATA 	Keypress: a
+568.8548 	DATA 	Keypress: p
+569.1219 	DATA 	Keypress: backspace
+569.2882 	DATA 	Keypress: capslock
+569.2883 	DATA 	Keypress: backspace
+569.4381 	DATA 	Keypress: backspace
+569.4552 	DATA 	Keypress: c
+569.5216 	DATA 	Keypress: capslock
+569.7050 	DATA 	Keypress: a
+569.9408 	DATA 	Keypress: p
+570.1715 	DATA 	Keypress: o
+570.4884 	DATA 	Keypress: n
+570.5549 	DATA 	Keypress: e
+570.6716 	DATA 	Keypress: space
+570.8214 	DATA 	Keypress: i
+571.0214 	DATA 	Keypress: n
+571.1380 	DATA 	Keypress: d
+571.2382 	DATA 	Keypress: i
+571.3549 	DATA 	Keypress: q
+571.4883 	DATA 	Keypress: u
+571.5741 	DATA 	Keypress: a
+571.6883 	DATA 	Keypress: i
+571.7716 	DATA 	Keypress: t
+571.8548 	DATA 	Keypress: space
+572.0049 	DATA 	Keypress: q
+572.1216 	DATA 	Keypress: u
+572.2714 	DATA 	Keypress: 4
+572.3717 	DATA 	Keypress: i
+572.5241 	DATA 	Keypress: l
+572.6716 	DATA 	Keypress: space
+572.7048 	DATA 	Keypress: 2
+572.8551 	DATA 	Keypress: t
+572.9381 	DATA 	Keypress: a
+573.0218 	DATA 	Keypress: i
+573.1048 	DATA 	Keypress: t
+573.2216 	DATA 	Keypress: space
+573.4382 	DATA 	Keypress: v
+573.5407 	DATA 	Keypress: e
+573.6716 	DATA 	Keypress: n
+573.7382 	DATA 	Keypress: d
+573.8550 	DATA 	Keypress: e
+573.9884 	DATA 	Keypress: u
+574.0550 	DATA 	Keypress: r
+574.2047 	DATA 	Keypress: space
+574.3050 	DATA 	Keypress: d
+574.3089 	DATA 	Keypress: e
+574.3886 	DATA 	Keypress: space
+574.5715 	DATA 	Keypress: m
+574.7050 	DATA 	Keypress: e
+574.8548 	DATA 	Keypress: u
+574.9714 	DATA 	Keypress: b
+575.0882 	DATA 	Keypress: l
+575.2048 	DATA 	Keypress: e
+575.3214 	DATA 	Keypress: space
+575.6883 	DATA 	Keypress: d
+575.8381 	DATA 	Keypress: 4
+575.9409 	DATA 	Keypress: o
+576.0548 	DATA 	Keypress: c
+576.1549 	DATA 	Keypress: a
+576.5880 	DATA 	Keypress: backspace
+576.6382 	DATA 	Keypress: c
+576.7214 	DATA 	Keypress: a
+576.8549 	DATA 	Keypress: s
+576.9548 	DATA 	Keypress: i
+577.1381 	DATA 	Keypress: o
+577.2884 	DATA 	Keypress: n
+579.0715 	DATA 	Mouse: Left button down, pos=(956,102)
+579.0881 	EXP 	Anecdotes: autoDraw = False
+579.0881 	EXP 	tache_text: autoDraw = False
+579.0881 	EXP 	Validation_button: autoDraw = False
+579.0881 	EXP 	feedback_fichier_train: height = 0.05
+579.0881 	EXP 	feedback_fichier_train: height = 0.05
+579.0881 	EXP 	feedback_fichier_train: height = 0.05
+579.0881 	EXP 	feedback_fichier_train: text = 'INFOS'
+579.0881 	EXP 	feedbacktext: autoDraw = True
+579.0881 	EXP 	feedback_fichier_train: autoDraw = True
+579.1896 	DATA 	Mouse:  Left button up, pos=(956,102)
+583.2560 	DATA 	Keypress: space
+584.0880 	EXP 	feedbacktext: autoDraw = False
+584.0880 	EXP 	feedback_fichier_train: autoDraw = False
+584.0880 	EXP 	feedbacktext: autoDraw = False
+584.0880 	EXP 	feedback_fichier_train: autoDraw = False
+584.0880 	EXP 	text: autoDraw = True
+584.5724 	EXP 	New trial (rep=0, index=25): {'anecdotes': 'Il y a eu 25 présidents Français ', 'fichier': 'DONNEES', 'anecdotes_reco': 'Il y a eu 25 présidents Français '}
+584.5878 	EXP 	text: autoDraw = False
+584.5878 	EXP 	text: autoDraw = False
+584.5878 	EXP 	Anecdotes: height = 0.05
+584.5878 	EXP 	Anecdotes: height = 0.05
+584.5878 	EXP 	Anecdotes: height = 0.05
+584.5878 	EXP 	Anecdotes: text = 'Il y a eu 25 présidents Français '
+584.5878 	EXP 	Anecdotes: autoDraw = True
+584.5878 	EXP 	tache_text: autoDraw = True
+584.5878 	EXP 	Validation_button: autoDraw = True
+584.9883 	DATA 	Keypress: capslock
+585.2715 	DATA 	Keypress: i
+585.3744 	DATA 	Keypress: capslock
+585.5046 	DATA 	Keypress: l
+585.6547 	DATA 	Keypress: space
+585.7882 	DATA 	Keypress: y
+585.9379 	DATA 	Keypress: space
+586.0215 	DATA 	Keypress: a
+586.2880 	DATA 	Keypress: space
+586.4050 	DATA 	Keypress: e
+586.5409 	DATA 	Keypress: u
+586.7546 	DATA 	Keypress: space
+587.3713 	DATA 	Keypress: num_2
+587.6213 	DATA 	Keypress: num_5
+587.9382 	DATA 	Keypress: space
+588.0550 	DATA 	Keypress: space
+588.2713 	DATA 	Keypress: p
+588.3382 	DATA 	Keypress: r
+588.3909 	DATA 	Keypress: 2
+588.5380 	DATA 	Keypress: s
+588.7882 	DATA 	Keypress: backspace
+588.9411 	DATA 	Keypress: backspace
+589.0880 	DATA 	Keypress: backspace
+589.2214 	DATA 	Keypress: backspace
+589.3548 	DATA 	Keypress: backspace
+589.5546 	DATA 	Keypress: p
+589.6216 	DATA 	Keypress: r
+589.7046 	DATA 	Keypress: 2
+589.8382 	DATA 	Keypress: s
+590.0049 	DATA 	Keypress: i
+590.2046 	DATA 	Keypress: e
+590.2379 	DATA 	Keypress: f
+590.5047 	DATA 	Keypress: backspace
+590.6548 	DATA 	Keypress: backspace
+590.7213 	DATA 	Keypress: d
+590.8047 	DATA 	Keypress: e
+590.8715 	DATA 	Keypress: n
+591.0047 	DATA 	Keypress: t
+591.0712 	DATA 	Keypress: space
+591.4879 	DATA 	Keypress: capslock
+591.7740 	DATA 	Keypress: capslock
+592.1071 	DATA 	Keypress: backspace
+592.3738 	DATA 	Keypress: s
+592.7546 	DATA 	Keypress: space
+592.8379 	DATA 	Keypress: capslock
+592.9236 	DATA 	Keypress: d
+593.0713 	DATA 	Keypress: capslock
+593.3046 	DATA 	Keypress: backspace
+593.4048 	DATA 	Keypress: f
+593.5239 	DATA 	Keypress: capslock
+593.8380 	DATA 	Keypress: backspace
+593.9380 	DATA 	Keypress: f
+594.0712 	DATA 	Keypress: capslock
+594.1881 	DATA 	Keypress: r
+594.3074 	DATA 	Keypress: a
+594.4213 	DATA 	Keypress: n
+594.5213 	DATA 	Keypress: c
+594.6046 	DATA 	Keypress: a
+594.7713 	DATA 	Keypress: s
+594.9738 	DATA 	Keypress: backspace
+595.1213 	DATA 	Keypress: i
+595.2714 	DATA 	Keypress: s
+596.6548 	DATA 	Mouse: Left button down, pos=(960,111)
+596.6711 	EXP 	Anecdotes: autoDraw = False
+596.6711 	EXP 	tache_text: autoDraw = False
+596.6711 	EXP 	Validation_button: autoDraw = False
+596.6711 	EXP 	feedback_fichier_train: height = 0.05
+596.6711 	EXP 	feedback_fichier_train: height = 0.05
+596.6711 	EXP 	feedback_fichier_train: height = 0.05
+596.6711 	EXP 	feedback_fichier_train: text = 'DONNEES'
+596.6711 	EXP 	feedbacktext: autoDraw = True
+596.6711 	EXP 	feedback_fichier_train: autoDraw = True
+596.7059 	DATA 	Mouse:  Left button up, pos=(960,111)
+601.6710 	EXP 	feedbacktext: autoDraw = False
+601.6710 	EXP 	feedback_fichier_train: autoDraw = False
+601.6710 	EXP 	feedbacktext: autoDraw = False
+601.6710 	EXP 	feedback_fichier_train: autoDraw = False
+601.6710 	EXP 	text: autoDraw = True
+602.1554 	EXP 	New trial (rep=0, index=26): {'anecdotes': 'Les séparatistes Tchéchènes du Sud de la Russie ont pris en otage une école en septembre 2004 ', 'fichier': 'POINTS', 'anecdotes_reco': 'Les séparatistes Tchéchènes du Sud de la Russie ont pris en otage une école en septembre 2004 '}
+602.1711 	EXP 	text: autoDraw = False
+602.1711 	EXP 	text: autoDraw = False
+602.1711 	EXP 	Anecdotes: height = 0.05
+602.1711 	EXP 	Anecdotes: height = 0.05
+602.1711 	EXP 	Anecdotes: height = 0.05
+602.1711 	EXP 	Anecdotes: text = 'Les séparatistes Tchéchènes du Sud de la Russie ont pris en otage une école en septembre 2004 '
+602.1711 	EXP 	Anecdotes: autoDraw = True
+602.1711 	EXP 	tache_text: autoDraw = True
+602.1711 	EXP 	Validation_button: autoDraw = True
+602.8049 	DATA 	Keypress: capslock
+603.1046 	DATA 	Keypress: l
+603.2379 	DATA 	Keypress: capslock
+603.3405 	DATA 	Keypress: e
+603.5212 	DATA 	Keypress: s
+603.6212 	DATA 	Keypress: space
+603.7236 	DATA 	Keypress: s
+603.9045 	DATA 	Keypress: 2
+603.9737 	DATA 	Keypress: p
+604.5879 	DATA 	Keypress: a
+604.7047 	DATA 	Keypress: r
+604.8211 	DATA 	Keypress: a
+605.4711 	DATA 	Keypress: t
+605.5905 	DATA 	Keypress: i
+605.7401 	DATA 	Keypress: s
+605.9569 	DATA 	Keypress: t
+606.0378 	DATA 	Keypress: e
+606.2211 	DATA 	Keypress: s
+606.3380 	DATA 	Keypress: space
+606.4878 	DATA 	Keypress: capslock
+606.6545 	DATA 	Keypress: t
+606.7713 	DATA 	Keypress: capslock
+606.9545 	DATA 	Keypress: c
+607.0878 	DATA 	Keypress: h
+607.2043 	DATA 	Keypress: 2
+607.4048 	DATA 	Keypress: c
+607.9711 	DATA 	Keypress: h
+608.5879 	DATA 	Keypress: 7
+609.1712 	DATA 	Keypress: n
+609.3712 	DATA 	Keypress: e
+610.2878 	DATA 	Keypress: s
+610.4544 	DATA 	Keypress: space
+611.3377 	DATA 	Keypress: d
+611.4379 	DATA 	Keypress: u
+611.6045 	DATA 	Keypress: space
+611.6378 	DATA 	Keypress: capslock
+611.7212 	DATA 	Keypress: s
+611.8546 	DATA 	Keypress: capslock
+611.8879 	DATA 	Keypress: u
+612.0380 	DATA 	Keypress: d
+612.1572 	DATA 	Keypress: space
+612.2377 	DATA 	Keypress: d
+612.2879 	DATA 	Keypress: e
+612.3738 	DATA 	Keypress: space
+612.5411 	DATA 	Keypress: l
+612.6211 	DATA 	Keypress: a
+612.7377 	DATA 	Keypress: space
+612.9571 	DATA 	Keypress: capslock
+613.0544 	DATA 	Keypress: r
+613.1544 	DATA 	Keypress: capslock
+613.2210 	DATA 	Keypress: u
+613.3416 	DATA 	Keypress: s
+613.5211 	DATA 	Keypress: s
+613.6379 	DATA 	Keypress: i
+613.7712 	DATA 	Keypress: e
+613.9211 	DATA 	Keypress: space
+614.0544 	DATA 	Keypress: o
+614.6378 	DATA 	Keypress: n
+614.8211 	DATA 	Keypress: t
+614.9712 	DATA 	Keypress: space
+615.0710 	DATA 	Keypress: p
+615.2211 	DATA 	Keypress: r
+615.3572 	DATA 	Keypress: i
+615.5044 	DATA 	Keypress: s
+615.5717 	DATA 	Keypress: space
+615.7043 	DATA 	Keypress: e
+615.7735 	DATA 	Keypress: n
+615.9045 	DATA 	Keypress: space
+616.0211 	DATA 	Keypress: o
+616.1044 	DATA 	Keypress: t
+616.2210 	DATA 	Keypress: a
+616.4044 	DATA 	Keypress: g
+616.5043 	DATA 	Keypress: e
+616.6070 	DATA 	Keypress: space
+616.7379 	DATA 	Keypress: u
+616.9411 	DATA 	Keypress: n
+617.0544 	DATA 	Keypress: e
+617.1405 	DATA 	Keypress: space
+617.2710 	DATA 	Keypress: 2
+617.4712 	DATA 	Keypress: c
+617.5710 	DATA 	Keypress: o
+617.7877 	DATA 	Keypress: l
+617.9210 	DATA 	Keypress: e
+618.0210 	DATA 	Keypress: space
+618.3543 	DATA 	Keypress: e
+618.4711 	DATA 	Keypress: n
+618.6376 	DATA 	Keypress: space
+618.7546 	DATA 	Keypress: s
+618.8877 	DATA 	Keypress: p
+618.9710 	DATA 	Keypress: e
+619.1044 	DATA 	Keypress: t
+619.3408 	DATA 	Keypress: backspace
+619.5042 	DATA 	Keypress: backspace
+619.6376 	DATA 	Keypress: backspace
+619.7574 	DATA 	Keypress: e
+619.9044 	DATA 	Keypress: p
+620.0544 	DATA 	Keypress: t
+620.1875 	DATA 	Keypress: e
+620.5903 	DATA 	Keypress: m
+620.7569 	DATA 	Keypress: b
+620.9713 	DATA 	Keypress: r
+621.0210 	DATA 	Keypress: e
+621.1375 	DATA 	Keypress: space
+621.4542 	DATA 	Keypress: num_2
+621.6876 	DATA 	Keypress: num_0
+621.8209 	DATA 	Keypress: num_0
+622.2710 	DATA 	Keypress: num_4
+624.5909 	DATA 	Mouse: Left button down, pos=(958,113)
+624.6208 	EXP 	Anecdotes: autoDraw = False
+624.6208 	EXP 	tache_text: autoDraw = False
+624.6208 	EXP 	Validation_button: autoDraw = False
+624.6208 	EXP 	feedback_fichier_train: height = 0.05
+624.6208 	EXP 	feedback_fichier_train: height = 0.05
+624.6208 	EXP 	feedback_fichier_train: height = 0.05
+624.6208 	EXP 	feedback_fichier_train: text = 'POINTS'
+624.6208 	EXP 	feedbacktext: autoDraw = True
+624.6208 	EXP 	feedback_fichier_train: autoDraw = True
+624.6891 	DATA 	Mouse:  Left button up, pos=(958,113)
+627.9391 	DATA 	Keypress: space
+629.6207 	EXP 	feedbacktext: autoDraw = False
+629.6207 	EXP 	feedback_fichier_train: autoDraw = False
+629.6207 	EXP 	feedbacktext: autoDraw = False
+629.6207 	EXP 	feedback_fichier_train: autoDraw = False
+629.6207 	EXP 	text: autoDraw = True
+630.1052 	EXP 	New trial (rep=0, index=27): {'anecdotes': 'Seulement 2 pays touchent 3 océans, les Etats-Unis et le Canada', 'fichier': 'FAITS', 'anecdotes_reco': 'Seulement 2 pays touchent 3 océans, les Etats-Unis et le Canada'}
+630.1207 	EXP 	text: autoDraw = False
+630.1207 	EXP 	text: autoDraw = False
+630.1207 	EXP 	Anecdotes: height = 0.05
+630.1207 	EXP 	Anecdotes: height = 0.05
+630.1207 	EXP 	Anecdotes: height = 0.05
+630.1207 	EXP 	Anecdotes: text = 'Seulement 2 pays touchent 3 océans, les Etats-Unis et le Canada'
+630.1207 	EXP 	Anecdotes: autoDraw = True
+630.1207 	EXP 	tache_text: autoDraw = True
+630.1207 	EXP 	Validation_button: autoDraw = True
+630.7568 	DATA 	Keypress: capslock
+630.9568 	DATA 	Keypress: s
+631.0878 	DATA 	Keypress: capslock
+631.2375 	DATA 	Keypress: e
+631.3405 	DATA 	Keypress: u
+631.5900 	DATA 	Keypress: l
+631.7210 	DATA 	Keypress: e
+631.8211 	DATA 	Keypress: m
+631.9375 	DATA 	Keypress: e
+632.0711 	DATA 	Keypress: n
+632.2042 	DATA 	Keypress: t
+632.3234 	DATA 	Keypress: space
+632.8878 	DATA 	Keypress: num_2
+633.1375 	DATA 	Keypress: space
+633.3401 	DATA 	Keypress: p
+633.4210 	DATA 	Keypress: a
+633.5875 	DATA 	Keypress: y
+633.7043 	DATA 	Keypress: s
+633.8211 	DATA 	Keypress: space
+634.2211 	DATA 	Keypress: t
+634.3210 	DATA 	Keypress: o
+634.5208 	DATA 	Keypress: u
+634.6378 	DATA 	Keypress: c
+634.8709 	DATA 	Keypress: e
+635.2875 	DATA 	Keypress: backspace
+635.4374 	DATA 	Keypress: h
+635.5377 	DATA 	Keypress: e
+635.6375 	DATA 	Keypress: n
+635.7379 	DATA 	Keypress: t
+635.8377 	DATA 	Keypress: space
+636.2041 	DATA 	Keypress: num_3
+636.4373 	DATA 	Keypress: space
+636.8374 	DATA 	Keypress: o
+636.9734 	DATA 	Keypress: c
+637.1376 	DATA 	Keypress: 2
+637.3542 	DATA 	Keypress: a
+637.4710 	DATA 	Keypress: n
+637.5571 	DATA 	Keypress: s
+638.0875 	DATA 	Keypress: semicolon
+638.3401 	DATA 	Keypress: space
+638.7376 	DATA 	Keypress: backspace
+639.0540 	DATA 	Keypress: backspace
+639.7542 	DATA 	Keypress: comma
+639.8875 	DATA 	Keypress: space
+640.0208 	DATA 	Keypress: l
+640.1242 	DATA 	Keypress: e
+640.3041 	DATA 	Keypress: s
+640.3707 	DATA 	Keypress: space
+640.7540 	DATA 	Keypress: capslock
+640.8373 	DATA 	Keypress: e
+640.9541 	DATA 	Keypress: capslock
+641.1041 	DATA 	Keypress: t
+641.1875 	DATA 	Keypress: a
+641.3206 	DATA 	Keypress: t
+641.5207 	DATA 	Keypress: s
+641.6709 	DATA 	Keypress: space
+641.8542 	DATA 	Keypress: u
+642.1376 	DATA 	Keypress: n
+642.5373 	DATA 	Keypress: i
+642.7042 	DATA 	Keypress: s
+642.8042 	DATA 	Keypress: space
+643.0707 	DATA 	Keypress: e
+643.1878 	DATA 	Keypress: t
+643.2873 	DATA 	Keypress: space
+643.4208 	DATA 	Keypress: l
+643.5042 	DATA 	Keypress: e
+643.6042 	DATA 	Keypress: space
+643.7374 	DATA 	Keypress: c
+643.8045 	DATA 	Keypress: a
+643.9707 	DATA 	Keypress: n
+644.1042 	DATA 	Keypress: a
+644.3734 	DATA 	Keypress: d
+644.5376 	DATA 	Keypress: a
+644.9211 	DATA 	Keypress: s
+645.3041 	DATA 	Keypress: backspace
+645.6708 	DATA 	Keypress: backspace
+645.8373 	DATA 	Keypress: backspace
+646.0041 	DATA 	Keypress: backspace
+646.0540 	DATA 	Keypress: capslock
+646.1874 	DATA 	Keypress: backspace
+646.3041 	DATA 	Keypress: backspace
+646.4375 	DATA 	Keypress: backspace
+646.5733 	DATA 	Keypress: c
+646.6541 	DATA 	Keypress: capslock
+646.9397 	DATA 	Keypress: a
+647.0873 	DATA 	Keypress: n
+647.1879 	DATA 	Keypress: a
+647.4708 	DATA 	Keypress: s
+648.0372 	DATA 	Keypress: backspace
+648.1373 	DATA 	Keypress: d
+648.2042 	DATA 	Keypress: a
+649.3573 	DATA 	Mouse: Left button down, pos=(990,119)
+649.3871 	EXP 	Anecdotes: autoDraw = False
+649.3871 	EXP 	tache_text: autoDraw = False
+649.3871 	EXP 	Validation_button: autoDraw = False
+649.3871 	EXP 	feedback_fichier_train: height = 0.05
+649.3871 	EXP 	feedback_fichier_train: height = 0.05
+649.3871 	EXP 	feedback_fichier_train: height = 0.05
+649.3871 	EXP 	feedback_fichier_train: text = 'FAITS'
+649.3871 	EXP 	feedbacktext: autoDraw = True
+649.3871 	EXP 	feedback_fichier_train: autoDraw = True
+649.4720 	DATA 	Mouse:  Left button up, pos=(990,119)
+650.5223 	DATA 	Keypress: space
+654.3873 	EXP 	feedbacktext: autoDraw = False
+654.3873 	EXP 	feedback_fichier_train: autoDraw = False
+654.3873 	EXP 	feedbacktext: autoDraw = False
+654.3873 	EXP 	feedback_fichier_train: autoDraw = False
+654.3873 	EXP 	text: autoDraw = True
+654.8716 	EXP 	New trial (rep=0, index=28): {'anecdotes': 'Une personne perdra environ 18 kilos de peau durant toute sa vie  ', 'fichier': 'POINTS', 'anecdotes_reco': 'Une personne perdra environ 18 kilos de peau durant toute sa vie  '}
+654.8870 	EXP 	text: autoDraw = False
+654.8870 	EXP 	text: autoDraw = False
+654.8870 	EXP 	Anecdotes: height = 0.05
+654.8870 	EXP 	Anecdotes: height = 0.05
+654.8870 	EXP 	Anecdotes: height = 0.05
+654.8870 	EXP 	Anecdotes: text = 'Une personne perdra environ 18 kilos de peau durant toute sa vie  '
+654.8870 	EXP 	Anecdotes: autoDraw = True
+654.8870 	EXP 	tache_text: autoDraw = True
+654.8870 	EXP 	Validation_button: autoDraw = True
+655.4872 	DATA 	Keypress: capslock
+655.6206 	DATA 	Keypress: u
+655.7707 	DATA 	Keypress: capslock
+655.9041 	DATA 	Keypress: n
+656.0373 	DATA 	Keypress: e
+656.1708 	DATA 	Keypress: space
+656.3401 	DATA 	Keypress: p
+656.4373 	DATA 	Keypress: e
+656.5040 	DATA 	Keypress: r
+656.7039 	DATA 	Keypress: s
+656.7233 	DATA 	Keypress: o
+656.9207 	DATA 	Keypress: n
+657.0540 	DATA 	Keypress: n
+657.1207 	DATA 	Keypress: e
+657.2065 	DATA 	Keypress: space
+657.3209 	DATA 	Keypress: p
+657.3570 	DATA 	Keypress: e
+657.4372 	DATA 	Keypress: r
+657.6371 	DATA 	Keypress: d
+657.7873 	DATA 	Keypress: r
+657.8707 	DATA 	Keypress: a
+657.9705 	DATA 	Keypress: space
+658.1205 	DATA 	Keypress: e
+658.2540 	DATA 	Keypress: n
+658.3542 	DATA 	Keypress: v
+658.4874 	DATA 	Keypress: i
+658.5873 	DATA 	Keypress: r
+658.6874 	DATA 	Keypress: o
+659.0373 	DATA 	Keypress: n
+659.3205 	DATA 	Keypress: space
+659.6874 	DATA 	Keypress: num_1
+659.9566 	DATA 	Keypress: num_8
+660.1735 	DATA 	Keypress: space
+660.4707 	DATA 	Keypress: k
+660.6872 	DATA 	Keypress: i
+660.8876 	DATA 	Keypress: l
+661.0541 	DATA 	Keypress: o
+661.1872 	DATA 	Keypress: s
+661.2873 	DATA 	Keypress: space
+661.3705 	DATA 	Keypress: d
+661.4373 	DATA 	Keypress: e
+661.4874 	DATA 	Keypress: space
+661.5708 	DATA 	Keypress: p
+661.6542 	DATA 	Keypress: e
+661.8039 	DATA 	Keypress: u
+662.1372 	DATA 	Keypress: backspace
+662.2705 	DATA 	Keypress: a
+662.3706 	DATA 	Keypress: u
+662.5234 	DATA 	Keypress: space
+662.7374 	DATA 	Keypress: d
+662.8541 	DATA 	Keypress: u
+662.9732 	DATA 	Keypress: r
+663.0872 	DATA 	Keypress: a
+663.1706 	DATA 	Keypress: n
+663.2372 	DATA 	Keypress: t
+663.3403 	DATA 	Keypress: space
+663.4705 	DATA 	Keypress: t
+663.5373 	DATA 	Keypress: o
+663.6874 	DATA 	Keypress: u
+663.7538 	DATA 	Keypress: t
+663.8038 	DATA 	Keypress: e
+663.9235 	DATA 	Keypress: space
+664.0705 	DATA 	Keypress: s
+664.2041 	DATA 	Keypress: a
+664.2538 	DATA 	Keypress: space
+664.3707 	DATA 	Keypress: v
+664.4706 	DATA 	Keypress: i
+664.5708 	DATA 	Keypress: e
+665.8068 	DATA 	Mouse: Left button down, pos=(957,121)
+665.9040 	DATA 	Mouse:  Left button up, pos=(957,121)
+667.7567 	DATA 	Mouse: Left button down, pos=(969,117)
+667.7872 	EXP 	Anecdotes: autoDraw = False
+667.7872 	EXP 	tache_text: autoDraw = False
+667.7872 	EXP 	Validation_button: autoDraw = False
+667.7872 	EXP 	feedback_fichier_train: height = 0.05
+667.7872 	EXP 	feedback_fichier_train: height = 0.05
+667.7872 	EXP 	feedback_fichier_train: height = 0.05
+667.7872 	EXP 	feedback_fichier_train: text = 'POINTS'
+667.7872 	EXP 	feedbacktext: autoDraw = True
+667.7872 	EXP 	feedback_fichier_train: autoDraw = True
+667.8386 	DATA 	Mouse:  Left button up, pos=(969,117)
+672.7871 	EXP 	feedbacktext: autoDraw = False
+672.7871 	EXP 	feedback_fichier_train: autoDraw = False
+672.7871 	EXP 	feedbacktext: autoDraw = False
+672.7871 	EXP 	feedback_fichier_train: autoDraw = False
+672.7871 	EXP 	text: autoDraw = True
+673.2714 	EXP 	New trial (rep=0, index=29): {'anecdotes': 'La Corée du Nord a annoncé avoir conduit un test nucléaire avec succès en octobre 2006  ', 'fichier': 'ITEMS', 'anecdotes_reco': 'La Corée du Nord a annoncé avoir conduit un test nucléaire avec succès en octobre 2006  '}
+673.2869 	EXP 	text: autoDraw = False
+673.2869 	EXP 	text: autoDraw = False
+673.2869 	EXP 	Anecdotes: height = 0.05
+673.2869 	EXP 	Anecdotes: height = 0.05
+673.2869 	EXP 	Anecdotes: height = 0.05
+673.2869 	EXP 	Anecdotes: text = 'La Corée du Nord a annoncé avoir conduit un test nucléaire avec succès en octobre 2006  '
+673.2869 	EXP 	Anecdotes: autoDraw = True
+673.2869 	EXP 	tache_text: autoDraw = True
+673.2869 	EXP 	Validation_button: autoDraw = True
+673.8704 	DATA 	Keypress: capslock
+674.0704 	DATA 	Keypress: l
+674.1704 	DATA 	Keypress: capslock
+674.2205 	DATA 	Keypress: a
+674.3539 	DATA 	Keypress: space
+674.4540 	DATA 	Keypress: c
+674.5536 	DATA 	Keypress: o
+674.6870 	DATA 	Keypress: r
+674.7901 	DATA 	Keypress: 2
+674.9036 	DATA 	Keypress: e
+675.0203 	DATA 	Keypress: space
+675.1372 	DATA 	Keypress: d
+675.3540 	DATA 	Keypress: u
+675.5039 	DATA 	Keypress: space
+675.5540 	DATA 	Keypress: capslock
+675.6871 	DATA 	Keypress: n
+675.7573 	DATA 	Keypress: capslock
+675.8871 	DATA 	Keypress: o
+675.9728 	DATA 	Keypress: r
+676.1705 	DATA 	Keypress: d
+676.2370 	DATA 	Keypress: space
+676.5704 	DATA 	Keypress: a
+677.1037 	DATA 	Keypress: space
+677.3704 	DATA 	Keypress: a
+677.4702 	DATA 	Keypress: n
+677.6538 	DATA 	Keypress: n
+677.8372 	DATA 	Keypress: o
+678.0066 	DATA 	Keypress: n
+678.0871 	DATA 	Keypress: c
+678.2372 	DATA 	Keypress: 2
+678.3568 	DATA 	Keypress: space
+678.4706 	DATA 	Keypress: a
+678.6230 	DATA 	Keypress: v
+678.7370 	DATA 	Keypress: o
+678.8870 	DATA 	Keypress: i
+678.9539 	DATA 	Keypress: r
+679.0538 	DATA 	Keypress: space
+679.1564 	DATA 	Keypress: c
+679.2372 	DATA 	Keypress: o
+679.3870 	DATA 	Keypress: n
+679.4537 	DATA 	Keypress: d
+679.6203 	DATA 	Keypress: u
+679.8039 	DATA 	Keypress: i
+679.9536 	DATA 	Keypress: t
+680.0706 	DATA 	Keypress: space
+680.1205 	DATA 	Keypress: u
+680.3036 	DATA 	Keypress: n
+680.4540 	DATA 	Keypress: space
+680.5203 	DATA 	Keypress: t
+680.5732 	DATA 	Keypress: e
+680.7703 	DATA 	Keypress: s
+680.9537 	DATA 	Keypress: t
+681.0704 	DATA 	Keypress: space
+681.2039 	DATA 	Keypress: n
+681.4205 	DATA 	Keypress: u
+681.5400 	DATA 	Keypress: c
+681.6870 	DATA 	Keypress: l
+681.8202 	DATA 	Keypress: 2
+682.0203 	DATA 	Keypress: a
+682.2036 	DATA 	Keypress: i
+682.3039 	DATA 	Keypress: r
+682.3704 	DATA 	Keypress: e
+682.4539 	DATA 	Keypress: space
+682.5537 	DATA 	Keypress: a
+682.6870 	DATA 	Keypress: v
+682.7729 	DATA 	Keypress: e
+682.8872 	DATA 	Keypress: c
+683.0204 	DATA 	Keypress: space
+683.1537 	DATA 	Keypress: u
+683.3563 	DATA 	Keypress: n
+683.5370 	DATA 	Keypress: space
+683.6061 	DATA 	Keypress: s
+683.7370 	DATA 	Keypress: u
+683.8204 	DATA 	Keypress: c
+683.9704 	DATA 	Keypress: c
+684.3732 	DATA 	Keypress: backspace
+684.9703 	DATA 	Keypress: backspace
+685.1370 	DATA 	Keypress: backspace
+685.3035 	DATA 	Keypress: backspace
+685.4704 	DATA 	Keypress: backspace
+685.6037 	DATA 	Keypress: backspace
+685.7204 	DATA 	Keypress: backspace
+685.8704 	DATA 	Keypress: s
+686.2705 	DATA 	Keypress: u
+686.5370 	DATA 	Keypress: c
+686.7040 	DATA 	Keypress: c
+687.1370 	DATA 	Keypress: 7
+687.2540 	DATA 	Keypress: s
+687.3564 	DATA 	Keypress: space
+687.6037 	DATA 	Keypress: e
+687.7039 	DATA 	Keypress: n
+687.8702 	DATA 	Keypress: space
+687.9565 	DATA 	Keypress: o
+688.0870 	DATA 	Keypress: c
+688.2869 	DATA 	Keypress: t
+688.4067 	DATA 	Keypress: o
+688.5740 	DATA 	Keypress: b
+688.7872 	DATA 	Keypress: r
+688.8707 	DATA 	Keypress: e
+689.0535 	DATA 	Keypress: space
+689.6038 	DATA 	Keypress: num_2
+689.8230 	DATA 	Keypress: num_0
+690.0229 	DATA 	Keypress: num_0
+690.3731 	DATA 	Keypress: num_6
+691.7040 	DATA 	Mouse: Left button down, pos=(947,94)
+691.8369 	DATA 	Mouse:  Left button up, pos=(947,94)
+694.3575 	DATA 	Mouse: Left button down, pos=(929,131)
+694.4535 	DATA 	Mouse:  Left button up, pos=(929,131)
+695.2539 	DATA 	Mouse: Left button down, pos=(941,119)
+695.2702 	EXP 	Anecdotes: autoDraw = False
+695.2702 	EXP 	tache_text: autoDraw = False
+695.2702 	EXP 	Validation_button: autoDraw = False
+695.2702 	EXP 	feedback_fichier_train: height = 0.05
+695.2702 	EXP 	feedback_fichier_train: height = 0.05
+695.2702 	EXP 	feedback_fichier_train: height = 0.05
+695.2702 	EXP 	feedback_fichier_train: text = 'ITEMS'
+695.2702 	EXP 	feedbacktext: autoDraw = True
+695.2702 	EXP 	feedback_fichier_train: autoDraw = True
+695.3551 	DATA 	Mouse:  Left button up, pos=(941,119)
+700.2700 	EXP 	feedbacktext: autoDraw = False
+700.2700 	EXP 	feedback_fichier_train: autoDraw = False
+700.2700 	EXP 	feedbacktext: autoDraw = False
+700.2700 	EXP 	feedback_fichier_train: autoDraw = False
+700.2700 	EXP 	text: autoDraw = True
+700.7544 	EXP 	New trial (rep=0, index=30): {'anecdotes': 'Il y a en moyenne 178 graines de sésames sur le pain du Big Mac de McDonald  ', 'fichier': 'NOMS', 'anecdotes_reco': 'Il y a en moyenne 178 graines de sésames sur le pain du Big Mac de McDonald  '}
+700.7701 	EXP 	text: autoDraw = False
+700.7701 	EXP 	text: autoDraw = False
+700.7701 	EXP 	Anecdotes: height = 0.05
+700.7701 	EXP 	Anecdotes: height = 0.05
+700.7701 	EXP 	Anecdotes: height = 0.05
+700.7701 	EXP 	Anecdotes: text = 'Il y a en moyenne 178 graines de sésames sur le pain du Big Mac de McDonald  '
+700.7701 	EXP 	Anecdotes: autoDraw = True
+700.7701 	EXP 	tache_text: autoDraw = True
+700.7701 	EXP 	Validation_button: autoDraw = True
+701.4202 	DATA 	Keypress: capslock
+701.5563 	DATA 	Keypress: i
+701.6535 	DATA 	Keypress: capslock
+701.7870 	DATA 	Keypress: l
+701.9534 	DATA 	Keypress: space
+702.0702 	DATA 	Keypress: y
+702.2063 	DATA 	Keypress: space
+702.2704 	DATA 	Keypress: a
+702.4869 	DATA 	Keypress: space
+702.5538 	DATA 	Keypress: e
+702.7536 	DATA 	Keypress: n
+702.9367 	DATA 	Keypress: space
+703.0204 	DATA 	Keypress: m
+703.2534 	DATA 	Keypress: o
+703.5035 	DATA 	Keypress: y
+703.7202 	DATA 	Keypress: e
+703.8868 	DATA 	Keypress: n
+704.0537 	DATA 	Keypress: n
+704.1369 	DATA 	Keypress: e
+704.2367 	DATA 	Keypress: space
+704.8036 	DATA 	Keypress: num_1
+705.1368 	DATA 	Keypress: num_7
+705.3729 	DATA 	Keypress: num_8
+705.6700 	DATA 	Keypress: space
+705.8201 	DATA 	Keypress: g
+706.0200 	DATA 	Keypress: r
+706.1202 	DATA 	Keypress: a
+706.1730 	DATA 	Keypress: i
+706.3869 	DATA 	Keypress: n
+706.4535 	DATA 	Keypress: e
+706.6700 	DATA 	Keypress: s
+706.7369 	DATA 	Keypress: space
+706.8369 	DATA 	Keypress: d
+706.9369 	DATA 	Keypress: e
+706.9896 	DATA 	Keypress: space
+707.1369 	DATA 	Keypress: s
+707.2534 	DATA 	Keypress: 2
+707.3564 	DATA 	Keypress: s
+707.5895 	DATA 	Keypress: a
+708.1731 	DATA 	Keypress: m
+708.3036 	DATA 	Keypress: e
+708.5201 	DATA 	Keypress: s
+708.6367 	DATA 	Keypress: space
+708.8061 	DATA 	Keypress: d
+709.1369 	DATA 	Keypress: backspace
+709.3701 	DATA 	Keypress: s
+709.4537 	DATA 	Keypress: u
+709.6035 	DATA 	Keypress: r
+709.7367 	DATA 	Keypress: space
+709.8702 	DATA 	Keypress: l
+709.9366 	DATA 	Keypress: e
+710.0366 	DATA 	Keypress: space
+710.1033 	DATA 	Keypress: p
+710.3727 	DATA 	Keypress: a
+710.5536 	DATA 	Keypress: i
+710.7534 	DATA 	Keypress: n
+710.9033 	DATA 	Keypress: space
+711.0035 	DATA 	Keypress: d
+711.1533 	DATA 	Keypress: u
+711.2703 	DATA 	Keypress: space
+711.3034 	DATA 	Keypress: capslock
+711.4868 	DATA 	Keypress: b
+711.6867 	DATA 	Keypress: capslock
+711.8370 	DATA 	Keypress: i
+712.0036 	DATA 	Keypress: g
+712.5701 	DATA 	Keypress: space
+712.6867 	DATA 	Keypress: capslock
+712.8368 	DATA 	Keypress: m
+712.9200 	DATA 	Keypress: capslock
+712.9536 	DATA 	Keypress: a
+713.1534 	DATA 	Keypress: c
+713.4368 	DATA 	Keypress: space
+713.6060 	DATA 	Keypress: d
+713.7034 	DATA 	Keypress: e
+713.8035 	DATA 	Keypress: space
+714.0701 	DATA 	Keypress: capslock
+714.1899 	DATA 	Keypress: m
+714.2702 	DATA 	Keypress: capslock
+714.3872 	DATA 	Keypress: c
+714.5868 	DATA 	Keypress: d
+714.7559 	DATA 	Keypress: o
+715.0034 	DATA 	Keypress: backspace
+715.0869 	DATA 	Keypress: capslock
+715.1896 	DATA 	Keypress: d
+715.3533 	DATA 	Keypress: backspace
+715.5535 	DATA 	Keypress: backspace
+715.6866 	DATA 	Keypress: d
+715.8374 	DATA 	Keypress: capslock
+715.9536 	DATA 	Keypress: o
+716.1535 	DATA 	Keypress: n
+716.2535 	DATA 	Keypress: a
+716.3702 	DATA 	Keypress: l
+716.5366 	DATA 	Keypress: d
+718.4699 	DATA 	Mouse: Left button down, pos=(955,126)
+718.5895 	DATA 	Mouse:  Left button up, pos=(955,126)
+720.0700 	DATA 	Mouse: Left button down, pos=(958,111)
+720.0866 	EXP 	Anecdotes: autoDraw = False
+720.0866 	EXP 	tache_text: autoDraw = False
+720.0866 	EXP 	Validation_button: autoDraw = False
+720.0866 	EXP 	feedback_fichier_train: height = 0.05
+720.0866 	EXP 	feedback_fichier_train: height = 0.05
+720.0866 	EXP 	feedback_fichier_train: height = 0.05
+720.0866 	EXP 	feedback_fichier_train: text = 'NOMS'
+720.0866 	EXP 	feedbacktext: autoDraw = True
+720.0866 	EXP 	feedback_fichier_train: autoDraw = True
+720.1885 	DATA 	Mouse:  Left button up, pos=(958,111)
+725.0864 	EXP 	feedbacktext: autoDraw = False
+725.0864 	EXP 	feedback_fichier_train: autoDraw = False
+725.0864 	EXP 	feedbacktext: autoDraw = False
+725.0864 	EXP 	feedback_fichier_train: autoDraw = False
+725.0864 	EXP 	text: autoDraw = True
+725.5710 	EXP 	New trial (rep=0, index=31): {'anecdotes': 'L’indicatif téléphonique international de l’Antarctique est 672 ', 'fichier': 'INFOS', 'anecdotes_reco': 'L’indicatif téléphonique international de l’Antarctique est 672 '}
+725.5864 	EXP 	text: autoDraw = False
+725.5864 	EXP 	text: autoDraw = False
+725.5864 	EXP 	Anecdotes: height = 0.05
+725.5864 	EXP 	Anecdotes: height = 0.05
+725.5864 	EXP 	Anecdotes: height = 0.05
+725.5864 	EXP 	Anecdotes: text = 'L’indicatif téléphonique international de l’Antarctique est 672 '
+725.5864 	EXP 	Anecdotes: autoDraw = True
+725.5864 	EXP 	tache_text: autoDraw = True
+725.5864 	EXP 	Validation_button: autoDraw = True
+726.2203 	DATA 	Keypress: capslock
+726.4198 	DATA 	Keypress: l
+726.4367 	DATA 	Keypress: capslock
+726.6365 	DATA 	Keypress: 4
+726.7534 	DATA 	Keypress: i
+726.9535 	DATA 	Keypress: n
+727.0202 	DATA 	Keypress: d
+727.1699 	DATA 	Keypress: i
+727.2533 	DATA 	Keypress: c
+727.3368 	DATA 	Keypress: a
+727.5034 	DATA 	Keypress: t
+727.5893 	DATA 	Keypress: i
+727.7366 	DATA 	Keypress: f
+728.0365 	DATA 	Keypress: space
+728.4366 	DATA 	Keypress: t
+728.5366 	DATA 	Keypress: 2
+728.6698 	DATA 	Keypress: l
+728.7532 	DATA 	Keypress: 2
+729.0867 	DATA 	Keypress: p
+729.3197 	DATA 	Keypress: h
+729.4701 	DATA 	Keypress: o
+729.6867 	DATA 	Keypress: n
+729.8534 	DATA 	Keypress: i
+729.9701 	DATA 	Keypress: q
+730.0698 	DATA 	Keypress: u
+730.1724 	DATA 	Keypress: e
+730.2700 	DATA 	Keypress: space
+730.3531 	DATA 	Keypress: i
+730.5530 	DATA 	Keypress: n
+730.6866 	DATA 	Keypress: t
+730.7533 	DATA 	Keypress: e
+730.8866 	DATA 	Keypress: r
+731.1364 	DATA 	Keypress: n
+731.2365 	DATA 	Keypress: a
+731.4032 	DATA 	Keypress: t
+731.4867 	DATA 	Keypress: i
+731.6697 	DATA 	Keypress: o
+731.8200 	DATA 	Keypress: n
+731.9198 	DATA 	Keypress: a
+732.0698 	DATA 	Keypress: l
+732.2060 	DATA 	Keypress: space
+732.3031 	DATA 	Keypress: d
+732.3698 	DATA 	Keypress: e
+732.4364 	DATA 	Keypress: space
+732.6057 	DATA 	Keypress: l
+732.7032 	DATA 	Keypress: capslock
+733.6531 	DATA 	Keypress: capslock
+733.8866 	DATA 	Keypress: 4
+734.0866 	DATA 	Keypress: capslock
+734.4227 	DATA 	Keypress: a
+734.7726 	DATA 	Keypress: capslock
+735.0364 	DATA 	Keypress: n
+735.1728 	DATA 	Keypress: t
+735.2866 	DATA 	Keypress: a
+735.8059 	DATA 	Keypress: r
+736.3365 	DATA 	Keypress: t
+736.4864 	DATA 	Keypress: i
+736.6533 	DATA 	Keypress: c
+737.0197 	DATA 	Keypress: backspace
+737.1031 	DATA 	Keypress: q
+737.2228 	DATA 	Keypress: u
+737.3697 	DATA 	Keypress: e
+737.6364 	DATA 	Keypress: space
+737.8198 	DATA 	Keypress: e
+738.0059 	DATA 	Keypress: s
+738.2058 	DATA 	Keypress: t
+738.3890 	DATA 	Keypress: space
+738.8865 	DATA 	Keypress: num_6
+739.3031 	DATA 	Keypress: num_7
+739.5561 	DATA 	Keypress: num_0
+739.6057 	DATA 	Keypress: num_2
+740.1031 	DATA 	Keypress: backspace
+740.2866 	DATA 	Keypress: backspace
+740.5030 	DATA 	Keypress: num_2
+743.9560 	DATA 	Mouse: Left button down, pos=(957,106)
+743.9862 	EXP 	Anecdotes: autoDraw = False
+743.9862 	EXP 	tache_text: autoDraw = False
+743.9862 	EXP 	Validation_button: autoDraw = False
+743.9862 	EXP 	feedback_fichier_train: height = 0.05
+743.9862 	EXP 	feedback_fichier_train: height = 0.05
+743.9862 	EXP 	feedback_fichier_train: height = 0.05
+743.9862 	EXP 	feedback_fichier_train: text = 'INFOS'
+743.9862 	EXP 	feedbacktext: autoDraw = True
+743.9862 	EXP 	feedback_fichier_train: autoDraw = True
+744.0712 	DATA 	Mouse:  Left button up, pos=(957,106)
+748.9863 	EXP 	feedbacktext: autoDraw = False
+748.9863 	EXP 	feedback_fichier_train: autoDraw = False
+748.9863 	EXP 	feedbacktext: autoDraw = False
+748.9863 	EXP 	feedback_fichier_train: autoDraw = False
+748.9863 	EXP 	text: autoDraw = True
+749.4860 	EXP 	text: autoDraw = False
+749.4860 	EXP 	text: autoDraw = False
+749.4860 	EXP 	waiting_screen: autoDraw = True
+1408.1638 	DATA 	Keypress: i
+1408.1795 	EXP 	waiting_screen: autoDraw = False
+1408.1795 	EXP 	blank: autoDraw = True
+1408.6794 	EXP 	blank: autoDraw = False
+1408.6794 	EXP 	blank: autoDraw = False
+1408.6794 	EXP 	text_3: autoDraw = True
+1418.1303 	DATA 	Keypress: space
+1418.1459 	EXP 	text_3: autoDraw = False
+1418.1459 	EXP 	blank: autoDraw = True
+1418.6941 	EXP 	Imported Feuille de calcul sans titre.xlsx as conditions, 32 conditions, 3 params
+1418.6947 	EXP 	Created sequence: random, trialTypes=32, nReps=1, seed=None
+1418.6949 	EXP 	New trial (rep=0, index=0): {'anecdotes': 'L’indicatif téléphonique international de l’Antarctique est 672 ', 'fichier': 'INFOS', 'anecdotes_reco': 'L’indicatif téléphonique international de l’Antarctique est 672 '}
+1418.7128 	EXP 	blank: autoDraw = False
+1418.7128 	EXP 	blank: autoDraw = False
+1418.7128 	EXP 	Anecdotes_reco: height = 0.05
+1418.7128 	EXP 	Anecdotes_reco: height = 0.05
+1418.7128 	EXP 	Anecdotes_reco: height = 0.05
+1418.7128 	EXP 	Anecdotes_reco: text = 'L’indicatif téléphonique international de l’Antarctique est 672 '
+1418.7128 	EXP 	Anecdotes_reco: autoDraw = True
+1418.7128 	EXP 	reco_text: autoDraw = True
+1418.7128 	EXP 	validation_reco: autoDraw = True
+1426.4294 	DATA 	Keypress: capslock
+1426.5460 	DATA 	Keypress: p
+1426.6293 	DATA 	Keypress: capslock
+1426.7792 	DATA 	Keypress: o
+1426.9628 	DATA 	Keypress: i
+1427.1960 	DATA 	Keypress: n
+1427.2792 	DATA 	Keypress: t
+1428.0794 	DATA 	Keypress: return
+1430.2302 	DATA 	Mouse: Left button down, pos=(933,112)
+1430.2458 	EXP 	Anecdotes_reco: autoDraw = False
+1430.2458 	EXP 	reco_text: autoDraw = False
+1430.2458 	EXP 	validation_reco: autoDraw = False
+1430.2458 	EXP 	blank: autoDraw = True
+1430.3297 	DATA 	Mouse:  Left button up, pos=(933,112)
+1430.7298 	EXP 	New trial (rep=0, index=1): {'anecdotes': 'La carte de visite d’Al Capone indiquait qu’il était vendeur de meuble d’occasion ', 'fichier': 'INFOS', 'anecdotes_reco': 'La carte de visite d’Al Capone indiquait qu’il était vendeur de meuble d’occasion '}
+1430.7460 	EXP 	blank: autoDraw = False
+1430.7460 	EXP 	blank: autoDraw = False
+1430.7460 	EXP 	Anecdotes_reco: height = 0.05
+1430.7460 	EXP 	Anecdotes_reco: height = 0.05
+1430.7460 	EXP 	Anecdotes_reco: height = 0.05
+1430.7460 	EXP 	Anecdotes_reco: text = 'La carte de visite d’Al Capone indiquait qu’il était vendeur de meuble d’occasion '
+1430.7460 	EXP 	Anecdotes_reco: autoDraw = True
+1430.7460 	EXP 	reco_text: autoDraw = True
+1430.7460 	EXP 	validation_reco: autoDraw = True
+1439.7977 	DATA 	Keypress: capslock
+1439.9460 	DATA 	Keypress: f
+1440.0791 	DATA 	Keypress: capslock
+1440.0960 	DATA 	Keypress: a
+1440.2296 	DATA 	Keypress: i
+1440.3792 	DATA 	Keypress: t
+1442.8142 	DATA 	Keypress: backspace
+1443.5628 	DATA 	Keypress: backspace
+1443.7459 	DATA 	Keypress: backspace
+1443.9792 	DATA 	Keypress: capslock
+1444.1791 	DATA 	Keypress: n
+1444.3293 	DATA 	Keypress: capslock
+1444.4294 	DATA 	Keypress: o
+1445.0124 	DATA 	Keypress: m
+1446.5962 	DATA 	Mouse: Left button down, pos=(941,119)
+1446.6121 	EXP 	Anecdotes_reco: autoDraw = False
+1446.6121 	EXP 	reco_text: autoDraw = False
+1446.6121 	EXP 	validation_reco: autoDraw = False
+1446.6121 	EXP 	blank: autoDraw = True
+1446.7130 	DATA 	Mouse:  Left button up, pos=(968,126)
+1447.0961 	EXP 	New trial (rep=0, index=2): {'anecdotes': 'On peut reproduire une clé grâce au son qu’elle émet lorsqu’on l’insère dans une serrure ', 'fichier': 'POINTS', 'anecdotes_reco': 'On peut reproduire une clé grâce au son qu’elle émet lorsqu’on l’insère dans une serrure '}
+1447.1122 	EXP 	blank: autoDraw = False
+1447.1122 	EXP 	blank: autoDraw = False
+1447.1122 	EXP 	Anecdotes_reco: height = 0.05
+1447.1122 	EXP 	Anecdotes_reco: height = 0.05
+1447.1122 	EXP 	Anecdotes_reco: height = 0.05
+1447.1122 	EXP 	Anecdotes_reco: text = 'On peut reproduire une clé grâce au son qu’elle émet lorsqu’on l’insère dans une serrure '
+1447.1122 	EXP 	Anecdotes_reco: autoDraw = True
+1447.1122 	EXP 	reco_text: autoDraw = True
+1447.1122 	EXP 	validation_reco: autoDraw = True
+1451.3292 	DATA 	Mouse: Left button down, pos=(928,129)
+1451.4290 	DATA 	Mouse:  Left button up, pos=(929,129)
+1451.7626 	DATA 	Mouse: Left button down, pos=(937,120)
+1451.7790 	EXP 	Anecdotes_reco: autoDraw = False
+1451.7790 	EXP 	reco_text: autoDraw = False
+1451.7790 	EXP 	validation_reco: autoDraw = False
+1451.7790 	EXP 	blank: autoDraw = True
+1451.8630 	DATA 	Mouse:  Left button up, pos=(937,120)
+1452.2626 	EXP 	New trial (rep=0, index=3): {'anecdotes': 'Une personne perdra environ 18 kilos de peau durant toute sa vie  ', 'fichier': 'POINTS', 'anecdotes_reco': 'Une personne perdra environ 18 kilos de peau durant toute sa vie  '}
+1452.2790 	EXP 	blank: autoDraw = False
+1452.2790 	EXP 	blank: autoDraw = False
+1452.2790 	EXP 	Anecdotes_reco: height = 0.05
+1452.2790 	EXP 	Anecdotes_reco: height = 0.05
+1452.2790 	EXP 	Anecdotes_reco: height = 0.05
+1452.2790 	EXP 	Anecdotes_reco: text = 'Une personne perdra environ 18 kilos de peau durant toute sa vie  '
+1452.2790 	EXP 	Anecdotes_reco: autoDraw = True
+1452.2790 	EXP 	reco_text: autoDraw = True
+1452.2790 	EXP 	validation_reco: autoDraw = True
+1456.6959 	DATA 	Keypress: capslock
+1456.9457 	DATA 	Keypress: i
+1457.1459 	DATA 	Keypress: n
+1457.2624 	DATA 	Keypress: f
+1457.3457 	DATA 	Keypress: o
+1457.5793 	DATA 	Keypress: capslock
+1460.2126 	DATA 	Keypress: backspace
+1460.9456 	DATA 	Keypress: capslock
+1461.2789 	DATA 	Keypress: p
+1461.5126 	DATA 	Keypress: backspace
+1461.6790 	DATA 	Keypress: backspace
+1461.7790 	DATA 	Keypress: p
+1462.0957 	DATA 	Keypress: capslock
+1462.2123 	DATA 	Keypress: o
+1462.3956 	DATA 	Keypress: i
+1462.6124 	DATA 	Keypress: n
+1462.7288 	DATA 	Keypress: t
+1463.6624 	DATA 	Mouse: Left button down, pos=(933,109)
+1463.6787 	EXP 	Anecdotes_reco: autoDraw = False
+1463.6787 	EXP 	reco_text: autoDraw = False
+1463.6787 	EXP 	validation_reco: autoDraw = False
+1463.6787 	EXP 	blank: autoDraw = True
+1463.7460 	DATA 	Mouse:  Left button up, pos=(932,109)
+1464.1625 	EXP 	New trial (rep=0, index=4): {'anecdotes': 'Seulement 2 pays touchent 3 océans, les Etats-Unis et le Canada', 'fichier': 'FAITS', 'anecdotes_reco': 'Seulement 2 pays touchent 3 océans, les Etats-Unis et le Canada'}
+1464.1786 	EXP 	blank: autoDraw = False
+1464.1786 	EXP 	blank: autoDraw = False
+1464.1786 	EXP 	Anecdotes_reco: height = 0.05
+1464.1786 	EXP 	Anecdotes_reco: height = 0.05
+1464.1786 	EXP 	Anecdotes_reco: height = 0.05
+1464.1786 	EXP 	Anecdotes_reco: text = 'Seulement 2 pays touchent 3 océans, les Etats-Unis et le Canada'
+1464.1786 	EXP 	Anecdotes_reco: autoDraw = True
+1464.1786 	EXP 	reco_text: autoDraw = True
+1464.1786 	EXP 	validation_reco: autoDraw = True
+1468.2126 	DATA 	Keypress: capslock
+1468.4791 	DATA 	Keypress: n
+1468.7789 	DATA 	Keypress: capslock
+1469.0790 	DATA 	Keypress: o
+1469.3979 	DATA 	Keypress: m
+1470.6789 	DATA 	Mouse: Left button down, pos=(931,108)
+1470.6955 	EXP 	Anecdotes_reco: autoDraw = False
+1470.6955 	EXP 	reco_text: autoDraw = False
+1470.6955 	EXP 	validation_reco: autoDraw = False
+1470.6955 	EXP 	blank: autoDraw = True
+1470.7628 	DATA 	Mouse:  Left button up, pos=(931,108)
+1471.1790 	EXP 	New trial (rep=0, index=5): {'anecdotes': 'La navette Spatiale Columbia s’est désintégrée durant son entrée dans l’atmosphère au-dessus du Texas en février 2003 ', 'fichier': 'DONNEES', 'anecdotes_reco': 'La navette Spatiale Columbia s’est désintégrée durant son entrée dans l’atmosphère au-dessus du Texas en février 2003 '}
+1471.1954 	EXP 	blank: autoDraw = False
+1471.1954 	EXP 	blank: autoDraw = False
+1471.1954 	EXP 	Anecdotes_reco: height = 0.05
+1471.1954 	EXP 	Anecdotes_reco: height = 0.05
+1471.1954 	EXP 	Anecdotes_reco: height = 0.05
+1471.1954 	EXP 	Anecdotes_reco: text = 'La navette Spatiale Columbia s’est désintégrée durant son entrée dans l’atmosphère au-dessus du Texas en février 2003 '
+1471.1954 	EXP 	Anecdotes_reco: autoDraw = True
+1471.1954 	EXP 	reco_text: autoDraw = True
+1471.1954 	EXP 	validation_reco: autoDraw = True
+1476.5621 	DATA 	Keypress: capslock
+1476.9790 	DATA 	Keypress: i
+1477.1787 	DATA 	Keypress: n
+1477.2474 	DATA 	Keypress: f
+1477.3790 	DATA 	Keypress: o
+1477.5622 	DATA 	Keypress: capslock
+1478.7457 	DATA 	Mouse: Left button down, pos=(951,97)
+1478.7621 	EXP 	Anecdotes_reco: autoDraw = False
+1478.7621 	EXP 	reco_text: autoDraw = False
+1478.7621 	EXP 	validation_reco: autoDraw = False
+1478.7621 	EXP 	blank: autoDraw = True
+1478.8459 	DATA 	Mouse:  Left button up, pos=(951,97)
+1479.2459 	EXP 	New trial (rep=0, index=6): {'anecdotes': 'La république dominicaine est le seul pays qui possède un drapeau contenant une bible ', 'fichier': 'NOMS', 'anecdotes_reco': 'La république dominicaine est le seul pays qui possède un drapeau contenant une bible '}
+1479.2622 	EXP 	blank: autoDraw = False
+1479.2622 	EXP 	blank: autoDraw = False
+1479.2622 	EXP 	Anecdotes_reco: height = 0.05
+1479.2622 	EXP 	Anecdotes_reco: height = 0.05
+1479.2622 	EXP 	Anecdotes_reco: height = 0.05
+1479.2622 	EXP 	Anecdotes_reco: text = 'La république dominicaine est le seul pays qui possède un drapeau contenant une bible '
+1479.2622 	EXP 	Anecdotes_reco: autoDraw = True
+1479.2622 	EXP 	reco_text: autoDraw = True
+1479.2622 	EXP 	validation_reco: autoDraw = True
+1485.5288 	DATA 	Keypress: capslock
+1485.6456 	DATA 	Keypress: d
+1485.7453 	DATA 	Keypress: capslock
+1485.9122 	DATA 	Keypress: o
+1486.2789 	DATA 	Keypress: n
+1486.4123 	DATA 	Keypress: n
+1486.7456 	DATA 	Keypress: 2
+1487.6789 	DATA 	Keypress: e
+1497.0287 	DATA 	Mouse: Left button down, pos=(1068,406)
+1497.3285 	DATA 	Mouse:  Left button up, pos=(943,427)
+1500.8620 	DATA 	Keypress: backspace
+1505.3619 	DATA 	Keypress: backspace
+1506.1971 	DATA 	Keypress: capslock
+1506.3620 	DATA 	Keypress: f
+1506.4451 	DATA 	Keypress: capslock
+1506.4951 	DATA 	Keypress: a
+1506.7619 	DATA 	Keypress: i
+1506.8303 	DATA 	Keypress: t
+1507.0451 	DATA 	Keypress: space
+1525.0952 	DATA 	Keypress: backspace
+1525.2119 	DATA 	Keypress: capslock
+1525.3117 	DATA 	Keypress: backspace
+1525.4783 	DATA 	Keypress: backspace
+1525.6617 	DATA 	Keypress: backspace
+1525.7450 	DATA 	Keypress: a
+1525.8784 	DATA 	Keypress: i
+1525.9950 	DATA 	Keypress: t
+1530.6285 	DATA 	Keypress: backspace
+1530.8449 	DATA 	Keypress: backspace
+1531.0304 	DATA 	Keypress: backspace
+1531.1781 	DATA 	Keypress: backspace
+1531.3450 	DATA 	Keypress: d
+1531.4301 	DATA 	Keypress: o
+1531.6453 	DATA 	Keypress: n
+1531.7785 	DATA 	Keypress: n
+1531.8618 	DATA 	Keypress: e
+1532.6781 	DATA 	Keypress: e
+1534.2949 	DATA 	Keypress: backspace
+1535.0780 	DATA 	Keypress: f
+1535.1617 	DATA 	Keypress: a
+1535.2450 	DATA 	Keypress: i
+1535.3781 	DATA 	Keypress: t
+1535.8283 	DATA 	Keypress: return
+1536.4137 	DATA 	Keypress: capslock
+1537.3950 	DATA 	Mouse: Left button down, pos=(966,89)
+1537.4782 	DATA 	Mouse:  Left button up, pos=(965,89)
+1537.7452 	DATA 	Mouse: Left button down, pos=(956,100)
+1537.7615 	EXP 	Anecdotes_reco: autoDraw = False
+1537.7615 	EXP 	reco_text: autoDraw = False
+1537.7615 	EXP 	validation_reco: autoDraw = False
+1537.7615 	EXP 	blank: autoDraw = True
+1537.8287 	DATA 	Mouse:  Left button up, pos=(956,100)
+1538.2450 	EXP 	New trial (rep=0, index=7): {'anecdotes': 'Les séparatistes Tchéchènes du Sud de la Russie ont pris en otage une école en septembre 2004 ', 'fichier': 'POINTS', 'anecdotes_reco': 'Les séparatistes Tchéchènes du Sud de la Russie ont pris en otage une école en septembre 2004 '}
+1538.2614 	EXP 	blank: autoDraw = False
+1538.2614 	EXP 	blank: autoDraw = False
+1538.2614 	EXP 	Anecdotes_reco: height = 0.05
+1538.2614 	EXP 	Anecdotes_reco: height = 0.05
+1538.2614 	EXP 	Anecdotes_reco: height = 0.05
+1538.2614 	EXP 	Anecdotes_reco: text = 'Les séparatistes Tchéchènes du Sud de la Russie ont pris en otage une école en septembre 2004 '
+1538.2614 	EXP 	Anecdotes_reco: autoDraw = True
+1538.2614 	EXP 	reco_text: autoDraw = True
+1538.2614 	EXP 	validation_reco: autoDraw = True
+1547.8115 	DATA 	Keypress: capslock
+1550.9947 	DATA 	Keypress: p
+1551.2780 	DATA 	Keypress: capslock
+1551.4282 	DATA 	Keypress: o
+1551.6132 	DATA 	Keypress: i
+1551.7948 	DATA 	Keypress: n
+1551.8450 	DATA 	Keypress: t
+1556.8282 	DATA 	Keypress: capslock
+1556.8446 	DATA 	Keypress: backspace
+1557.0112 	DATA 	Keypress: backspace
+1557.1613 	DATA 	Keypress: backspace
+1557.3445 	DATA 	Keypress: backspace
+1557.5115 	DATA 	Keypress: o
+1557.7278 	DATA 	Keypress: i
+1557.9448 	DATA 	Keypress: n
+1558.0114 	DATA 	Keypress: t
+1559.0946 	DATA 	Keypress: backspace
+1559.2946 	DATA 	Keypress: backspace
+1559.4280 	DATA 	Keypress: backspace
+1559.5783 	DATA 	Keypress: backspace
+1559.7447 	DATA 	Keypress: backspace
+1559.8946 	DATA 	Keypress: i
+1560.0950 	DATA 	Keypress: n
+1560.2133 	DATA 	Keypress: f
+1560.3280 	DATA 	Keypress: o
+1561.2300 	DATA 	Keypress: backspace
+1561.4133 	DATA 	Keypress: backspace
+1561.5778 	DATA 	Keypress: backspace
+1561.9115 	DATA 	Keypress: backspace
+1562.1279 	DATA 	Keypress: n
+1562.2781 	DATA 	Keypress: o
+1562.4946 	DATA 	Keypress: m
+1563.6447 	DATA 	Keypress: backspace
+1563.8115 	DATA 	Keypress: backspace
+1563.9615 	DATA 	Keypress: backspace
+1564.3947 	DATA 	Keypress: i
+1564.8278 	DATA 	Keypress: n
+1564.9946 	DATA 	Keypress: f
+1565.2132 	DATA 	Keypress: o
+1566.4446 	DATA 	Mouse: Left button down, pos=(929,120)
+1566.4612 	EXP 	Anecdotes_reco: autoDraw = False
+1566.4612 	EXP 	reco_text: autoDraw = False
+1566.4612 	EXP 	validation_reco: autoDraw = False
+1566.4612 	EXP 	blank: autoDraw = True
+1566.5283 	DATA 	Mouse:  Left button up, pos=(931,122)
+1566.9448 	EXP 	New trial (rep=0, index=8): {'anecdotes': 'L’Himalaya continue de grandir en raison des collisions des plaques tectoniques ', 'fichier': 'ITEMS', 'anecdotes_reco': 'L’Himalaya continue de grandir en raison des collisions des plaques tectoniques '}
+1566.9611 	EXP 	blank: autoDraw = False
+1566.9611 	EXP 	blank: autoDraw = False
+1566.9611 	EXP 	Anecdotes_reco: height = 0.05
+1566.9611 	EXP 	Anecdotes_reco: height = 0.05
+1566.9611 	EXP 	Anecdotes_reco: height = 0.05
+1566.9611 	EXP 	Anecdotes_reco: text = 'L’Himalaya continue de grandir en raison des collisions des plaques tectoniques '
+1566.9611 	EXP 	Anecdotes_reco: autoDraw = True
+1566.9611 	EXP 	reco_text: autoDraw = True
+1566.9611 	EXP 	validation_reco: autoDraw = True
+1572.8779 	DATA 	Keypress: n
+1573.1278 	DATA 	Keypress: o
+1573.3279 	DATA 	Keypress: m
+1581.3445 	DATA 	Keypress: backspace
+1581.6944 	DATA 	Keypress: backspace
+1582.7277 	DATA 	Keypress: backspace
+1583.0110 	DATA 	Keypress: p
+1583.2110 	DATA 	Keypress: o
+1583.3944 	DATA 	Keypress: i
+1583.5945 	DATA 	Keypress: n
+1583.6612 	DATA 	Keypress: t
+1585.8776 	DATA 	Keypress: backspace
+1586.1112 	DATA 	Keypress: backspace
+1586.3113 	DATA 	Keypress: backspace
+1586.4943 	DATA 	Keypress: backspace
+1586.6612 	DATA 	Keypress: backspace
+1593.1775 	DATA 	Keypress: f
+1593.4945 	DATA 	Keypress: backspace
+1593.6278 	DATA 	Keypress: d
+1593.7277 	DATA 	Keypress: o
+1593.9610 	DATA 	Keypress: n
+1594.0942 	DATA 	Keypress: n
+1594.2108 	DATA 	Keypress: e
+1594.8779 	DATA 	Keypress: e
+1595.2112 	DATA 	Keypress: capslock
+1596.2612 	DATA 	Mouse: Left button down, pos=(940,91)
+1596.3610 	DATA 	Mouse:  Left button up, pos=(940,91)
+1596.8301 	DATA 	Mouse: Left button down, pos=(948,106)
+1596.8608 	EXP 	Anecdotes_reco: autoDraw = False
+1596.8608 	EXP 	reco_text: autoDraw = False
+1596.8608 	EXP 	validation_reco: autoDraw = False
+1596.8608 	EXP 	blank: autoDraw = True
+1596.9448 	DATA 	Mouse:  Left button up, pos=(948,106)
+1597.3445 	EXP 	New trial (rep=0, index=9): {'anecdotes': 'Le tsunami dévastateur en Asie s’est produit en décembre 2004 ', 'fichier': 'FAITS', 'anecdotes_reco': 'Le tsunami dévastateur en Asie s’est produit en décembre 2004 '}
+1597.3609 	EXP 	blank: autoDraw = False
+1597.3609 	EXP 	blank: autoDraw = False
+1597.3609 	EXP 	Anecdotes_reco: height = 0.05
+1597.3609 	EXP 	Anecdotes_reco: height = 0.05
+1597.3609 	EXP 	Anecdotes_reco: height = 0.05
+1597.3609 	EXP 	Anecdotes_reco: text = 'Le tsunami dévastateur en Asie s’est produit en décembre 2004 '
+1597.3609 	EXP 	Anecdotes_reco: autoDraw = True
+1597.3609 	EXP 	reco_text: autoDraw = True
+1597.3609 	EXP 	validation_reco: autoDraw = True
+1603.5441 	DATA 	Keypress: capslock
+1613.2110 	DATA 	Keypress: i
+1613.4107 	DATA 	Keypress: n
+1613.4778 	DATA 	Keypress: f
+1613.6107 	DATA 	Keypress: o
+1614.0799 	DATA 	Keypress: capslock
+1615.4463 	DATA 	Keypress: backspace
+1615.6439 	DATA 	Keypress: backspace
+1615.8107 	DATA 	Keypress: backspace
+1615.9441 	DATA 	Keypress: backspace
+1615.9773 	DATA 	Keypress: capslock
+1616.1609 	DATA 	Keypress: d
+1616.2275 	DATA 	Keypress: o
+1616.4296 	DATA 	Keypress: n
+1616.5943 	DATA 	Keypress: n
+1616.6276 	DATA 	Keypress: e
+1616.8439 	DATA 	Keypress: e
+1620.0460 	DATA 	Keypress: backspace
+1621.0793 	DATA 	Keypress: i
+1621.2940 	DATA 	Keypress: n
+1621.4606 	DATA 	Keypress: d
+1621.5440 	DATA 	Keypress: o
+1621.8940 	DATA 	Keypress: backspace
+1622.0774 	DATA 	Keypress: backspace
+1622.1773 	DATA 	Keypress: f
+1622.2942 	DATA 	Keypress: o
+1622.6609 	DATA 	Keypress: capslock
+1623.5107 	DATA 	Mouse: Left button down, pos=(939,125)
+1623.5942 	DATA 	Mouse:  Left button up, pos=(939,125)
+1624.2465 	DATA 	Mouse: Left button down, pos=(943,120)
+1624.2772 	EXP 	Anecdotes_reco: autoDraw = False
+1624.2772 	EXP 	reco_text: autoDraw = False
+1624.2772 	EXP 	validation_reco: autoDraw = False
+1624.2772 	EXP 	blank: autoDraw = True
+1624.3611 	DATA 	Mouse:  Left button up, pos=(943,120)
+1624.7609 	EXP 	New trial (rep=0, index=10): {'anecdotes': 'Le Groenland est l’île la plus grande du monde par sa superficie  ', 'fichier': 'FAITS', 'anecdotes_reco': 'Le Groenland est l’île la plus grande du monde par sa superficie  '}
+1624.7772 	EXP 	blank: autoDraw = False
+1624.7772 	EXP 	blank: autoDraw = False
+1624.7772 	EXP 	Anecdotes_reco: height = 0.05
+1624.7772 	EXP 	Anecdotes_reco: height = 0.05
+1624.7772 	EXP 	Anecdotes_reco: height = 0.05
+1624.7772 	EXP 	Anecdotes_reco: text = 'Le Groenland est l’île la plus grande du monde par sa superficie  '
+1624.7772 	EXP 	Anecdotes_reco: autoDraw = True
+1624.7772 	EXP 	reco_text: autoDraw = True
+1624.7772 	EXP 	validation_reco: autoDraw = True
+1629.0773 	DATA 	Keypress: capslock
+1631.2107 	DATA 	Keypress: f
+1631.3274 	DATA 	Keypress: a
+1631.4941 	DATA 	Keypress: i
+1631.6275 	DATA 	Keypress: t
+1631.9105 	DATA 	Keypress: capslock
+1634.5106 	DATA 	Mouse: Left button down, pos=(1016,443)
+1634.7607 	DATA 	Mouse:  Left button up, pos=(866,448)
+1635.4106 	DATA 	Keypress: backspace
+1636.0294 	DATA 	Keypress: capslock
+1636.1939 	DATA 	Keypress: d
+1636.3108 	DATA 	Keypress: o
+1636.4939 	DATA 	Keypress: n
+1636.5940 	DATA 	Keypress: e
+1636.7605 	DATA 	Keypress: e
+1637.8438 	DATA 	Keypress: backspace
+1638.0105 	DATA 	Keypress: backspace
+1638.4293 	DATA 	Keypress: n
+1638.5271 	DATA 	Keypress: e
+1638.6771 	DATA 	Keypress: e
+1639.2271 	DATA 	Keypress: backspace
+1639.4292 	DATA 	Keypress: backspace
+1639.5772 	DATA 	Keypress: backspace
+1639.7106 	DATA 	Keypress: e
+1639.8623 	DATA 	Keypress: e
+1640.9772 	DATA 	Mouse: Left button down, pos=(956,119)
+1640.9937 	EXP 	Anecdotes_reco: autoDraw = False
+1640.9937 	EXP 	reco_text: autoDraw = False
+1640.9937 	EXP 	validation_reco: autoDraw = False
+1640.9937 	EXP 	blank: autoDraw = True
+1641.0610 	DATA 	Mouse:  Left button up, pos=(956,119)
+1641.4773 	EXP 	New trial (rep=0, index=11): {'anecdotes': 'L’écriture chinoise comprend plus de 40 000 caractères  ', 'fichier': 'NOMS', 'anecdotes_reco': 'L’écriture chinoise comprend plus de 40 000 caractères  '}
+1641.4937 	EXP 	blank: autoDraw = False
+1641.4937 	EXP 	blank: autoDraw = False
+1641.4937 	EXP 	Anecdotes_reco: height = 0.05
+1641.4937 	EXP 	Anecdotes_reco: height = 0.05
+1641.4937 	EXP 	Anecdotes_reco: height = 0.05
+1641.4937 	EXP 	Anecdotes_reco: text = 'L’écriture chinoise comprend plus de 40 000 caractères  '
+1641.4937 	EXP 	Anecdotes_reco: autoDraw = True
+1641.4937 	EXP 	reco_text: autoDraw = True
+1641.4937 	EXP 	validation_reco: autoDraw = True
+1644.6275 	DATA 	Keypress: capslock
+1644.8955 	DATA 	Keypress: n
+1644.9771 	DATA 	Keypress: o
+1645.1771 	DATA 	Keypress: m
+1645.4295 	DATA 	Keypress: capslock
+1645.4606 	DATA 	Keypress: backspace
+1645.6290 	DATA 	Keypress: backspace
+1645.7770 	DATA 	Keypress: backspace
+1645.8940 	DATA 	Keypress: n
+1645.9772 	DATA 	Keypress: o
+1646.1605 	DATA 	Keypress: m
+1647.4963 	DATA 	Mouse: Left button down, pos=(988,112)
+1647.5269 	EXP 	Anecdotes_reco: autoDraw = False
+1647.5269 	EXP 	reco_text: autoDraw = False
+1647.5269 	EXP 	validation_reco: autoDraw = False
+1647.5269 	EXP 	blank: autoDraw = True
+1647.5942 	DATA 	Mouse:  Left button up, pos=(988,112)
+1648.0105 	EXP 	New trial (rep=0, index=12): {'anecdotes': 'Il y a eu 25 présidents Français ', 'fichier': 'DONNEES', 'anecdotes_reco': 'Il y a eu 25 présidents Français '}
+1648.0271 	EXP 	blank: autoDraw = False
+1648.0271 	EXP 	blank: autoDraw = False
+1648.0271 	EXP 	Anecdotes_reco: height = 0.05
+1648.0271 	EXP 	Anecdotes_reco: height = 0.05
+1648.0271 	EXP 	Anecdotes_reco: height = 0.05
+1648.0271 	EXP 	Anecdotes_reco: text = 'Il y a eu 25 présidents Français '
+1648.0271 	EXP 	Anecdotes_reco: autoDraw = True
+1648.0271 	EXP 	reco_text: autoDraw = True
+1648.0271 	EXP 	validation_reco: autoDraw = True
+1651.4936 	DATA 	Keypress: f
+1651.5936 	DATA 	Keypress: a
+1651.7769 	DATA 	Keypress: i
+1651.8774 	DATA 	Keypress: t
+1652.7770 	DATA 	Mouse: Left button down, pos=(953,93)
+1652.8269 	DATA 	Mouse:  Left button up, pos=(953,93)
+1653.4107 	DATA 	Mouse: Left button down, pos=(949,115)
+1653.4269 	EXP 	Anecdotes_reco: autoDraw = False
+1653.4269 	EXP 	reco_text: autoDraw = False
+1653.4269 	EXP 	validation_reco: autoDraw = False
+1653.4269 	EXP 	blank: autoDraw = True
+1653.4943 	DATA 	Mouse:  Left button up, pos=(949,116)
+1653.9105 	EXP 	New trial (rep=0, index=13): {'anecdotes': 'L’océan Atlantique est plus salé que l’océan Pacifique', 'fichier': 'NOMS', 'anecdotes_reco': 'L’océan Atlantique est plus salé que l’océan Pacifique'}
+1653.9267 	EXP 	blank: autoDraw = False
+1653.9267 	EXP 	blank: autoDraw = False
+1653.9267 	EXP 	Anecdotes_reco: height = 0.05
+1653.9267 	EXP 	Anecdotes_reco: height = 0.05
+1653.9267 	EXP 	Anecdotes_reco: height = 0.05
+1653.9267 	EXP 	Anecdotes_reco: text = 'L’océan Atlantique est plus salé que l’océan Pacifique'
+1653.9267 	EXP 	Anecdotes_reco: autoDraw = True
+1653.9267 	EXP 	reco_text: autoDraw = True
+1653.9267 	EXP 	validation_reco: autoDraw = True
+1657.3270 	DATA 	Keypress: n
+1657.4271 	DATA 	Keypress: o
+1657.6271 	DATA 	Keypress: m
+1658.9270 	DATA 	Mouse: Left button down, pos=(976,111)
+1658.9435 	EXP 	Anecdotes_reco: autoDraw = False
+1658.9435 	EXP 	reco_text: autoDraw = False
+1658.9435 	EXP 	validation_reco: autoDraw = False
+1658.9435 	EXP 	blank: autoDraw = True
+1659.0276 	DATA 	Mouse:  Left button up, pos=(969,112)
+1659.4272 	EXP 	New trial (rep=0, index=14): {'anecdotes': 'La raie manta peut atteindre 9 mètres de long pour environ 2 tonnes ', 'fichier': 'INFOS', 'anecdotes_reco': 'La raie manta peut atteindre 9 mètres de long pour environ 2 tonnes '}
+1659.4435 	EXP 	blank: autoDraw = False
+1659.4435 	EXP 	blank: autoDraw = False
+1659.4435 	EXP 	Anecdotes_reco: height = 0.05
+1659.4435 	EXP 	Anecdotes_reco: height = 0.05
+1659.4435 	EXP 	Anecdotes_reco: height = 0.05
+1659.4435 	EXP 	Anecdotes_reco: text = 'La raie manta peut atteindre 9 mètres de long pour environ 2 tonnes '
+1659.4435 	EXP 	Anecdotes_reco: autoDraw = True
+1659.4435 	EXP 	reco_text: autoDraw = True
+1659.4435 	EXP 	validation_reco: autoDraw = True
+1667.3268 	DATA 	Keypress: i
+1667.5271 	DATA 	Keypress: n
+1667.6269 	DATA 	Keypress: f
+1667.7269 	DATA 	Keypress: o
+1668.6788 	DATA 	Mouse: Left button down, pos=(970,123)
+1668.7772 	DATA 	Mouse:  Left button up, pos=(968,123)
+1669.0604 	DATA 	Mouse: Left button down, pos=(958,112)
+1669.0767 	EXP 	Anecdotes_reco: autoDraw = False
+1669.0767 	EXP 	reco_text: autoDraw = False
+1669.0767 	EXP 	validation_reco: autoDraw = False
+1669.0767 	EXP 	blank: autoDraw = True
+1669.1606 	DATA 	Mouse:  Left button up, pos=(958,112)
+1669.5606 	EXP 	New trial (rep=0, index=15): {'anecdotes': 'Les oiseaux bleus ne peuvent pas voir la couleur bleue  ', 'fichier': 'FAITS', 'anecdotes_reco': 'Les oiseaux bleus ne peuvent pas voir la couleur bleue  '}
+1669.5766 	EXP 	blank: autoDraw = False
+1669.5766 	EXP 	blank: autoDraw = False
+1669.5766 	EXP 	Anecdotes_reco: height = 0.05
+1669.5766 	EXP 	Anecdotes_reco: height = 0.05
+1669.5766 	EXP 	Anecdotes_reco: height = 0.05
+1669.5766 	EXP 	Anecdotes_reco: text = 'Les oiseaux bleus ne peuvent pas voir la couleur bleue  '
+1669.5766 	EXP 	Anecdotes_reco: autoDraw = True
+1669.5766 	EXP 	reco_text: autoDraw = True
+1669.5766 	EXP 	validation_reco: autoDraw = True
+1671.3605 	DATA 	Keypress: f
+1671.4601 	DATA 	Keypress: a
+1671.6103 	DATA 	Keypress: i
+1671.7267 	DATA 	Keypress: t
+1672.5937 	DATA 	Mouse: Left button down, pos=(931,114)
+1672.6101 	EXP 	Anecdotes_reco: autoDraw = False
+1672.6101 	EXP 	reco_text: autoDraw = False
+1672.6101 	EXP 	validation_reco: autoDraw = False
+1672.6101 	EXP 	blank: autoDraw = True
+1672.6775 	DATA 	Mouse:  Left button up, pos=(931,114)
+1673.0938 	EXP 	New trial (rep=0, index=16): {'anecdotes': 'Tout comme l’empreinte digitale, le cœur est propre à chaque individu et on peut l’identifier grâce à sa signature cardiaque ', 'fichier': 'NOMS', 'anecdotes_reco': 'Tout comme l’empreinte digitale, le cœur est propre à chaque individu et on peut l’identifier grâce à sa signature cardiaque '}
+1673.1101 	EXP 	blank: autoDraw = False
+1673.1101 	EXP 	blank: autoDraw = False
+1673.1101 	EXP 	Anecdotes_reco: height = 0.05
+1673.1101 	EXP 	Anecdotes_reco: height = 0.05
+1673.1101 	EXP 	Anecdotes_reco: height = 0.05
+1673.1101 	EXP 	Anecdotes_reco: text = 'Tout comme l’empreinte digitale, le cœur est propre à chaque individu et on peut l’identifier grâce à sa signature cardiaque '
+1673.1101 	EXP 	Anecdotes_reco: autoDraw = True
+1673.1101 	EXP 	reco_text: autoDraw = True
+1673.1101 	EXP 	validation_reco: autoDraw = True
+1678.6433 	DATA 	Keypress: p
+1679.3433 	DATA 	Keypress: o
+1679.5768 	DATA 	Keypress: i
+1679.8433 	DATA 	Keypress: n
+1680.0101 	DATA 	Keypress: t
+1681.6434 	DATA 	Mouse: Left button down, pos=(958,103)
+1681.6599 	EXP 	Anecdotes_reco: autoDraw = False
+1681.6599 	EXP 	reco_text: autoDraw = False
+1681.6599 	EXP 	validation_reco: autoDraw = False
+1681.6599 	EXP 	blank: autoDraw = True
+1681.7439 	DATA 	Mouse:  Left button up, pos=(958,103)
+1682.1437 	EXP 	New trial (rep=0, index=17): {'anecdotes': 'Une personne brule plus de calories quand il dort que lorsqu’il regarde la télé  ', 'fichier': 'ITEMS', 'anecdotes_reco': 'Une personne brule plus de calories quand il dort que lorsqu’il regarde la télé  '}
+1682.1598 	EXP 	blank: autoDraw = False
+1682.1598 	EXP 	blank: autoDraw = False
+1682.1598 	EXP 	Anecdotes_reco: height = 0.05
+1682.1598 	EXP 	Anecdotes_reco: height = 0.05
+1682.1598 	EXP 	Anecdotes_reco: height = 0.05
+1682.1598 	EXP 	Anecdotes_reco: text = 'Une personne brule plus de calories quand il dort que lorsqu’il regarde la télé  '
+1682.1598 	EXP 	Anecdotes_reco: autoDraw = True
+1682.1598 	EXP 	reco_text: autoDraw = True
+1682.1598 	EXP 	validation_reco: autoDraw = True
+1686.1437 	DATA 	Keypress: i
+1686.3935 	DATA 	Keypress: n
+1686.5266 	DATA 	Keypress: f
+1686.6267 	DATA 	Keypress: o
+1688.4624 	DATA 	Mouse: Left button down, pos=(949,111)
+1688.4932 	EXP 	Anecdotes_reco: autoDraw = False
+1688.4932 	EXP 	reco_text: autoDraw = False
+1688.4932 	EXP 	validation_reco: autoDraw = False
+1688.4932 	EXP 	blank: autoDraw = True
+1688.5774 	DATA 	Mouse:  Left button up, pos=(949,111)
+1688.9769 	EXP 	New trial (rep=0, index=18): {'anecdotes': 'Les concerts Live 8 ont pris place dans les pays du G8 et en Afrique du Sud en juillet 2005 ', 'fichier': 'NOMS', 'anecdotes_reco': 'Les concerts Live 8 ont pris place dans les pays du G8 et en Afrique du Sud en juillet 2005 '}
+1688.9931 	EXP 	blank: autoDraw = False
+1688.9931 	EXP 	blank: autoDraw = False
+1688.9931 	EXP 	Anecdotes_reco: height = 0.05
+1688.9931 	EXP 	Anecdotes_reco: height = 0.05
+1688.9931 	EXP 	Anecdotes_reco: height = 0.05
+1688.9931 	EXP 	Anecdotes_reco: text = 'Les concerts Live 8 ont pris place dans les pays du G8 et en Afrique du Sud en juillet 2005 '
+1688.9931 	EXP 	Anecdotes_reco: autoDraw = True
+1688.9931 	EXP 	reco_text: autoDraw = True
+1688.9931 	EXP 	validation_reco: autoDraw = True
+1693.0601 	DATA 	Keypress: n
+1693.5435 	DATA 	Keypress: o
+1693.7598 	DATA 	Keypress: m
+1695.5099 	DATA 	Mouse: Left button down, pos=(964,119)
+1695.5265 	EXP 	Anecdotes_reco: autoDraw = False
+1695.5265 	EXP 	reco_text: autoDraw = False
+1695.5265 	EXP 	validation_reco: autoDraw = False
+1695.5265 	EXP 	blank: autoDraw = True
+1695.6103 	DATA 	Mouse:  Left button up, pos=(967,118)
+1696.0102 	EXP 	New trial (rep=0, index=19): {'anecdotes': 'Les élastiques sont plus longs quand ils sont très froids/réfrigérés ', 'fichier': 'INFOS', 'anecdotes_reco': 'Les élastiques sont plus longs quand ils sont très froids/réfrigérés '}
+1696.0265 	EXP 	blank: autoDraw = False
+1696.0265 	EXP 	blank: autoDraw = False
+1696.0265 	EXP 	Anecdotes_reco: height = 0.05
+1696.0265 	EXP 	Anecdotes_reco: height = 0.05
+1696.0265 	EXP 	Anecdotes_reco: height = 0.05
+1696.0265 	EXP 	Anecdotes_reco: text = 'Les élastiques sont plus longs quand ils sont très froids/réfrigérés '
+1696.0265 	EXP 	Anecdotes_reco: autoDraw = True
+1696.0265 	EXP 	reco_text: autoDraw = True
+1696.0265 	EXP 	validation_reco: autoDraw = True
+1699.0453 	DATA 	Keypress: p
+1699.2454 	DATA 	Keypress: o
+1699.4098 	DATA 	Keypress: i
+1699.5933 	DATA 	Keypress: n
+1699.6601 	DATA 	Keypress: t
+1700.7286 	DATA 	Mouse: Left button down, pos=(938,111)
+1700.7429 	EXP 	Anecdotes_reco: autoDraw = False
+1700.7429 	EXP 	reco_text: autoDraw = False
+1700.7429 	EXP 	validation_reco: autoDraw = False
+1700.7429 	EXP 	blank: autoDraw = True
+1700.8104 	DATA 	Mouse:  Left button up, pos=(940,111)
+1701.2268 	EXP 	New trial (rep=0, index=20): {'anecdotes': 'Un attentat terroriste a eu lieu dans les métros Londonien en juillet 2005 ', 'fichier': 'DONNEES', 'anecdotes_reco': 'Un attentat terroriste a eu lieu dans les métros Londonien en juillet 2005 '}
+1701.2430 	EXP 	blank: autoDraw = False
+1701.2430 	EXP 	blank: autoDraw = False
+1701.2430 	EXP 	Anecdotes_reco: height = 0.05
+1701.2430 	EXP 	Anecdotes_reco: height = 0.05
+1701.2430 	EXP 	Anecdotes_reco: height = 0.05
+1701.2430 	EXP 	Anecdotes_reco: text = 'Un attentat terroriste a eu lieu dans les métros Londonien en juillet 2005 '
+1701.2430 	EXP 	Anecdotes_reco: autoDraw = True
+1701.2430 	EXP 	reco_text: autoDraw = True
+1701.2430 	EXP 	validation_reco: autoDraw = True
+1716.2930 	DATA 	Mouse: Left button down, pos=(968,101)
+1716.3095 	EXP 	Anecdotes_reco: autoDraw = False
+1716.3095 	EXP 	reco_text: autoDraw = False
+1716.3095 	EXP 	validation_reco: autoDraw = False
+1716.3095 	EXP 	blank: autoDraw = True
+1716.3937 	DATA 	Mouse:  Left button up, pos=(968,102)
+1716.7934 	EXP 	New trial (rep=0, index=21): {'anecdotes': 'L’Europe est le seul continent sans désert ', 'fichier': 'DONNEES', 'anecdotes_reco': 'L’Europe est le seul continent sans désert '}
+1716.8097 	EXP 	blank: autoDraw = False
+1716.8097 	EXP 	blank: autoDraw = False
+1716.8097 	EXP 	Anecdotes_reco: height = 0.05
+1716.8097 	EXP 	Anecdotes_reco: height = 0.05
+1716.8097 	EXP 	Anecdotes_reco: height = 0.05
+1716.8097 	EXP 	Anecdotes_reco: text = 'L’Europe est le seul continent sans désert '
+1716.8097 	EXP 	Anecdotes_reco: autoDraw = True
+1716.8097 	EXP 	reco_text: autoDraw = True
+1716.8097 	EXP 	validation_reco: autoDraw = True
+1722.1928 	DATA 	Keypress: n
+1722.3931 	DATA 	Keypress: o
+1722.5932 	DATA 	Keypress: m
+1725.4930 	DATA 	Keypress: backspace
+1725.6762 	DATA 	Keypress: backspace
+1725.8596 	DATA 	Keypress: backspace
+1726.0430 	DATA 	Keypress: p
+1726.2451 	DATA 	Keypress: o
+1726.4595 	DATA 	Keypress: i
+1727.0095 	DATA 	Keypress: 4
+1729.4263 	DATA 	Keypress: backspace
+1729.6596 	DATA 	Keypress: backspace
+1729.8096 	DATA 	Keypress: backspace
+1729.9596 	DATA 	Keypress: backspace
+1730.9762 	DATA 	Keypress: f
+1731.3264 	DATA 	Keypress: backspace
+1733.1761 	DATA 	Keypress: d
+1733.3428 	DATA 	Keypress: o
+1733.5597 	DATA 	Keypress: n
+1733.6928 	DATA 	Keypress: n
+1733.7761 	DATA 	Keypress: e
+1734.1595 	DATA 	Keypress: e
+1734.8931 	DATA 	Keypress: backspace
+1735.0783 	DATA 	Keypress: backspace
+1735.1927 	DATA 	Keypress: backspace
+1735.2929 	DATA 	Keypress: e
+1735.4761 	DATA 	Keypress: e
+1735.8933 	DATA 	Mouse: wheel shift=(0,1), pos=(897,27)
+1738.1762 	DATA 	Keypress: backspace
+1738.9429 	DATA 	Keypress: capslock
+1739.1117 	DATA 	Keypress: backspace
+1739.3762 	DATA 	Keypress: backspace
+1739.5260 	DATA 	Keypress: d
+1739.6595 	DATA 	Keypress: o
+1740.0428 	DATA 	Keypress: n
+1740.5430 	DATA 	Keypress: n
+1740.6779 	DATA 	Keypress: 2
+1740.7596 	DATA 	Keypress: e
+1741.1427 	DATA 	Keypress: backspace
+1742.0597 	DATA 	Keypress: capslock
+1742.2617 	DATA 	Keypress: d
+1742.4094 	DATA 	Keypress: o
+1742.6097 	DATA 	Keypress: n
+1742.7427 	DATA 	Keypress: n
+1742.8780 	DATA 	Keypress: e
+1743.0427 	DATA 	Keypress: e
+1744.3927 	DATA 	Mouse: Left button down, pos=(941,116)
+1744.4094 	EXP 	Anecdotes_reco: autoDraw = False
+1744.4094 	EXP 	reco_text: autoDraw = False
+1744.4094 	EXP 	validation_reco: autoDraw = False
+1744.4094 	EXP 	blank: autoDraw = True
+1744.4431 	DATA 	Mouse:  Left button up, pos=(941,116)
+1744.8932 	EXP 	New trial (rep=0, index=22): {'anecdotes': 'La cacahuète est l’un des ingrédients de la dynamite  ', 'fichier': 'POINTS', 'anecdotes_reco': 'La cacahuète est l’un des ingrédients de la dynamite  '}
+1744.9093 	EXP 	blank: autoDraw = False
+1744.9093 	EXP 	blank: autoDraw = False
+1744.9093 	EXP 	Anecdotes_reco: height = 0.05
+1744.9093 	EXP 	Anecdotes_reco: height = 0.05
+1744.9093 	EXP 	Anecdotes_reco: height = 0.05
+1744.9093 	EXP 	Anecdotes_reco: text = 'La cacahuète est l’un des ingrédients de la dynamite  '
+1744.9093 	EXP 	Anecdotes_reco: autoDraw = True
+1744.9093 	EXP 	reco_text: autoDraw = True
+1744.9093 	EXP 	validation_reco: autoDraw = True
+1746.8093 	DATA 	Keypress: p
+1747.0264 	DATA 	Keypress: o
+1747.2761 	DATA 	Keypress: i
+1747.4262 	DATA 	Keypress: n
+1747.4930 	DATA 	Keypress: t
+1748.4594 	DATA 	Mouse: Left button down, pos=(928,109)
+1748.4759 	EXP 	Anecdotes_reco: autoDraw = False
+1748.4759 	EXP 	reco_text: autoDraw = False
+1748.4759 	EXP 	validation_reco: autoDraw = False
+1748.4759 	EXP 	blank: autoDraw = True
+1748.5601 	DATA 	Mouse:  Left button up, pos=(928,109)
+1748.9599 	EXP 	New trial (rep=0, index=23): {'anecdotes': 'Le cœur d’une crevette est dans sa tête  ', 'fichier': 'POINTS', 'anecdotes_reco': 'Le cœur d’une crevette est dans sa tête  '}
+1748.9758 	EXP 	blank: autoDraw = False
+1748.9758 	EXP 	blank: autoDraw = False
+1748.9758 	EXP 	Anecdotes_reco: height = 0.05
+1748.9758 	EXP 	Anecdotes_reco: height = 0.05
+1748.9758 	EXP 	Anecdotes_reco: height = 0.05
+1748.9758 	EXP 	Anecdotes_reco: text = 'Le cœur d’une crevette est dans sa tête  '
+1748.9758 	EXP 	Anecdotes_reco: autoDraw = True
+1748.9758 	EXP 	reco_text: autoDraw = True
+1748.9758 	EXP 	validation_reco: autoDraw = True
+1751.9427 	DATA 	Keypress: i
+1752.1096 	DATA 	Keypress: n
+1752.2092 	DATA 	Keypress: f
+1752.3117 	DATA 	Keypress: o
+1754.2927 	DATA 	Mouse: Left button down, pos=(936,113)
+1754.3091 	EXP 	Anecdotes_reco: autoDraw = False
+1754.3091 	EXP 	reco_text: autoDraw = False
+1754.3091 	EXP 	validation_reco: autoDraw = False
+1754.3091 	EXP 	blank: autoDraw = True
+1754.4765 	DATA 	Mouse:  Left button up, pos=(936,113)
+1754.7931 	EXP 	New trial (rep=0, index=24): {'anecdotes': 'Une vache produit environ 200 000 bouteilles de lait dans sa vie  ', 'fichier': 'FAITS', 'anecdotes_reco': 'Une vache produit environ 200 000 bouteilles de lait dans sa vie  '}
+1754.8090 	EXP 	blank: autoDraw = False
+1754.8090 	EXP 	blank: autoDraw = False
+1754.8090 	EXP 	Anecdotes_reco: height = 0.05
+1754.8090 	EXP 	Anecdotes_reco: height = 0.05
+1754.8090 	EXP 	Anecdotes_reco: height = 0.05
+1754.8090 	EXP 	Anecdotes_reco: text = 'Une vache produit environ 200 000 bouteilles de lait dans sa vie  '
+1754.8090 	EXP 	Anecdotes_reco: autoDraw = True
+1754.8090 	EXP 	reco_text: autoDraw = True
+1754.8090 	EXP 	validation_reco: autoDraw = True
+1757.8613 	DATA 	Keypress: f
+1757.9426 	DATA 	Keypress: a
+1758.0093 	DATA 	Keypress: i
+1758.1429 	DATA 	Keypress: t
+1760.4594 	DATA 	Mouse: Left button down, pos=(936,113)
+1760.4757 	EXP 	Anecdotes_reco: autoDraw = False
+1760.4757 	EXP 	reco_text: autoDraw = False
+1760.4757 	EXP 	validation_reco: autoDraw = False
+1760.4757 	EXP 	blank: autoDraw = True
+1760.5430 	DATA 	Mouse:  Left button up, pos=(936,113)
+1760.9596 	EXP 	New trial (rep=0, index=25): {'anecdotes': 'Les ongles incarnés sont héréditaires ', 'fichier': 'DONNEES', 'anecdotes_reco': 'Les ongles incarnés sont héréditaires '}
+1760.9759 	EXP 	blank: autoDraw = False
+1760.9759 	EXP 	blank: autoDraw = False
+1760.9759 	EXP 	Anecdotes_reco: height = 0.05
+1760.9759 	EXP 	Anecdotes_reco: height = 0.05
+1760.9759 	EXP 	Anecdotes_reco: height = 0.05
+1760.9759 	EXP 	Anecdotes_reco: text = 'Les ongles incarnés sont héréditaires '
+1760.9759 	EXP 	Anecdotes_reco: autoDraw = True
+1760.9759 	EXP 	reco_text: autoDraw = True
+1760.9759 	EXP 	validation_reco: autoDraw = True
+1762.2426 	DATA 	Keypress: f
+1762.3426 	DATA 	Keypress: a
+1762.4759 	DATA 	Keypress: i
+1762.6262 	DATA 	Keypress: t
+1763.5594 	DATA 	Mouse: Left button down, pos=(962,102)
+1763.5756 	EXP 	Anecdotes_reco: autoDraw = False
+1763.5756 	EXP 	reco_text: autoDraw = False
+1763.5756 	EXP 	validation_reco: autoDraw = False
+1763.5756 	EXP 	blank: autoDraw = True
+1763.6599 	DATA 	Mouse:  Left button up, pos=(962,102)
+1764.0595 	EXP 	New trial (rep=0, index=26): {'anecdotes': 'L’œil d’une autruche est plus gros que son cerveau  ', 'fichier': 'ITEMS', 'anecdotes_reco': 'L’œil d’une autruche est plus gros que son cerveau  '}
+1764.0759 	EXP 	blank: autoDraw = False
+1764.0759 	EXP 	blank: autoDraw = False
+1764.0759 	EXP 	Anecdotes_reco: height = 0.05
+1764.0759 	EXP 	Anecdotes_reco: height = 0.05
+1764.0759 	EXP 	Anecdotes_reco: height = 0.05
+1764.0759 	EXP 	Anecdotes_reco: text = 'L’œil d’une autruche est plus gros que son cerveau  '
+1764.0759 	EXP 	Anecdotes_reco: autoDraw = True
+1764.0759 	EXP 	reco_text: autoDraw = True
+1764.0759 	EXP 	validation_reco: autoDraw = True
+1773.9925 	DATA 	Keypress: d
+1774.5591 	DATA 	Keypress: o
+1775.8425 	DATA 	Keypress: n
+1777.7091 	DATA 	Keypress: n
+1777.8590 	DATA 	Keypress: e
+1778.0090 	DATA 	Keypress: e
+1779.2427 	DATA 	Mouse: Left button down, pos=(831,157)
+1779.3117 	DATA 	Mouse:  Left button up, pos=(831,157)
+1779.6260 	DATA 	Mouse: Left button down, pos=(938,126)
+1779.6924 	DATA 	Mouse:  Left button up, pos=(938,126)
+1779.9260 	DATA 	Mouse: Left button down, pos=(950,112)
+1779.9422 	EXP 	Anecdotes_reco: autoDraw = False
+1779.9422 	EXP 	reco_text: autoDraw = False
+1779.9422 	EXP 	validation_reco: autoDraw = False
+1779.9422 	EXP 	blank: autoDraw = True
+1779.9929 	DATA 	Mouse:  Left button up, pos=(950,111)
+1780.4260 	EXP 	New trial (rep=0, index=27): {'anecdotes': 'Il y a en moyenne 178 graines de sésames sur le pain du Big Mac de McDonald  ', 'fichier': 'NOMS', 'anecdotes_reco': 'Il y a en moyenne 178 graines de sésames sur le pain du Big Mac de McDonald  '}
+1780.4423 	EXP 	blank: autoDraw = False
+1780.4423 	EXP 	blank: autoDraw = False
+1780.4423 	EXP 	Anecdotes_reco: height = 0.05
+1780.4423 	EXP 	Anecdotes_reco: height = 0.05
+1780.4423 	EXP 	Anecdotes_reco: height = 0.05
+1780.4423 	EXP 	Anecdotes_reco: text = 'Il y a en moyenne 178 graines de sésames sur le pain du Big Mac de McDonald  '
+1780.4423 	EXP 	Anecdotes_reco: autoDraw = True
+1780.4423 	EXP 	reco_text: autoDraw = True
+1780.4423 	EXP 	validation_reco: autoDraw = True
+1785.5258 	DATA 	Keypress: n
+1785.7256 	DATA 	Keypress: o
+1786.1923 	DATA 	Keypress: m
+1787.5927 	DATA 	Mouse: Left button down, pos=(937,109)
+1787.6087 	EXP 	Anecdotes_reco: autoDraw = False
+1787.6087 	EXP 	reco_text: autoDraw = False
+1787.6087 	EXP 	validation_reco: autoDraw = False
+1787.6087 	EXP 	blank: autoDraw = True
+1787.7095 	DATA 	Mouse:  Left button up, pos=(937,109)
+1788.0925 	EXP 	New trial (rep=0, index=28): {'anecdotes': 'Les frites sont originaires de France et non de Belgique', 'fichier': 'INFOS', 'anecdotes_reco': 'Les frites sont originaires de France et non de Belgique'}
+1788.1089 	EXP 	blank: autoDraw = False
+1788.1089 	EXP 	blank: autoDraw = False
+1788.1089 	EXP 	Anecdotes_reco: height = 0.05
+1788.1089 	EXP 	Anecdotes_reco: height = 0.05
+1788.1089 	EXP 	Anecdotes_reco: height = 0.05
+1788.1089 	EXP 	Anecdotes_reco: text = 'Les frites sont originaires de France et non de Belgique'
+1788.1089 	EXP 	Anecdotes_reco: autoDraw = True
+1788.1089 	EXP 	reco_text: autoDraw = True
+1788.1089 	EXP 	validation_reco: autoDraw = True
+1790.6924 	DATA 	Keypress: i
+1790.9256 	DATA 	Keypress: n
+1791.0589 	DATA 	Keypress: f
+1791.1588 	DATA 	Keypress: o
+1792.3113 	DATA 	Mouse: Left button down, pos=(953,106)
+1792.3421 	EXP 	Anecdotes_reco: autoDraw = False
+1792.3421 	EXP 	reco_text: autoDraw = False
+1792.3421 	EXP 	validation_reco: autoDraw = False
+1792.3421 	EXP 	blank: autoDraw = True
+1792.4262 	DATA 	Mouse:  Left button up, pos=(953,106)
+1792.8258 	EXP 	New trial (rep=0, index=29): {'anecdotes': 'La pyramide de Gizé est la seule des 7 merveilles de l’ancien monde qui existe toujours ', 'fichier': 'ITEMS', 'anecdotes_reco': 'La pyramide de Gizé est la seule des 7 merveilles de l’ancien monde qui existe toujours '}
+1792.8421 	EXP 	blank: autoDraw = False
+1792.8421 	EXP 	blank: autoDraw = False
+1792.8421 	EXP 	Anecdotes_reco: height = 0.05
+1792.8421 	EXP 	Anecdotes_reco: height = 0.05
+1792.8421 	EXP 	Anecdotes_reco: height = 0.05
+1792.8421 	EXP 	Anecdotes_reco: text = 'La pyramide de Gizé est la seule des 7 merveilles de l’ancien monde qui existe toujours '
+1792.8421 	EXP 	Anecdotes_reco: autoDraw = True
+1792.8421 	EXP 	reco_text: autoDraw = True
+1792.8421 	EXP 	validation_reco: autoDraw = True
+1796.2923 	DATA 	Keypress: i
+1796.4922 	DATA 	Keypress: n
+1796.5925 	DATA 	Keypress: f
+1796.6922 	DATA 	Keypress: o
+1801.5092 	DATA 	Mouse: Left button down, pos=(950,110)
+1801.5253 	EXP 	Anecdotes_reco: autoDraw = False
+1801.5253 	EXP 	reco_text: autoDraw = False
+1801.5253 	EXP 	validation_reco: autoDraw = False
+1801.5253 	EXP 	blank: autoDraw = True
+1801.5928 	DATA 	Mouse:  Left button up, pos=(944,110)
+1802.0092 	EXP 	New trial (rep=0, index=30): {'anecdotes': 'La plus longue composition classique prendrait 639 ans à être interprétée  ', 'fichier': 'POINTS', 'anecdotes_reco': 'La plus longue composition classique prendrait 639 ans à être interprétée  '}
+1802.0253 	EXP 	blank: autoDraw = False
+1802.0253 	EXP 	blank: autoDraw = False
+1802.0253 	EXP 	Anecdotes_reco: height = 0.05
+1802.0253 	EXP 	Anecdotes_reco: height = 0.05
+1802.0253 	EXP 	Anecdotes_reco: height = 0.05
+1802.0253 	EXP 	Anecdotes_reco: text = 'La plus longue composition classique prendrait 639 ans à être interprétée  '
+1802.0253 	EXP 	Anecdotes_reco: autoDraw = True
+1802.0253 	EXP 	reco_text: autoDraw = True
+1802.0253 	EXP 	validation_reco: autoDraw = True
+1808.2423 	DATA 	Keypress: p
+1808.4421 	DATA 	Keypress: o
+1808.6087 	DATA 	Keypress: i
+1808.7754 	DATA 	Keypress: n
+1808.8587 	DATA 	Keypress: t
+1809.4921 	DATA 	Mouse: Left button down, pos=(968,123)
+1809.5756 	DATA 	Mouse:  Left button up, pos=(968,123)
+1810.2922 	DATA 	Mouse: Left button down, pos=(951,118)
+1810.3087 	EXP 	Anecdotes_reco: autoDraw = False
+1810.3087 	EXP 	reco_text: autoDraw = False
+1810.3087 	EXP 	validation_reco: autoDraw = False
+1810.3087 	EXP 	blank: autoDraw = True
+1810.3592 	DATA 	Mouse:  Left button up, pos=(951,117)
+1810.7923 	EXP 	New trial (rep=0, index=31): {'anecdotes': 'La Corée du Nord a annoncé avoir conduit un test nucléaire avec succès en octobre 2006  ', 'fichier': 'ITEMS', 'anecdotes_reco': 'La Corée du Nord a annoncé avoir conduit un test nucléaire avec succès en octobre 2006  '}
+1810.8084 	EXP 	blank: autoDraw = False
+1810.8084 	EXP 	blank: autoDraw = False
+1810.8084 	EXP 	Anecdotes_reco: height = 0.05
+1810.8084 	EXP 	Anecdotes_reco: height = 0.05
+1810.8084 	EXP 	Anecdotes_reco: height = 0.05
+1810.8084 	EXP 	Anecdotes_reco: text = 'La Corée du Nord a annoncé avoir conduit un test nucléaire avec succès en octobre 2006  '
+1810.8084 	EXP 	Anecdotes_reco: autoDraw = True
+1810.8084 	EXP 	reco_text: autoDraw = True
+1810.8084 	EXP 	validation_reco: autoDraw = True
+1815.5253 	DATA 	Keypress: n
+1815.7586 	DATA 	Keypress: o
+1815.9755 	DATA 	Keypress: m
+1816.9256 	DATA 	Mouse: Left button down, pos=(940,109)
+1816.9420 	EXP 	Anecdotes_reco: autoDraw = False
+1816.9420 	EXP 	reco_text: autoDraw = False
+1816.9420 	EXP 	validation_reco: autoDraw = False
+1816.9420 	EXP 	blank: autoDraw = True
+1817.0258 	DATA 	Mouse:  Left button up, pos=(940,109)
+1817.4419 	EXP 	blank: autoDraw = False
+1817.4419 	EXP 	blank: autoDraw = False
+1817.4419 	EXP 	text_2: autoDraw = True
+1823.8259 	DATA 	Keypress: space
+1824.7592 	DATA 	Keypress: escape
+1825.1826 	EXP 	window1: mouseVisible = True
