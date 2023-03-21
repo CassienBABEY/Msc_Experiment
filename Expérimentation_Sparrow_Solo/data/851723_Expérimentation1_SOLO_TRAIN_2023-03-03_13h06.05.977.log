@@ -1,0 +1,335 @@
+4.3945 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+15.5677 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000220596BA370>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002209E075B20>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.5679 	EXP 	window1: mouseVisible = True
+15.5680 	EXP 	window1: mouseVisible = True
+15.5680 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+15.5681 	EXP 	window1: recordFrameIntervals = False
+15.7837 	EXP 	window1: recordFrameIntervals = True
+15.8502 	WARNING 	t of last frame was 20.83ms (=1/48)
+15.8960 	WARNING 	t of last frame was 27.46ms (=1/36)
+15.9174 	WARNING 	t of last frame was 21.40ms (=1/46)
+15.9540 	WARNING 	t of last frame was 20.13ms (=1/49)
+15.9783 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+17.8306 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+18.0201 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+23.5728 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='textWelcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.6746 	EXP 	Created Instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Instructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.6757 	EXP 	Created anecdote_train = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='anecdote_train', opacity=1.0, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.7175 	EXP 	Created validation_train = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='validation_train', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Valider', units='height', win=Window(...), wrapWidth=1)
+23.7177 	EXP 	window1: mouseVisible = True
+23.7243 	EXP 	Created feedbacktext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='feedbacktext', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.7253 	EXP 	Created feedback_fichier_train = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_fichier_train', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.7267 	EXP 	Created blank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='blank', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.7533 	EXP 	Created Instruc_reco_train = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='Instruc_reco_train', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+23.7543 	EXP 	Created anecdotes_train_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='anecdotes_train_2', opacity=1.0, ori=0.0, pos=array([0.  , 0.25]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.7707 	EXP 	Created validation_train_reco = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.02, italic=False, languageStyle='LTR', name='validation_train_reco', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Valider', units='height', win=Window(...), wrapWidth=1)
+23.7708 	EXP 	window1: mouseVisible = True
+23.7730 	EXP 	Created blank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='blank', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.7746 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+23.7841 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05000000000000001, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="Veuillez appeler l'expérimentateur. ", units='height', win=Window(...), wrapWidth=1)
+23.8095 	EXP 	train_text: autoLog = True
+23.8095 	EXP 	reco_text_train: autoLog = True
+23.8095 	EXP 	textWelcome: autoDraw = True
+25.8162 	EXP 	Instructions: autoDraw = True
+25.8362 	EXP 	textWelcome: autoDraw = False
+34.6022 	EXP 	Imported StimTrain.xlsx as conditions, 6 conditions, 2 params
+34.6063 	EXP 	Created sequence: sequential, trialTypes=6, nReps=1, seed=None
+34.6067 	EXP 	New trial (rep=0, index=0): {'anecdotes_train': 'Une voiture à 4 roues', 'fichier_train': 'POINTS'}
+34.6147 	DATA 	Keypress: space
+34.6757 	EXP 	textWelcome: autoDraw = False
+34.6757 	EXP 	Instructions: autoDraw = False
+34.6757 	EXP 	anecdote_train: height = 0.05000000000000001
+34.6757 	EXP 	anecdote_train: height = 0.05000000000000001
+34.6757 	EXP 	anecdote_train: height = 0.05000000000000001
+34.6757 	EXP 	anecdote_train: text = 'Une voiture à 4 roues'
+34.6757 	EXP 	anecdote_train: autoDraw = True
+34.6757 	EXP 	train_text: autoDraw = True
+34.6757 	EXP 	validation_train: autoDraw = True
+38.9138 	DATA 	Keypress: lshift
+39.0746 	DATA 	Keypress: u
+39.3094 	DATA 	Keypress: n
+39.3540 	DATA 	Keypress: e
+39.4531 	DATA 	Keypress: space
+39.6531 	DATA 	Keypress: v
+39.7719 	DATA 	Keypress: o
+39.8401 	DATA 	Keypress: i
+39.9536 	DATA 	Keypress: e
+40.4903 	DATA 	Keypress: backspace
+40.9186 	DATA 	Keypress: t
+41.1045 	DATA 	Keypress: u
+41.1350 	DATA 	Keypress: r
+41.2183 	DATA 	Keypress: e
+41.6529 	DATA 	Keypress: space
+42.0169 	DATA 	Keypress: 0
+42.1343 	DATA 	Keypress: space
+42.1993 	DATA 	Keypress: lshift
+42.4291 	DATA 	Keypress: 4
+42.5232 	DATA 	Keypress: space
+42.6680 	DATA 	Keypress: a
+42.7834 	DATA 	Keypress: n
+42.9002 	DATA 	Keypress: e
+42.9847 	DATA 	Keypress: c
+43.2013 	DATA 	Keypress: d
+43.3335 	DATA 	Keypress: o
+43.4165 	DATA 	Keypress: t
+43.5015 	DATA 	Keypress: e
+44.3200 	DATA 	Keypress: s
+46.9156 	DATA 	Mouse: Left button down, pos=(676,81)
+46.9473 	EXP 	anecdote_train: autoDraw = False
+46.9473 	EXP 	train_text: autoDraw = False
+46.9473 	EXP 	validation_train: autoDraw = False
+46.9473 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+46.9473 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+46.9473 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+46.9473 	EXP 	feedback_fichier_train: text = 'POINTS'
+46.9473 	EXP 	feedbacktext: autoDraw = True
+46.9473 	EXP 	feedback_fichier_train: autoDraw = True
+47.0195 	DATA 	Mouse:  Left button up, pos=(676,81)
+51.9449 	EXP 	feedbacktext: autoDraw = False
+51.9449 	EXP 	feedback_fichier_train: autoDraw = False
+51.9449 	EXP 	blank: autoDraw = True
+52.4245 	EXP 	New trial (rep=0, index=1): {'anecdotes_train': "Le kangourou est l'animal emblématique de l'Australie", 'fichier_train': 'NOMS'}
+52.4559 	EXP 	blank: autoDraw = False
+52.4559 	EXP 	anecdote_train: height = 0.05000000000000001
+52.4559 	EXP 	anecdote_train: height = 0.05000000000000001
+52.4559 	EXP 	anecdote_train: height = 0.05000000000000001
+52.4559 	EXP 	anecdote_train: text = "Le kangourou est l'animal emblématique de l'Australie"
+52.4559 	EXP 	anecdote_train: autoDraw = True
+52.4559 	EXP 	train_text: autoDraw = True
+52.4559 	EXP 	validation_train: autoDraw = True
+53.5382 	DATA 	Keypress: lshift
+53.7561 	DATA 	Keypress: l
+53.8741 	DATA 	Keypress: e
+54.0044 	DATA 	Keypress: space
+54.1892 	DATA 	Keypress: k
+54.3045 	DATA 	Keypress: a
+54.4304 	DATA 	Keypress: n
+54.5597 	DATA 	Keypress: g
+54.6957 	DATA 	Keypress: o
+54.7734 	DATA 	Keypress: u
+54.8551 	DATA 	Keypress: r
+54.9717 	DATA 	Keypress: o
+55.0549 	DATA 	Keypress: u
+55.1934 	DATA 	Keypress: space
+55.7530 	DATA 	Keypress: e
+55.8384 	DATA 	Keypress: s
+56.0265 	DATA 	Keypress: t
+64.4296 	DATA 	Mouse: Left button down, pos=(678,83)
+64.4598 	EXP 	anecdote_train: autoDraw = False
+64.4598 	EXP 	train_text: autoDraw = False
+64.4598 	EXP 	validation_train: autoDraw = False
+64.4598 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+64.4598 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+64.4598 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+64.4598 	EXP 	feedback_fichier_train: text = 'NOMS'
+64.4598 	EXP 	feedbacktext: autoDraw = True
+64.4598 	EXP 	feedback_fichier_train: autoDraw = True
+64.5351 	DATA 	Mouse:  Left button up, pos=(678,83)
+69.4572 	EXP 	feedbacktext: autoDraw = False
+69.4572 	EXP 	feedback_fichier_train: autoDraw = False
+69.4572 	EXP 	blank: autoDraw = True
+69.9419 	EXP 	New trial (rep=0, index=2): {'anecdotes_train': 'Le Coca Cola était à la base un médicament', 'fichier_train': 'ITEMS'}
+69.9703 	EXP 	blank: autoDraw = False
+69.9703 	EXP 	anecdote_train: height = 0.05000000000000001
+69.9703 	EXP 	anecdote_train: height = 0.05000000000000001
+69.9703 	EXP 	anecdote_train: height = 0.05000000000000001
+69.9703 	EXP 	anecdote_train: text = 'Le Coca Cola était à la base un médicament'
+69.9703 	EXP 	anecdote_train: autoDraw = True
+69.9703 	EXP 	train_text: autoDraw = True
+69.9703 	EXP 	validation_train: autoDraw = True
+72.9354 	DATA 	Mouse: Left button down, pos=(683,83)
+72.9706 	EXP 	anecdote_train: autoDraw = False
+72.9706 	EXP 	train_text: autoDraw = False
+72.9706 	EXP 	validation_train: autoDraw = False
+72.9706 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+72.9706 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+72.9706 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+72.9706 	EXP 	feedback_fichier_train: text = 'ITEMS'
+72.9706 	EXP 	feedbacktext: autoDraw = True
+72.9706 	EXP 	feedback_fichier_train: autoDraw = True
+73.0710 	DATA 	Mouse:  Left button up, pos=(683,83)
+77.9835 	EXP 	feedbacktext: autoDraw = False
+77.9835 	EXP 	feedback_fichier_train: autoDraw = False
+77.9835 	EXP 	blank: autoDraw = True
+78.4624 	EXP 	New trial (rep=0, index=3): {'anecdotes_train': 'Au Royaume-Uni, il est légal de tuer un Écossais dans la ville de York s’il porte un arc et des flèches', 'fichier_train': 'DONNEES'}
+78.5141 	EXP 	blank: autoDraw = False
+78.5141 	EXP 	anecdote_train: height = 0.05000000000000001
+78.5141 	EXP 	anecdote_train: height = 0.05000000000000001
+78.5141 	EXP 	anecdote_train: height = 0.05000000000000001
+78.5141 	EXP 	anecdote_train: text = 'Au Royaume-Uni, il est légal de tuer un Écossais dans la ville de York s’il porte un arc et des flèches'
+78.5141 	EXP 	anecdote_train: autoDraw = True
+78.5141 	EXP 	train_text: autoDraw = True
+78.5141 	EXP 	validation_train: autoDraw = True
+79.7958 	DATA 	Mouse: Left button down, pos=(679,72)
+79.8284 	EXP 	anecdote_train: autoDraw = False
+79.8284 	EXP 	train_text: autoDraw = False
+79.8284 	EXP 	validation_train: autoDraw = False
+79.8284 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+79.8284 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+79.8284 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+79.8284 	EXP 	feedback_fichier_train: text = 'DONNEES'
+79.8284 	EXP 	feedbacktext: autoDraw = True
+79.8284 	EXP 	feedback_fichier_train: autoDraw = True
+79.9554 	DATA 	Mouse:  Left button up, pos=(679,72)
+84.8263 	EXP 	feedbacktext: autoDraw = False
+84.8263 	EXP 	feedback_fichier_train: autoDraw = False
+84.8263 	EXP 	blank: autoDraw = True
+85.3221 	EXP 	New trial (rep=0, index=4): {'anecdotes_train': 'Mâcher un chewing-gum en épluchant un oignon éviterait de nous faire pleurer', 'fichier_train': 'INFOS'}
+85.3716 	EXP 	blank: autoDraw = False
+85.3716 	EXP 	anecdote_train: height = 0.05000000000000001
+85.3716 	EXP 	anecdote_train: height = 0.05000000000000001
+85.3716 	EXP 	anecdote_train: height = 0.05000000000000001
+85.3716 	EXP 	anecdote_train: text = 'Mâcher un chewing-gum en épluchant un oignon éviterait de nous faire pleurer'
+85.3716 	EXP 	anecdote_train: autoDraw = True
+85.3716 	EXP 	train_text: autoDraw = True
+85.3716 	EXP 	validation_train: autoDraw = True
+87.4480 	DATA 	Mouse: Left button down, pos=(681,83)
+87.5010 	EXP 	anecdote_train: autoDraw = False
+87.5010 	EXP 	train_text: autoDraw = False
+87.5010 	EXP 	validation_train: autoDraw = False
+87.5010 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+87.5010 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+87.5010 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+87.5010 	EXP 	feedback_fichier_train: text = 'INFOS'
+87.5010 	EXP 	feedbacktext: autoDraw = True
+87.5010 	EXP 	feedback_fichier_train: autoDraw = True
+87.5890 	DATA 	Mouse:  Left button up, pos=(681,83)
+92.4996 	EXP 	feedbacktext: autoDraw = False
+92.4996 	EXP 	feedback_fichier_train: autoDraw = False
+92.4996 	EXP 	blank: autoDraw = True
+92.9860 	EXP 	New trial (rep=0, index=5): {'anecdotes_train': 'Le diamètre du soleil diminue d’un mètre par heure', 'fichier_train': 'FAITS'}
+93.0304 	EXP 	blank: autoDraw = False
+93.0304 	EXP 	anecdote_train: height = 0.05000000000000001
+93.0304 	EXP 	anecdote_train: height = 0.05000000000000001
+93.0304 	EXP 	anecdote_train: height = 0.05000000000000001
+93.0304 	EXP 	anecdote_train: text = 'Le diamètre du soleil diminue d’un mètre par heure'
+93.0304 	EXP 	anecdote_train: autoDraw = True
+93.0304 	EXP 	train_text: autoDraw = True
+93.0304 	EXP 	validation_train: autoDraw = True
+95.5593 	DATA 	Mouse: Left button down, pos=(673,89)
+95.6766 	DATA 	Mouse:  Left button up, pos=(673,89)
+96.4386 	DATA 	Mouse: Left button down, pos=(671,80)
+96.4917 	EXP 	anecdote_train: autoDraw = False
+96.4917 	EXP 	train_text: autoDraw = False
+96.4917 	EXP 	validation_train: autoDraw = False
+96.4917 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+96.4917 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+96.4917 	EXP 	feedback_fichier_train: height = 0.05000000000000001
+96.4917 	EXP 	feedback_fichier_train: text = 'FAITS'
+96.4917 	EXP 	feedbacktext: autoDraw = True
+96.4917 	EXP 	feedback_fichier_train: autoDraw = True
+96.5794 	DATA 	Mouse:  Left button up, pos=(671,80)
+101.5042 	EXP 	feedbacktext: autoDraw = False
+101.5042 	EXP 	feedback_fichier_train: autoDraw = False
+101.5042 	EXP 	blank: autoDraw = True
+101.9929 	EXP 	blank: autoDraw = False
+101.9929 	EXP 	Instruc_reco_train: autoDraw = True
+140.6500 	EXP 	Imported StimTrain.xlsx as conditions, 6 conditions, 2 params
+140.6512 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+140.6518 	EXP 	New trial (rep=0, index=0): {'anecdotes_train': 'Mâcher un chewing-gum en épluchant un oignon éviterait de nous faire pleurer', 'fichier_train': 'INFOS'}
+140.6625 	DATA 	Keypress: space
+140.6937 	EXP 	Instruc_reco_train: autoDraw = False
+140.6937 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+140.6937 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+140.6937 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+140.6937 	EXP 	anecdotes_train_2: text = 'Mâcher un chewing-gum en épluchant un oignon éviterait de nous faire pleurer'
+140.6937 	EXP 	anecdotes_train_2: autoDraw = True
+140.6937 	EXP 	reco_text_train: autoDraw = True
+140.6937 	EXP 	validation_train_reco: autoDraw = True
+149.0651 	DATA 	Keypress: p
+149.1432 	DATA 	Keypress: o
+149.3710 	DATA 	Keypress: i
+149.5577 	DATA 	Keypress: n
+149.6202 	DATA 	Keypress: t
+149.7055 	DATA 	Keypress: s
+151.8658 	DATA 	Mouse: Left button down, pos=(688,81)
+151.9007 	EXP 	anecdotes_train_2: autoDraw = False
+151.9007 	EXP 	reco_text_train: autoDraw = False
+151.9007 	EXP 	validation_train_reco: autoDraw = False
+151.9007 	EXP 	blank: autoDraw = True
+151.9380 	DATA 	Mouse:  Left button up, pos=(688,81)
+152.3876 	EXP 	New trial (rep=0, index=1): {'anecdotes_train': "Le kangourou est l'animal emblématique de l'Australie", 'fichier_train': 'NOMS'}
+152.4321 	EXP 	blank: autoDraw = False
+152.4321 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+152.4321 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+152.4321 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+152.4321 	EXP 	anecdotes_train_2: text = "Le kangourou est l'animal emblématique de l'Australie"
+152.4321 	EXP 	anecdotes_train_2: autoDraw = True
+152.4321 	EXP 	reco_text_train: autoDraw = True
+152.4321 	EXP 	validation_train_reco: autoDraw = True
+152.7819 	DATA 	Mouse: Left button down, pos=(688,81)
+152.8000 	EXP 	anecdotes_train_2: autoDraw = False
+152.8000 	EXP 	reco_text_train: autoDraw = False
+152.8000 	EXP 	validation_train_reco: autoDraw = False
+152.8000 	EXP 	blank: autoDraw = True
+152.9173 	DATA 	Mouse:  Left button up, pos=(688,81)
+153.2864 	EXP 	New trial (rep=0, index=2): {'anecdotes_train': 'Le Coca Cola était à la base un médicament', 'fichier_train': 'ITEMS'}
+153.3134 	EXP 	blank: autoDraw = False
+153.3134 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+153.3134 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+153.3134 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+153.3134 	EXP 	anecdotes_train_2: text = 'Le Coca Cola était à la base un médicament'
+153.3134 	EXP 	anecdotes_train_2: autoDraw = True
+153.3134 	EXP 	reco_text_train: autoDraw = True
+153.3134 	EXP 	validation_train_reco: autoDraw = True
+153.8639 	DATA 	Mouse: Left button down, pos=(688,81)
+153.8827 	EXP 	anecdotes_train_2: autoDraw = False
+153.8827 	EXP 	reco_text_train: autoDraw = False
+153.8827 	EXP 	validation_train_reco: autoDraw = False
+153.8827 	EXP 	blank: autoDraw = True
+153.9884 	DATA 	Mouse:  Left button up, pos=(688,81)
+154.3680 	EXP 	New trial (rep=0, index=3): {'anecdotes_train': 'Une voiture à 4 roues', 'fichier_train': 'POINTS'}
+154.4151 	EXP 	blank: autoDraw = False
+154.4151 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+154.4151 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+154.4151 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+154.4151 	EXP 	anecdotes_train_2: text = 'Une voiture à 4 roues'
+154.4151 	EXP 	anecdotes_train_2: autoDraw = True
+154.4151 	EXP 	reco_text_train: autoDraw = True
+154.4151 	EXP 	validation_train_reco: autoDraw = True
+154.7928 	DATA 	Mouse: Left button down, pos=(688,81)
+154.8486 	EXP 	anecdotes_train_2: autoDraw = False
+154.8486 	EXP 	reco_text_train: autoDraw = False
+154.8486 	EXP 	validation_train_reco: autoDraw = False
+154.8486 	EXP 	blank: autoDraw = True
+154.8917 	DATA 	Mouse:  Left button up, pos=(688,81)
+155.3337 	EXP 	New trial (rep=0, index=4): {'anecdotes_train': 'Le diamètre du soleil diminue d’un mètre par heure', 'fichier_train': 'FAITS'}
+155.3803 	EXP 	blank: autoDraw = False
+155.3803 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+155.3803 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+155.3803 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+155.3803 	EXP 	anecdotes_train_2: text = 'Le diamètre du soleil diminue d’un mètre par heure'
+155.3803 	EXP 	anecdotes_train_2: autoDraw = True
+155.3803 	EXP 	reco_text_train: autoDraw = True
+155.3803 	EXP 	validation_train_reco: autoDraw = True
+155.6337 	DATA 	Mouse: Left button down, pos=(688,81)
+155.6768 	EXP 	anecdotes_train_2: autoDraw = False
+155.6768 	EXP 	reco_text_train: autoDraw = False
+155.6768 	EXP 	validation_train_reco: autoDraw = False
+155.6768 	EXP 	blank: autoDraw = True
+155.7826 	DATA 	Mouse:  Left button up, pos=(688,81)
+156.1789 	EXP 	New trial (rep=0, index=5): {'anecdotes_train': 'Au Royaume-Uni, il est légal de tuer un Écossais dans la ville de York s’il porte un arc et des flèches', 'fichier_train': 'DONNEES'}
+156.2287 	EXP 	blank: autoDraw = False
+156.2287 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+156.2287 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+156.2287 	EXP 	anecdotes_train_2: height = 0.05000000000000001
+156.2287 	EXP 	anecdotes_train_2: text = 'Au Royaume-Uni, il est légal de tuer un Écossais dans la ville de York s’il porte un arc et des flèches'
+156.2287 	EXP 	anecdotes_train_2: autoDraw = True
+156.2287 	EXP 	reco_text_train: autoDraw = True
+156.2287 	EXP 	validation_train_reco: autoDraw = True
+156.4688 	DATA 	Mouse: Left button down, pos=(688,81)
+156.5168 	EXP 	anecdotes_train_2: autoDraw = False
+156.5168 	EXP 	reco_text_train: autoDraw = False
+156.5168 	EXP 	validation_train_reco: autoDraw = False
+156.5168 	EXP 	blank: autoDraw = True
+156.5986 	DATA 	Mouse:  Left button up, pos=(688,81)
+157.0150 	EXP 	blank: autoDraw = False
+157.0150 	EXP 	text: autoDraw = True
+157.5138 	EXP 	text: autoDraw = False
+157.5138 	EXP 	text_2: autoDraw = True
+162.5369 	EXP 	text_2: autoDraw = False
+167.2200 	DATA 	Keypress: escape
+167.7192 	EXP 	window1: mouseVisible = True
