@@ -4,7 +4,8 @@
 
 ## 1. Qu'est-ce que c'est ?
 
-Pour le mémoire de master de Sciences Cognitives de l'Université de Lyon-2, la réalisation d'une expérience sur la mémoire transactive a été réalisée. Cette expérience a nécessité la création de 2 expériences :
+Dans le cadre d'un mémoire de Master de Sciences Cognitives de l'Université Lyon-2, la réalisation d'une expérience sur la mémoire transactive a été réalisée. \n 
+Cette expérience a nécessité la création de 2 expériences :
 
 - la réplication de l'expérience 4 de Sparrow et al.
 - une nouvelle expérience spécialement conçue pour répondre à une nouvelle problématique. Vous pourrez retrouver ce mémoire dans un futur proche sur ce repo.
