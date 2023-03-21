@@ -1,5 +1,8 @@
 # Msc_Experiment
 
+![image](https://user-images.githubusercontent.com/118670170/226697850-018ce95a-e865-4b2c-b500-18a4f0600813.png)
+
+
 ## 1. Qu'est-ce que c'est ?
 
 Pour le mémoire de master de Sciences Cognitives de l'Université de Lyon-2, la réalisation d'une expérience sur la mémoire transactive a été réalisée. Cette expérience a nécessité la création de 2 expériences :
