@@ -123,3 +123,7 @@ Informations supplémentaires :
 - Les données des expériences sont sauvegardées automatiquement dans un fichier "data" au format csv.
 - Le notebook d'analyse exploratoire est disponible dans le dossier "Analyse"
 - Les analyses statistiques sont également disponibles dans le dossier "Analyse"
+
+Sources : 
+
+- Sparrow, B., Liu, J., & Wegner, D. M. (2011). Google effects on memory: cognitive consequences of having information at our fingertips. Science (New York, N.Y.), 333(6043), 776–778. https://doi.org/10.1126/science.1207745
